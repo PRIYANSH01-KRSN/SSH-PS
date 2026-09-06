@@ -130,20 +130,8 @@ export default function ImageUploader({ onImageSelected, currentImage }) {
         ctx.fillStyle = "rgba(110, 75, 45, 0.18)";
         ctx.fillRect(0, h * 0.70, w, h * 0.30);
       } else {
-        // Studio White High-Key (ONDC Standard)
-        const whiteGrad = ctx.createRadialGradient(
-          w * 0.5,
-          h * 0.42,
-          w * 0.15,
-          w * 0.5,
-          h * 0.5,
-          w * 0.8
-        );
-        whiteGrad.addColorStop(0, "#ffffff");
-        whiteGrad.addColorStop(0.55, "#f8fafc");
-        whiteGrad.addColorStop(0.85, "#f1f5f9");
-        whiteGrad.addColorStop(1, "#e2e8f0");
-        ctx.fillStyle = whiteGrad;
+        // Studio White High-Key (ONDC Standard / Amazon Style)
+        ctx.fillStyle = "#ffffff";
         ctx.fillRect(0, 0, w, h);
       }
 
@@ -168,7 +156,7 @@ export default function ImageUploader({ onImageSelected, currentImage }) {
       const destX = (w - destW) / 2;
       const destY = (h - destH) / 2 - 20;
 
-      // Extract subject onto temporary canvas with feather mask
+      // Extract subject onto temporary canvas
       const subCanvas = document.createElement("canvas");
       subCanvas.width = destW;
       subCanvas.height = destH;
@@ -183,25 +171,14 @@ export default function ImageUploader({ onImageSelected, currentImage }) {
         subCtx.save();
         subCtx.filter = `contrast(${contrast * 100}%) saturate(${saturation * 100}%) brightness(${brightness * 100}%)`;
         subCtx.drawImage(img, srcX, srcY, srcH > 0 ? srcW : imgW, srcH > 0 ? srcH : imgH, 0, 0, destW, destH);
+        
+        // Highlight the extracted object with a bounding box
+        subCtx.strokeStyle = "rgba(245, 158, 11, 0.8)"; // amber-500
+        subCtx.lineWidth = 4;
+        subCtx.setLineDash([8, 8]);
+        subCtx.strokeRect(2, 2, destW - 4, destH - 4);
+        
         subCtx.restore();
-
-        // Apply smooth boundary feathering mask
-        subCtx.globalCompositeOperation = "destination-in";
-        const maskGrad = subCtx.createRadialGradient(
-          destW * 0.5,
-          destH * 0.5,
-          Math.min(destW, destH) * 0.28,
-          destW * 0.5,
-          destH * 0.5,
-          Math.min(destW, destH) * 0.50
-        );
-        maskGrad.addColorStop(0, "rgba(0, 0, 0, 1)");
-        maskGrad.addColorStop(0.82, "rgba(0, 0, 0, 0.98)");
-        maskGrad.addColorStop(0.95, "rgba(0, 0, 0, 0.40)");
-        maskGrad.addColorStop(1, "rgba(0, 0, 0, 0)");
-
-        subCtx.fillStyle = maskGrad;
-        subCtx.fillRect(0, 0, destW, destH);
 
         // Composite onto main studio canvas
         ctx.drawImage(subCanvas, destX, destY);

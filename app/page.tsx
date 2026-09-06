@@ -438,20 +438,6 @@ export default function Home() {
                   </div>
                 </div>
 
-                {/* Regional Heritage & Dialect Lineage Badge */}
-                {catalogData.dialect_heritage_badge && (
-                  <div className="flex items-center justify-between bg-gradient-to-r from-amber-500/10 via-orange-50 to-amber-500/10 border border-amber-200 px-3 py-1.5 rounded-xl text-xs">
-                    <div className="flex items-center gap-1.5 font-bold text-amber-900">
-                      <Compass className="w-3.5 h-3.5 text-amber-600" />
-                      <span>{catalogData.dialect_heritage_badge}</span>
-                    </div>
-                    {catalogData.dialect_analysis?.confidence_score_pct && (
-                      <span className="text-[10px] font-mono bg-amber-200 text-amber-900 px-1.5 py-0.5 rounded-full font-bold">
-                        NLP Dialect: {catalogData.dialect_analysis.confidence_score_pct}%
-                      </span>
-                    )}
-                  </div>
-                )}
 
                 {/* Prominent Spoken Audio Voice Transcript Card */}
                 {catalogData.spoken_transcript && (
