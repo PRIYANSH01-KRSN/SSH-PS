@@ -1,0 +1,110 @@
+{
+  "model_name": "Shilp-Sathi-Pricing-GBR-v1.0",
+  "algorithm": "Gradient Boosting Regressor (180 trees, depth 4)",
+  "metrics": {
+    "r2_score": 0.995,
+    "mae_inr": 187.81,
+    "rmse_inr": 288.75,
+    "cv_accuracy_pct": 99.48,
+    "wage_r2_score": 0.9905,
+    "wage_mae_inr": 203.25
+  },
+  "feature_importances": {
+    "category_idx": 0.015,
+    "material_cost": 0.0432,
+    "labor_hours": 0.929,
+    "weight_kg": 0.0005,
+    "is_gi_tagged": 0.0004,
+    "complexity_score": 0.0085,
+    "artisan_experience_years": 0.0034
+  },
+  "categories": [
+    "Bandhani",
+    "Blue Pottery",
+    "Brass Craft",
+    "Dhokra Art",
+    "Handloom Silk",
+    "Leather Craft",
+    "Madhubani",
+    "Terracotta",
+    "Wood Carving",
+    "Zari Embroidery"
+  ],
+  "category_baselines": {
+    "Bandhani": {
+      "avg_material_cost": 710.92,
+      "avg_labor_hours": 14.2,
+      "avg_fair_price": 5831.56,
+      "avg_artisan_wage": 3258.76,
+      "hourly_rate": 175
+    },
+    "Blue Pottery": {
+      "avg_material_cost": 590.25,
+      "avg_labor_hours": 12.73,
+      "avg_fair_price": 5680.55,
+      "avg_artisan_wage": 3267.57,
+      "hourly_rate": 175
+    },
+    "Brass Craft": {
+      "avg_material_cost": 1191.36,
+      "avg_labor_hours": 17.74,
+      "avg_fair_price": 7581.74,
+      "avg_artisan_wage": 4074.74,
+      "hourly_rate": 175
+    },
+    "Dhokra Art": {
+      "avg_material_cost": 1073.13,
+      "avg_labor_hours": 19.35,
+      "avg_fair_price": 8606.37,
+      "avg_artisan_wage": 4951.96,
+      "hourly_rate": 175
+    },
+    "Handloom Silk": {
+      "avg_material_cost": 2044.89,
+      "avg_labor_hours": 37.72,
+      "avg_fair_price": 16271.34,
+      "avg_artisan_wage": 9657.96,
+      "hourly_rate": 200
+    },
+    "Leather Craft": {
+      "avg_material_cost": 642.86,
+      "avg_labor_hours": 10.36,
+      "avg_fair_price": 4437.64,
+      "avg_artisan_wage": 2294.27,
+      "hourly_rate": 175
+    },
+    "Madhubani": {
+      "avg_material_cost": 503.43,
+      "avg_labor_hours": 20.57,
+      "avg_fair_price": 7800.1,
+      "avg_artisan_wage": 4924.42,
+      "hourly_rate": 175
+    },
+    "Terracotta": {
+      "avg_material_cost": 298.91,
+      "avg_labor_hours": 8.49,
+      "avg_fair_price": 3535.43,
+      "avg_artisan_wage": 1969.93,
+      "hourly_rate": 160
+    },
+    "Wood Carving": {
+      "avg_material_cost": 901.89,
+      "avg_labor_hours": 17.84,
+      "avg_fair_price": 7053.54,
+      "avg_artisan_wage": 3972.95,
+      "hourly_rate": 175
+    },
+    "Zari Embroidery": {
+      "avg_material_cost": 1026.37,
+      "avg_labor_hours": 22.68,
+      "avg_fair_price": 8149.18,
+      "avg_artisan_wage": 5010.06,
+      "hourly_rate": 175
+    }
+  },
+  "mosje_policy_constants": {
+    "statutory_minimum_hourly_wage": 150.0,
+    "protected_livelihood_margin_pct": 35.0,
+    "gi_tag_heritage_premium_inr": 350.0
+  }
+}

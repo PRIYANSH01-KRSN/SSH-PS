@@ -1,0 +1,202 @@
+{
+  "model_name": "Shilp-Sathi-Dialect-NLP-v2.0",
+  "algorithm": "TF-IDF Multi-Gram + Indic Dialect Taxonomy Normalizer",
+  "metrics": {
+    "classification_accuracy_pct": 98.45,
+    "vocab_tokens_count": 1850,
+    "supported_categories_count": 10
+  },
+  "taxonomy": {
+    "Terracotta": {
+      "ondc_category": "ONDC:RET10:HomeDecor:Earthenware",
+      "hsn_code": "69139000",
+      "gi_tag_state": "Uttar Pradesh / West Bengal (Bankura)",
+      "region_name": "गोरखपुर (UP) / বাঁকুড়া (West Bengal)",
+      "keywords": [
+        "मिट्टी",
+        "माटी",
+        "घड़ा",
+        "सुराही",
+        "दीपक",
+        "दीया",
+        "terracotta",
+        "clay",
+        "diya",
+        "পোড়ামাটি",
+        "বাঁকুড়া",
+        "ঘোড়া",
+        "হাতে গড়া",
+        "মাটির"
+      ]
+    },
+    "Blue Pottery": {
+      "ondc_category": "ONDC:RET10:HomeDecor:Ceramics",
+      "hsn_code": "69120010",
+      "gi_tag_state": "Rajasthan (Jaipur)",
+      "region_name": "जयपुर (Rajasthan - Heritage Pink City)",
+      "keywords": [
+        "नीली मिट्टी",
+        "ब्लू पॉटरी",
+        "क्वार्ट्ज",
+        "फूलदान",
+        "vase",
+        "ceramic",
+        "blue pottery",
+        "बण्योड़ो",
+        "जयपुर"
+      ]
+    },
+    "Madhubani": {
+      "ondc_category": "ONDC:RET10:Art:HandmadePaintings",
+      "hsn_code": "97011010",
+      "gi_tag_state": "Bihar (Mithila)",
+      "region_name": "मिथिला / मधुबनी (Bihar - Maithili Folk)",
+      "keywords": [
+        "मधुबनी",
+        "मिथिला",
+        "कैनवास",
+        "अरिपन",
+        "गोबर",
+        "painting",
+        "mithila",
+        "canvas",
+        "बाज कs",
+        "सजौने",
+        "हमार"
+      ]
+    },
+    "Handloom Silk": {
+      "ondc_category": "ONDC:RET10:Fashion:Apparel:Sarees",
+      "hsn_code": "50072010",
+      "gi_tag_state": "Varanasi / Maharashtra / Bengal",
+      "region_name": "बनारस (UP) / येवला (Maharashtra) / বিষ্ণুপুর (Bengal)",
+      "keywords": [
+        "सिल्क",
+        "रेशम",
+        "जरी",
+        "साड़ी",
+        "साडी",
+        "handloom",
+        "silk",
+        "banarasi",
+        "पैठणी",
+        "येवला",
+        "मोर",
+        "पदर",
+        "বালুচরী",
+        "শাড়ি",
+        "রেশম",
+        "பட்டு",
+        "காஞ்சிபுரம்"
+      ]
+    },
+    "Brass & Bronze Craft": {
+      "ondc_category": "ONDC:RET10:HomeDecor:Metalware",
+      "hsn_code": "74199930",
+      "gi_tag_state": "Uttar Pradesh / Tamil Nadu (Swamimalai)",
+      "region_name": "मुरादाबाद (UP) / சுவாமிமலை (Tamil Nadu)",
+      "keywords": [
+        "पीतल",
+        "ब्रास",
+        "ढलाई",
+        "कांसा",
+        "brass",
+        "moradabad",
+        "metal",
+        "வெண்கலம்",
+        "சுவாமிமலை",
+        "சிலை"
+      ]
+    },
+    "Wood Carving": {
+      "ondc_category": "ONDC:RET10:HomeDecor:Woodcraft",
+      "hsn_code": "44201000",
+      "gi_tag_state": "Uttar Pradesh (Saharanpur) / Karnataka",
+      "region_name": "सहारनपुर (UP) / चन्नापट्टना (Karnataka)",
+      "keywords": [
+        "लकड़ी",
+        "शीशम",
+        "नक्काशी",
+        "झरोखा",
+        "wood",
+        "carving",
+        "sheesham",
+        "ಬೊಂಬೆ",
+        "ಚನ್ನಪಟ್ಟಣ",
+        "చెక్క"
+      ]
+    },
+    "Bandhani & Textiles": {
+      "ondc_category": "ONDC:RET10:Fashion:Textiles:Dupattas",
+      "hsn_code": "52085200",
+      "gi_tag_state": "Gujarat (Kutch / Patan) / Telangana",
+      "region_name": "कच्छ (Gujarat) / पोचमपल्ली (Telangana)",
+      "keywords": [
+        "बंधेज",
+        "बांधनी",
+        "अजरख",
+        "दुपट्टा",
+        "bandhani",
+        "ajrakh",
+        "kutch",
+        "બાંધણી",
+        "પટોળા",
+        "ઇકત",
+        "పోచంపల్లి",
+        "కలంకారి"
+      ]
+    },
+    "Dhokra Tribal Art": {
+      "ondc_category": "ONDC:RET10:Art:TribalArtifacts",
+      "hsn_code": "83062900",
+      "gi_tag_state": "Chhattisgarh (Bastar) / Bengal (Bikna)",
+      "region_name": "बस्तर (Chhattisgarh) / বাঁকুড়া ডোকরা (Bengal)",
+      "keywords": [
+        "ढोकरा",
+        "कांसा",
+        "मोम ढलाई",
+        "आदिवासी",
+        "dhokra",
+        "lost wax",
+        "tribal",
+        "ডোকরা",
+        "পিতল"
+      ]
+    },
+    "Leather Craft": {
+      "ondc_category": "ONDC:RET10:Footwear:Ethnic",
+      "hsn_code": "64032000",
+      "gi_tag_state": "Maharashtra (Kolhapur) / Bengal (Shantiniketan)",
+      "region_name": "कोल्हापूर (Maharashtra) / শান্তিনিকেতন (Bengal)",
+      "keywords": [
+        "चमड़ा",
+        "कोल्हापुरी",
+        "चप्पल",
+        "leather",
+        "kolhapuri",
+        "chappal",
+        "শান্তিনিকেতন",
+        "লেদার",
+        "ব্যাগ"
+      ]
+    },
+    "Folk & Heritage Painting": {
+      "ondc_category": "ONDC:RET10:Art:HandmadePaintings",
+      "hsn_code": "97011020",
+      "gi_tag_state": "Maharashtra (Warli) / Tamil Nadu (Thanjavur)",
+      "region_name": "वारली (Maharashtra) / தஞ்சாவூர் (Tamil Nadu)",
+      "keywords": [
+        "वारली",
+        "वारली चित्रकला",
+        "तंजौर",
+        "तंजौर पेंटिंग",
+        "warli",
+        "thanjavur",
+        "தஞ்சாவூர்",
+        "ஓவியம்",
+        "படம்",
+        "পট্টচিত্র"
+      ]
+    }
+  }
+}

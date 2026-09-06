@@ -1,0 +1,38 @@
+{
+  "model_name": "Shilp-Sathi-Vision-Authenticity-v1.0",
+  "algorithm": "Balanced Random Forest Classifier (160 Estimators)",
+  "metrics": {
+    "accuracy_pct": 100.0,
+    "precision_pct": 100.0,
+    "recall_pct": 100.0,
+    "f1_score_pct": 100.0,
+    "roc_auc_pct": 100.0,
+    "confusion_matrix": [
+      [
+        49,
+        0
+      ],
+      [
+        0,
+        251
+      ]
+    ]
+  },
+  "feature_importances": {
+    "texture_roughness_index": 0.405,
+    "organic_dye_purity": 0.3388,
+    "labor_hours": 0.1929,
+    "complexity_score": 0.0624,
+    "material_cost": 0.0009
+  },
+  "verification_thresholds": {
+    "texture_roughness_min": 0.6,
+    "organic_dye_purity_min": 0.65,
+    "minimum_crafting_hours": 3.0
+  },
+  "mosje_certification": {
+    "certified_title": "MoSJE Certified Rural Handcrafted Product",
+    "trust_badge_id": "GOV-IN-GI-AUTHENTIC-2026",
+    "dbt_coverage_pct": 85.0
+  }
+}

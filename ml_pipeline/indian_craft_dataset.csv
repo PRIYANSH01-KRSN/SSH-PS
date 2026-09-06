@@ -1,0 +1,1201 @@
+craft_id,craft_name,category,material_cost,labor_hours,weight_kg,is_gi_tagged,complexity_score,artisan_experience_years,texture_roughness_index,organic_dye_purity,is_genuine_handmade,sample_dialect_phrase,protected_artisan_wage,fair_market_price
+SIH-CRAFT-0001,Jaipur Blue Pottery,Blue Pottery,501.27,9.1,2.22,1,2,40,0.789,0.709,1,नीली मिट्टी का फूलदान,2501.9,4526.78
+SIH-CRAFT-0002,Varanasi Silk Handloom,Handloom Silk,961.03,24.7,0.92,1,5,29,0.723,0.871,1,बनारसी कतान सिल्क,6857.0,11026.84
+SIH-CRAFT-0003,Mithila Madhubani Painting,Madhubani,437.14,12.4,0.77,1,4,9,0.681,0.728,1,प्राकृतिक रंग चित्र,2900.2,4977.91
+SIH-CRAFT-0004,Zari Zardozi Embroidery,Zari Embroidery,495.62,21.5,0.39,0,5,8,0.832,0.941,1,मखमली सूट पीस,4957.5,7361.71
+SIH-CRAFT-0005,Saharanpur Wood Carving,Wood Carving,1104.57,7.1,1.64,1,4,8,0.932,0.951,1,हाथ से तराशा बॉक्स,1632.3,4167.27
+SIH-CRAFT-0006,Moradabad Brassware,Brass Craft,1600.93,11.3,3.1,1,4,7,0.851,0.75,1,हाथ की ढलाई,2568.4,6101.1
+SIH-CRAFT-0007,Varanasi Silk Handloom,Handloom Silk,1772.75,59.5,0.91,1,5,17,0.876,0.944,1,बनारसी कतान सिल्क,15725.0,24094.46
+SIH-CRAFT-0008,Varanasi Silk Handloom,Handloom Silk,2751.61,33.7,0.45,1,5,23,0.72,0.845,1,जरी पल्लू,9107.0,16481.62
+SIH-CRAFT-0009,Mithila Madhubani Painting,Madhubani,385.65,23.7,0.28,1,5,30,0.946,0.816,1,गोबर लीपा कैनवास,6019.5,9119.45
+SIH-CRAFT-0010,Mithila Madhubani Painting,Madhubani,300.0,9.3,0.18,1,5,13,0.911,0.822,1,मिथिला पेंटिंग,2380.5,4091.18
+SIH-CRAFT-0011,Kutch Bandhani & Ajrakh,Bandhani,1096.9,14.5,0.88,1,2,10,0.875,0.856,1,अजरख ब्लॉक प्रिंट,2963.0,5953.36
+SIH-CRAFT-0012,Saharanpur Wood Carving,Wood Carving,834.77,16.9,4.33,1,4,35,0.901,0.847,1,शीशम की लकड़ी की जाली,4124.7,7167.78
+SIH-CRAFT-0013,Moradabad Brassware,Brass Craft,1209.2,12.0,3.18,1,3,37,0.965,0.968,1,पीतल का नक्काशीदार दीया,3027.0,6191.37
+SIH-CRAFT-0014,Zari Zardozi Embroidery,Zari Embroidery,470.45,33.2,0.92,0,4,18,0.669,0.955,1,जरदोज़ी का काम,7341.6,10546.27
+SIH-CRAFT-0015,Jaipur Blue Pottery,Blue Pottery,798.81,19.7,1.77,1,3,11,0.868,0.975,1,नीली मिट्टी का फूलदान,4518.7,7651.14
+SIH-CRAFT-0016,Moradabad Brassware,Brass Craft,1327.91,27.3,5.68,1,3,22,0.782,0.895,1,ब्रास पूजा थाली,5953.8,10302.81
+SIH-CRAFT-0017,Bastar Dhokra Bell Metal,Dhokra Art,398.65,2.3,0.97,0,1,4,0.294,0.256,0,ढोकरा आदिवासी मूर्ति,139.38,877.03
+SIH-CRAFT-0018,Jaipur Blue Pottery,Blue Pottery,382.38,6.9,0.67,1,4,7,0.82,0.781,1,क्वार्ट्ज प्लेट,1712.7,3300.86
+SIH-CRAFT-0019,Varanasi Silk Handloom,Handloom Silk,2563.71,54.8,0.86,1,3,33,0.916,0.755,1,बनारसी कतान सिल्क,13427.8,22061.04
+SIH-CRAFT-0020,Kutch Bandhani & Ajrakh,Bandhani,628.88,19.8,0.24,1,4,9,0.67,0.911,1,कच्छी बंधेज दुपट्टा,4451.4,7330.88
+SIH-CRAFT-0021,Varanasi Silk Handloom,Handloom Silk,2133.46,22.2,0.55,1,4,18,0.939,0.722,1,बनारसी कतान सिल्क,5775.6,11149.73
+SIH-CRAFT-0022,Gorakhpur Terracotta,Terracotta,312.18,3.2,0.78,1,2,13,0.784,0.84,1,धूपदानी,783.8,1952.07
+SIH-CRAFT-0023,Gorakhpur Terracotta,Terracotta,150.65,7.3,3.28,1,4,21,0.79,0.978,1,धूपदानी,1833.4,3150.97
+SIH-CRAFT-0024,Mithila Madhubani Painting,Madhubani,369.74,9.6,0.62,1,3,23,0.669,0.869,1,गोबर लीपा कैनवास,2370.6,4171.96
+SIH-CRAFT-0025,Gorakhpur Terracotta,Terracotta,69.61,0.8,2.29,0,1,3,0.142,0.362,0,टेराकोटा सुराही,41.28,153.14
+SIH-CRAFT-0026,Zari Zardozi Embroidery,Zari Embroidery,1100.35,20.5,0.71,0,4,19,0.717,0.908,1,जरदोज़ी का काम,4651.5,7765.0
+SIH-CRAFT-0027,Moradabad Brassware,Brass Craft,1406.03,14.0,2.92,1,2,3,0.801,0.99,1,पीतल का नक्काशीदार दीया,2761.0,6097.99
+SIH-CRAFT-0028,Jaipur Blue Pottery,Blue Pottery,628.24,7.9,1.37,1,2,18,0.772,0.746,1,हस्तशिल्प जार,1921.1,3914.11
+SIH-CRAFT-0029,Moradabad Brassware,Brass Craft,1784.68,21.1,1.54,1,4,9,0.96,0.739,1,पीतल का नक्काशीदार दीया,4734.8,9273.8
+SIH-CRAFT-0030,Jaipur Blue Pottery,Blue Pottery,435.5,9.9,1.06,1,4,16,0.877,0.947,1,हस्तशिल्प जार,2546.7,4498.47
+SIH-CRAFT-0031,Bastar Dhokra Bell Metal,Dhokra Art,1498.97,11.1,2.51,1,4,5,0.651,0.924,1,बेल मेटल बैल,2716.8,6163.79
+SIH-CRAFT-0032,Moradabad Brassware,Brass Craft,1130.2,22.1,4.02,1,2,7,0.962,0.9,1,पीतल का नक्काशीदार दीया,4392.4,7928.01
+SIH-CRAFT-0033,Kolhapuri Chappal & Leather,Leather Craft,571.53,11.1,0.74,1,1,22,0.77,0.971,1,कोल्हापुरी हाथ की चप्पल,2239.2,4266.99
+SIH-CRAFT-0034,Saharanpur Wood Carving,Wood Carving,649.53,8.5,3.69,1,5,12,0.956,0.769,1,शीशम की लकड़ी की जाली,2092.5,4174.24
+SIH-CRAFT-0035,Mithila Madhubani Painting,Madhubani,105.45,4.3,0.33,0,2,5,0.402,0.334,0,प्राकृतिक रंग चित्र,256.71,231.99
+SIH-CRAFT-0036,Mithila Madhubani Painting,Madhubani,309.45,32.4,0.7,1,3,15,0.919,0.833,1,प्राकृतिक रंग चित्र,7061.4,10423.15
+SIH-CRAFT-0037,Varanasi Silk Handloom,Handloom Silk,2418.08,33.5,0.62,1,3,20,0.766,0.848,1,हाथ का ताना-बाना,8206.0,14815.01
+SIH-CRAFT-0038,Gorakhpur Terracotta,Terracotta,441.12,5.0,3.39,1,3,5,0.686,0.826,1,हाथ से बनी मटकी,1055.0,2492.26
+SIH-CRAFT-0039,Kutch Bandhani & Ajrakh,Bandhani,709.14,12.2,0.6,1,3,5,0.884,0.7,1,प्राकृतिक नील रंग,2588.2,4923.91
+SIH-CRAFT-0040,Varanasi Silk Handloom,Handloom Silk,1060.94,45.2,0.66,1,4,10,0.888,0.787,1,हाथ का ताना-बाना,11359.6,17240.23
+SIH-CRAFT-0041,Kutch Bandhani & Ajrakh,Bandhani,857.77,14.9,0.33,1,4,27,0.874,0.962,1,प्राकृतिक नील रंग,3653.2,6562.31
+SIH-CRAFT-0042,Zari Zardozi Embroidery,Zari Embroidery,1025.33,10.0,0.5,0,5,40,0.85,0.793,1,सच्ची जरी कढ़ाई,2850.0,5231.7
+SIH-CRAFT-0043,Bastar Dhokra Bell Metal,Dhokra Art,1062.29,27.5,3.39,1,5,13,0.867,0.782,1,बेल मेटल बैल,7070.0,11451.09
+SIH-CRAFT-0044,Zari Zardozi Embroidery,Zari Embroidery,1309.34,28.8,0.77,0,3,15,0.699,0.713,1,सच्ची जरी कढ़ाई,6013.8,9886.24
+SIH-CRAFT-0045,Zari Zardozi Embroidery,Zari Embroidery,526.47,20.4,0.74,0,3,27,0.813,0.771,1,मखमली सूट पीस,4505.4,6793.02
+SIH-CRAFT-0046,Gorakhpur Terracotta,Terracotta,163.25,1.9,2.84,0,1,1,0.381,0.294,0,धूपदानी,98.04,359.15
+SIH-CRAFT-0047,Gorakhpur Terracotta,Terracotta,425.24,4.3,0.9,1,4,36,0.976,0.873,1,धूपदानी,1434.4,2983.01
+SIH-CRAFT-0048,Zari Zardozi Embroidery,Zari Embroidery,1386.62,20.7,0.93,0,5,13,0.895,0.838,1,सच्ची जरी कढ़ाई,4852.5,8422.81
+SIH-CRAFT-0049,Varanasi Silk Handloom,Handloom Silk,1537.82,50.2,0.79,1,3,20,0.795,0.907,1,शुद्ध रेशमी साड़ी,12147.2,18947.28
+SIH-CRAFT-0050,Moradabad Brassware,Brass Craft,1671.63,9.6,2.18,1,5,12,0.883,0.719,1,ब्रास पूजा थाली,2388.0,5953.0
+SIH-CRAFT-0051,Saharanpur Wood Carving,Wood Carving,815.77,11.0,2.35,1,2,39,0.776,0.702,1,हाथ से तराशा बॉक्स,2664.0,5170.19
+SIH-CRAFT-0052,Moradabad Brassware,Brass Craft,1624.14,27.1,3.39,1,3,34,0.722,0.826,1,पीतल का नक्काशीदार दीया,6092.6,10890.1
+SIH-CRAFT-0053,Kutch Bandhani & Ajrakh,Bandhani,843.31,12.5,0.32,1,3,11,0.974,0.855,1,अजरख ब्लॉक प्रिंट,2740.0,5309.97
+SIH-CRAFT-0054,Zari Zardozi Embroidery,Zari Embroidery,478.46,26.1,0.39,0,5,14,0.667,0.81,1,जरदोज़ी का काम,6082.5,8857.3
+SIH-CRAFT-0055,Bastar Dhokra Bell Metal,Dhokra Art,1337.35,18.3,2.83,1,4,19,0.926,0.836,1,बेल मेटल बैल,4640.4,8542.46
+SIH-CRAFT-0056,Kolhapuri Chappal & Leather,Leather Craft,921.15,7.5,0.45,1,1,4,0.963,0.758,1,कोल्हापुरी हाथ की चप्पल,1350.0,3538.55
+SIH-CRAFT-0057,Zari Zardozi Embroidery,Zari Embroidery,582.53,26.7,0.69,0,3,32,0.881,0.922,1,जरदोज़ी का काम,5846.7,8679.46
+SIH-CRAFT-0058,Zari Zardozi Embroidery,Zari Embroidery,1235.32,12.9,0.87,0,4,9,0.841,0.969,1,मखमली सूट पीस,2882.7,5559.33
+SIH-CRAFT-0059,Kutch Bandhani & Ajrakh,Bandhani,872.01,7.2,0.68,1,4,18,0.684,0.924,1,प्राकृतिक नील रंग,1839.6,4133.17
+SIH-CRAFT-0060,Zari Zardozi Embroidery,Zari Embroidery,1286.04,24.1,0.33,0,5,26,0.673,0.888,1,जरदोज़ी का काम,5812.5,9583.03
+SIH-CRAFT-0061,Kutch Bandhani & Ajrakh,Bandhani,384.43,21.4,0.64,1,3,12,0.794,0.913,1,प्राकृतिक नील रंग,4588.4,7185.82
+SIH-CRAFT-0062,Moradabad Brassware,Brass Craft,1703.54,23.5,3.59,1,4,23,0.931,0.941,1,पीतल का नक्काशीदार दीया,5468.0,10154.08
+SIH-CRAFT-0063,Moradabad Brassware,Brass Craft,357.05,2.6,4.25,0,2,2,0.11,0.348,0,पीतल का नक्काशीदार दीया,151.32,785.51
+SIH-CRAFT-0064,Bastar Dhokra Bell Metal,Dhokra Art,1377.62,17.5,3.18,1,5,20,0.833,0.85,1,ढोकरा आदिवासी मूर्ति,4675.0,8643.54
+SIH-CRAFT-0065,Jaipur Blue Pottery,Blue Pottery,573.54,13.8,1.13,1,5,34,0.798,0.705,1,क्वार्ट्ज प्लेट,3891.0,6499.63
+SIH-CRAFT-0066,Varanasi Silk Handloom,Handloom Silk,1459.6,45.2,0.7,1,5,36,0.763,0.989,1,हाथ का ताना-बाना,12292.0,19037.16
+SIH-CRAFT-0067,Saharanpur Wood Carving,Wood Carving,670.92,12.0,1.25,1,3,23,0.689,0.855,1,लकड़ी का झरोखा,2757.0,5100.19
+SIH-CRAFT-0068,Mithila Madhubani Painting,Madhubani,656.23,15.7,0.51,1,5,21,0.974,0.941,1,प्राकृतिक रंग चित्र,4004.5,6764.49
+SIH-CRAFT-0069,Varanasi Silk Handloom,Handloom Silk,1595.22,47.2,0.5,1,3,6,0.833,0.902,1,शुद्ध रेशमी साड़ी,11229.2,17785.47
+SIH-CRAFT-0070,Bastar Dhokra Bell Metal,Dhokra Art,513.49,16.3,2.09,1,4,14,0.969,0.773,1,मोम की ढलाई कला,4089.4,6686.4
+SIH-CRAFT-0071,Jaipur Blue Pottery,Blue Pottery,570.39,7.0,1.98,1,2,12,0.699,0.863,1,क्वार्ट्ज प्लेट,1643.0,3460.58
+SIH-CRAFT-0072,Jaipur Blue Pottery,Blue Pottery,166.06,2.5,1.93,0,1,4,0.233,0.368,0,क्वार्ट्ज प्लेट,147.75,365.33
+SIH-CRAFT-0073,Zari Zardozi Embroidery,Zari Embroidery,308.26,3.8,0.73,0,1,1,0.319,0.143,0,जरदोज़ी का काम,201.78,678.17
+SIH-CRAFT-0074,Mithila Madhubani Painting,Madhubani,553.6,12.4,0.39,1,5,33,0.746,0.767,1,प्राकृतिक रंग चित्र,3409.0,5822.01
+SIH-CRAFT-0075,Bastar Dhokra Bell Metal,Dhokra Art,756.77,15.8,2.94,1,5,15,0.79,0.858,1,बेल मेटल बैल,4175.0,7130.39
+SIH-CRAFT-0076,Mithila Madhubani Painting,Madhubani,281.86,1.5,0.22,0,2,4,0.362,0.249,0,प्राकृतिक रंग चित्र,89.55,620.09
+SIH-CRAFT-0077,Bastar Dhokra Bell Metal,Dhokra Art,1257.55,25.4,3.35,1,5,37,0.813,0.723,1,ढोकरा आदिवासी मूर्ति,6905.0,11491.94
+SIH-CRAFT-0078,Kutch Bandhani & Ajrakh,Bandhani,782.97,6.4,0.36,1,4,39,0.844,0.706,1,प्राकृतिक नील रंग,1980.2,4202.78
+SIH-CRAFT-0079,Moradabad Brassware,Brass Craft,1515.73,11.5,3.84,1,5,20,0.71,0.87,1,हाथ की ढलाई,2945.0,6494.49
+SIH-CRAFT-0080,Bastar Dhokra Bell Metal,Dhokra Art,406.8,2.8,1.67,0,1,1,0.215,0.293,0,मोम की ढलाई कला,169.68,894.96
+SIH-CRAFT-0081,Kutch Bandhani & Ajrakh,Bandhani,740.08,13.3,0.42,1,3,10,0.97,0.817,1,प्राकृतिक नील रंग,2889.8,5372.84
+SIH-CRAFT-0082,Gorakhpur Terracotta,Terracotta,312.78,7.5,1.06,1,3,34,0.856,0.92,1,टेराकोटा सुराही,1980.0,3567.75
+SIH-CRAFT-0083,Moradabad Brassware,Brass Craft,1713.21,16.8,4.64,1,2,4,0.971,0.877,1,पीतल का नक्काशीदार दीया,3319.2,7266.25
+SIH-CRAFT-0084,Mithila Madhubani Painting,Madhubani,257.52,19.4,0.26,1,3,32,0.963,0.888,1,गोबर लीपा कैनवास,4573.4,6994.24
+SIH-CRAFT-0085,Bastar Dhokra Bell Metal,Dhokra Art,328.42,3.8,1.92,0,2,3,0.185,0.243,0,मोम की ढलाई कला,243.96,722.52
+SIH-CRAFT-0086,Varanasi Silk Handloom,Handloom Silk,827.58,8.2,1.09,0,2,3,0.219,0.326,0,हाथ का ताना-बाना,551.04,1820.68
+SIH-CRAFT-0087,Gorakhpur Terracotta,Terracotta,239.57,9.5,3.5,1,4,12,0.797,0.84,1,हाथ से बनी मटकी,2156.0,3706.52
+SIH-CRAFT-0088,Kolhapuri Chappal & Leather,Leather Craft,576.33,15.3,1.1,1,2,39,0.776,0.948,1,प्राकृतिक चमड़ा,3400.2,5840.82
+SIH-CRAFT-0089,Gorakhpur Terracotta,Terracotta,291.89,13.0,1.64,1,2,34,0.968,0.737,1,हाथ से बनी मटकी,2902.0,4784.25
+SIH-CRAFT-0090,Jaipur Blue Pottery,Blue Pottery,236.87,2.0,1.61,0,1,3,0.405,0.389,0,नीली मिट्टी का फूलदान,118.2,521.11
+SIH-CRAFT-0091,Bastar Dhokra Bell Metal,Dhokra Art,791.53,23.7,1.87,1,3,24,0.931,0.949,1,मोम की ढलाई कला,5716.2,9257.94
+SIH-CRAFT-0092,Saharanpur Wood Carving,Wood Carving,1287.44,17.7,2.8,1,2,18,0.858,0.967,1,शीशम की लकड़ी की जाली,3615.3,7091.2
+SIH-CRAFT-0093,Jaipur Blue Pottery,Blue Pottery,404.14,14.9,2.52,1,5,13,0.879,0.962,1,नीली मिट्टी का फूलदान,3845.5,6209.51
+SIH-CRAFT-0094,Saharanpur Wood Carving,Wood Carving,693.37,15.0,1.34,1,5,39,0.875,0.752,1,शीशम की लकड़ी की जाली,3960.0,6754.55
+SIH-CRAFT-0095,Jaipur Blue Pottery,Blue Pottery,560.4,15.6,1.69,1,3,17,0.802,0.774,1,क्वार्ट्ज प्लेट,3702.6,6227.55
+SIH-CRAFT-0096,Gorakhpur Terracotta,Terracotta,115.83,0.9,2.14,0,1,3,0.431,0.396,0,हाथ से बनी मटकी,46.44,254.83
+SIH-CRAFT-0097,Kutch Bandhani & Ajrakh,Bandhani,665.47,10.8,0.9,1,3,9,0.728,0.866,1,प्राकृतिक नील रंग,2359.8,4556.61
+SIH-CRAFT-0098,Moradabad Brassware,Brass Craft,381.71,4.1,4.46,0,2,0,0.298,0.29,0,हाथ की ढलाई,238.62,839.76
+SIH-CRAFT-0099,Gorakhpur Terracotta,Terracotta,149.42,1.8,3.21,0,1,4,0.381,0.127,0,टेराकोटा सुराही,92.88,328.72
+SIH-CRAFT-0100,Zari Zardozi Embroidery,Zari Embroidery,1243.36,29.2,0.78,0,3,9,0.948,0.887,1,सच्ची जरी कढ़ाई,6004.2,9784.21
+SIH-CRAFT-0101,Bastar Dhokra Bell Metal,Dhokra Art,901.35,12.9,3.26,1,4,29,0.708,0.738,1,बेल मेटल बैल,3505.2,6421.34
+SIH-CRAFT-0102,Saharanpur Wood Carving,Wood Carving,1313.49,25.9,1.75,1,5,21,0.896,0.798,1,शीशम की लकड़ी की जाली,6142.5,10538.09
+SIH-CRAFT-0103,Bastar Dhokra Bell Metal,Dhokra Art,261.93,4.7,3.12,0,2,4,0.228,0.327,0,ढोकरा आदिवासी मूर्ति,301.74,576.25
+SIH-CRAFT-0104,Moradabad Brassware,Brass Craft,1145.74,21.5,4.53,1,5,26,0.686,0.768,1,पीतल का नक्काशीदार दीया,5335.0,9221.5
+SIH-CRAFT-0105,Zari Zardozi Embroidery,Zari Embroidery,415.79,4.9,0.45,0,1,5,0.388,0.368,0,सच्ची जरी कढ़ाई,260.19,914.74
+SIH-CRAFT-0106,Kutch Bandhani & Ajrakh,Bandhani,336.28,6.6,0.9,1,2,9,0.727,0.856,1,अजरख ब्लॉक प्रिंट,1415.4,2837.27
+SIH-CRAFT-0107,Bastar Dhokra Bell Metal,Dhokra Art,1544.32,25.3,2.26,1,5,12,0.942,0.89,1,मोम की ढलाई कला,6505.0,11339.08
+SIH-CRAFT-0108,Zari Zardozi Embroidery,Zari Embroidery,1449.1,10.8,0.56,0,5,31,0.964,0.948,1,जरदोज़ी का काम,2895.0,5864.53
+SIH-CRAFT-0109,Saharanpur Wood Carving,Wood Carving,1377.84,14.6,2.27,1,3,10,0.963,0.939,1,शीशम की लकड़ी की जाली,3084.6,6496.79
+SIH-CRAFT-0110,Varanasi Silk Handloom,Handloom Silk,2273.44,16.9,1.03,1,3,11,0.91,0.76,1,शुद्ध रेशमी साड़ी,4153.4,9148.73
+SIH-CRAFT-0111,Zari Zardozi Embroidery,Zari Embroidery,1363.18,18.2,0.4,0,2,20,0.933,0.742,1,जरदोज़ी का काम,3739.8,6889.02
+SIH-CRAFT-0112,Kolhapuri Chappal & Leather,Leather Craft,454.7,12.3,0.42,1,1,25,0.911,0.769,1,प्राकृतिक चमड़ा,2490.6,4448.65
+SIH-CRAFT-0113,Gorakhpur Terracotta,Terracotta,165.72,11.2,2.08,1,1,33,0.798,0.805,1,माटी का घड़ा,2421.4,3965.11
+SIH-CRAFT-0114,Bastar Dhokra Bell Metal,Dhokra Art,1539.96,11.0,2.91,1,5,36,0.75,0.887,1,ढोकरा आदिवासी मूर्ति,3290.0,6992.95
+SIH-CRAFT-0115,Gorakhpur Terracotta,Terracotta,161.68,1.2,0.82,0,2,0,0.415,0.163,0,टेराकोटा सुराही,66.24,355.7
+SIH-CRAFT-0116,Jaipur Blue Pottery,Blue Pottery,693.37,14.2,2.17,1,5,36,0.747,0.847,1,क्वार्ट्ज प्लेट,4019.0,6834.2
+SIH-CRAFT-0117,Jaipur Blue Pottery,Blue Pottery,412.93,15.2,2.53,1,3,30,0.799,0.766,1,क्वार्ट्ज प्लेट,3809.2,6172.38
+SIH-CRAFT-0118,Bastar Dhokra Bell Metal,Dhokra Art,1302.57,16.9,1.64,1,4,26,0.965,0.899,1,मोम की ढलाई कला,4412.2,8187.44
+SIH-CRAFT-0119,Jaipur Blue Pottery,Blue Pottery,396.95,12.0,2.24,1,4,11,0.834,0.87,1,हस्तशिल्प जार,2961.0,5005.73
+SIH-CRAFT-0120,Kolhapuri Chappal & Leather,Leather Craft,423.34,8.9,0.93,1,4,6,0.97,0.874,1,प्राकृतिक चमड़ा,1941.2,3664.63
+SIH-CRAFT-0121,Jaipur Blue Pottery,Blue Pottery,467.01,15.2,1.09,1,2,25,0.929,0.807,1,क्वार्ट्ज प्लेट,3551.8,5897.89
+SIH-CRAFT-0122,Zari Zardozi Embroidery,Zari Embroidery,900.57,24.0,0.84,0,2,20,0.66,0.779,1,सच्ची जरी कढ़ाई,4836.0,7744.37
+SIH-CRAFT-0123,Saharanpur Wood Carving,Wood Carving,581.41,9.4,3.23,1,2,12,0.895,0.982,1,शीशम की लकड़ी की जाली,1956.6,3898.81
+SIH-CRAFT-0124,Kolhapuri Chappal & Leather,Leather Craft,601.9,8.7,0.7,1,3,39,0.847,0.956,1,कोल्हापुरी हाथ की चप्पल,2290.2,4376.84
+SIH-CRAFT-0125,Mithila Madhubani Painting,Madhubani,277.37,10.3,0.41,1,4,34,0.85,0.82,1,गोबर लीपा कैनवास,2806.9,4636.26
+SIH-CRAFT-0126,Kolhapuri Chappal & Leather,Leather Craft,607.95,8.1,0.94,1,4,36,0.87,0.713,1,प्राकृतिक चमड़ा,2224.8,4296.71
+SIH-CRAFT-0127,Zari Zardozi Embroidery,Zari Embroidery,664.64,33.6,0.84,0,4,21,0.758,0.702,1,मखमली सूट पीस,7471.8,10984.19
+SIH-CRAFT-0128,Kutch Bandhani & Ajrakh,Bandhani,604.17,17.3,0.55,1,4,25,0.674,0.95,1,कच्छी बंधेज दुपट्टा,4146.4,6885.77
+SIH-CRAFT-0129,Kutch Bandhani & Ajrakh,Bandhani,1036.93,19.8,0.6,1,4,28,0.884,0.821,1,कच्छी बंधेज दुपट्टा,4736.4,8266.5
+SIH-CRAFT-0130,Kutch Bandhani & Ajrakh,Bandhani,559.81,18.8,0.63,1,4,26,0.679,0.945,1,कच्छी बंधेज दुपट्टा,4488.4,7287.58
+SIH-CRAFT-0131,Kutch Bandhani & Ajrakh,Bandhani,719.17,12.3,0.42,1,3,17,0.76,0.749,1,प्राकृतिक नील रंग,2788.8,5208.26
+SIH-CRAFT-0132,Jaipur Blue Pottery,Blue Pottery,456.65,16.9,1.37,1,3,18,0.684,0.774,1,नीली मिट्टी का फूलदान,4004.9,6495.59
+SIH-CRAFT-0133,Zari Zardozi Embroidery,Zari Embroidery,1247.11,11.9,0.97,0,5,32,0.899,0.92,1,सच्ची जरी कढ़ाई,3157.5,5946.22
+SIH-CRAFT-0134,Zari Zardozi Embroidery,Zari Embroidery,1485.86,18.1,0.98,0,4,12,0.795,0.836,1,मखमली सूट पीस,4035.3,7453.57
+SIH-CRAFT-0135,Moradabad Brassware,Brass Craft,1309.7,15.0,1.83,1,5,31,0.662,0.807,1,ब्रास पूजा थाली,3915.0,7525.84
+SIH-CRAFT-0136,Jaipur Blue Pottery,Blue Pottery,887.55,7.3,1.91,1,5,32,0.842,0.977,1,हस्तशिल्प जार,2268.5,4733.17
+SIH-CRAFT-0137,Gorakhpur Terracotta,Terracotta,392.94,10.2,1.46,1,4,35,0.7,0.718,1,माटी का घड़ा,2646.6,4575.88
+SIH-CRAFT-0138,Saharanpur Wood Carving,Wood Carving,193.73,3.2,0.94,0,2,3,0.283,0.263,0,हाथ से तराशा बॉक्स,181.44,426.21
+SIH-CRAFT-0139,Saharanpur Wood Carving,Wood Carving,314.97,3.7,3.31,0,1,5,0.327,0.073,0,शीशम की लकड़ी की जाली,196.47,692.93
+SIH-CRAFT-0140,Kolhapuri Chappal & Leather,Leather Craft,520.49,13.0,0.93,1,2,24,0.677,0.892,1,प्राकृतिक चमड़ा,2752.0,4890.36
+SIH-CRAFT-0141,Moradabad Brassware,Brass Craft,575.27,2.4,4.18,0,1,2,0.296,0.275,0,ब्रास पूजा थाली,131.04,1265.59
+SIH-CRAFT-0142,Mithila Madhubani Painting,Madhubani,705.93,28.7,0.58,1,5,8,0.863,0.823,1,प्राकृतिक रंग चित्र,6864.5,10692.58
+SIH-CRAFT-0143,Gorakhpur Terracotta,Terracotta,204.08,5.4,3.34,1,4,15,0.725,0.74,1,माटी का घड़ा,1348.2,2568.08
+SIH-CRAFT-0144,Moradabad Brassware,Brass Craft,721.37,23.4,5.26,1,2,24,0.939,0.879,1,हाथ की ढलाई,4899.6,8060.81
+SIH-CRAFT-0145,Kutch Bandhani & Ajrakh,Bandhani,444.68,17.1,0.64,1,2,31,0.664,0.806,1,प्राकृतिक नील रंग,3782.4,6179.06
+SIH-CRAFT-0146,Varanasi Silk Handloom,Handloom Silk,921.75,7.4,1.03,0,1,4,0.184,0.388,0,जरी पल्लू,470.64,2027.85
+SIH-CRAFT-0147,Varanasi Silk Handloom,Handloom Silk,3078.4,59.3,0.77,1,4,27,0.816,0.821,1,शुद्ध रेशमी साड़ी,15111.4,25028.73
+SIH-CRAFT-0148,Varanasi Silk Handloom,Handloom Silk,1218.32,27.0,0.91,1,4,38,0.958,0.906,1,बनारसी कतान सिल्क,7266.0,11926.33
+SIH-CRAFT-0149,Moradabad Brassware,Brass Craft,792.37,17.0,3.81,1,5,8,0.962,0.764,1,ब्रास पूजा थाली,4030.0,6982.7
+SIH-CRAFT-0150,Saharanpur Wood Carving,Wood Carving,325.96,2.3,2.18,0,2,0,0.231,0.06,0,शीशम की लकड़ी की जाली,130.41,717.11
+SIH-CRAFT-0151,Saharanpur Wood Carving,Wood Carving,537.6,12.9,3.87,1,3,33,0.798,0.702,1,शीशम की लकड़ी की जाली,3087.9,5366.93
+SIH-CRAFT-0152,Gorakhpur Terracotta,Terracotta,400.49,9.0,2.68,1,4,10,0.906,0.769,1,माटी का घड़ा,2022.0,3742.86
+SIH-CRAFT-0153,Gorakhpur Terracotta,Terracotta,341.69,9.9,0.69,1,4,37,0.655,0.849,1,टेराकोटा सुराही,2614.2,4462.95
+SIH-CRAFT-0154,Mithila Madhubani Painting,Madhubani,250.86,17.9,0.5,1,3,8,0.823,0.805,1,मिथिला पेंटिंग,3896.9,6071.98
+SIH-CRAFT-0155,Kutch Bandhani & Ajrakh,Bandhani,133.93,1.8,0.46,0,1,2,0.376,0.171,0,प्राकृतिक नील रंग,98.28,294.65
+SIH-CRAFT-0156,Jaipur Blue Pottery,Blue Pottery,754.35,10.7,0.7,1,4,14,0.924,0.899,1,हस्तशिल्प जार,2703.1,5140.06
+SIH-CRAFT-0157,Bastar Dhokra Bell Metal,Dhokra Art,1392.65,11.4,2.9,1,4,5,0.747,0.713,1,ढोकरा आदिवासी मूर्ति,2788.2,6116.65
+SIH-CRAFT-0158,Gorakhpur Terracotta,Terracotta,243.02,7.4,2.95,1,4,19,0.662,0.888,1,हाथ से बनी मटकी,1824.2,3263.25
+SIH-CRAFT-0159,Saharanpur Wood Carving,Wood Carving,179.12,3.3,1.81,0,2,3,0.411,0.31,0,हाथ से तराशा बॉक्स,187.11,394.06
+SIH-CRAFT-0160,Saharanpur Wood Carving,Wood Carving,358.48,2.7,4.22,0,2,0,0.354,0.078,0,लकड़ी का झरोखा,153.09,788.66
+SIH-CRAFT-0161,Mithila Madhubani Painting,Madhubani,426.67,10.2,0.56,1,4,31,0.849,0.824,1,पेड़ और मोर,2739.6,4746.96
+SIH-CRAFT-0162,Saharanpur Wood Carving,Wood Carving,1126.81,27.9,3.07,1,5,20,0.861,0.93,1,शीशम की लकड़ी की जाली,6577.5,10873.32
+SIH-CRAFT-0163,Jaipur Blue Pottery,Blue Pottery,573.42,13.2,2.25,1,3,4,0.697,0.876,1,क्वार्ट्ज प्लेट,2977.2,5265.84
+SIH-CRAFT-0164,Gorakhpur Terracotta,Terracotta,220.8,10.1,1.59,1,1,12,0.874,0.975,1,हाथ से बनी मटकी,1917.2,3358.8
+SIH-CRAFT-0165,Bastar Dhokra Bell Metal,Dhokra Art,1131.31,21.6,1.87,1,5,20,0.732,0.733,1,बेल मेटल बैल,5700.0,9694.77
+SIH-CRAFT-0166,Mithila Madhubani Painting,Madhubani,462.84,23.7,0.28,1,4,31,0.721,0.877,1,पेड़ और मोर,5750.1,8859.97
+SIH-CRAFT-0167,Varanasi Silk Handloom,Handloom Silk,2861.5,35.9,1.12,1,4,8,0.917,0.981,1,हाथ का ताना-बाना,9023.2,16516.85
+SIH-CRAFT-0168,Saharanpur Wood Carving,Wood Carving,950.0,13.0,1.91,1,3,14,0.912,0.848,1,शीशम की लकड़ी की जाली,2823.0,5566.05
+SIH-CRAFT-0169,Varanasi Silk Handloom,Handloom Silk,1444.49,37.7,0.69,1,5,26,0.804,0.985,1,शुद्ध रेशमी साड़ी,10192.0,16181.76
+SIH-CRAFT-0170,Zari Zardozi Embroidery,Zari Embroidery,207.61,3.0,0.8,0,2,4,0.244,0.193,0,मखमली सूट पीस,170.1,456.74
+SIH-CRAFT-0171,Jaipur Blue Pottery,Blue Pottery,524.37,7.0,1.62,1,4,11,0.94,0.926,1,हस्तशिल्प जार,1796.0,3605.0
+SIH-CRAFT-0172,Zari Zardozi Embroidery,Zari Embroidery,1464.58,20.8,0.94,0,2,10,0.821,0.788,1,जरदोज़ी का काम,4081.2,7486.8
+SIH-CRAFT-0173,Saharanpur Wood Carving,Wood Carving,250.19,4.3,2.72,0,2,0,0.188,0.272,0,लकड़ी का झरोखा,243.81,550.42
+SIH-CRAFT-0174,Moradabad Brassware,Brass Craft,963.39,18.7,3.76,1,3,40,0.961,0.745,1,हाथ की ढलाई,4452.2,7783.55
+SIH-CRAFT-0175,Zari Zardozi Embroidery,Zari Embroidery,1085.4,31.1,0.69,0,2,8,0.665,0.886,1,मखमली सूट पीस,5997.9,9562.45
+SIH-CRAFT-0176,Moradabad Brassware,Brass Craft,1520.35,16.3,4.38,1,5,37,0.746,0.977,1,ब्रास पूजा थाली,4304.0,8335.37
+SIH-CRAFT-0177,Varanasi Silk Handloom,Handloom Silk,2475.48,29.1,0.46,1,3,13,0.795,0.84,1,शुद्ध रेशमी साड़ी,7062.6,13348.91
+SIH-CRAFT-0178,Saharanpur Wood Carving,Wood Carving,712.58,23.2,3.52,1,4,28,0.693,0.807,1,लकड़ी का झरोखा,5361.6,8672.64
+SIH-CRAFT-0179,Jaipur Blue Pottery,Blue Pottery,606.56,9.7,1.15,1,2,6,0.746,0.811,1,हस्तशिल्प जार,2117.3,4149.71
+SIH-CRAFT-0180,Kutch Bandhani & Ajrakh,Bandhani,992.25,8.6,0.43,1,4,23,0.713,0.746,1,प्राकृतिक नील रंग,2219.8,4808.77
+SIH-CRAFT-0181,Bastar Dhokra Bell Metal,Dhokra Art,839.39,10.5,3.35,1,5,32,0.969,0.762,1,मोम की ढलाई कला,3105.0,5797.43
+SIH-CRAFT-0182,Gorakhpur Terracotta,Terracotta,298.47,12.7,2.46,1,4,21,0.827,0.946,1,धूपदानी,2956.6,4866.84
+SIH-CRAFT-0183,Mithila Madhubani Painting,Madhubani,260.05,4.4,0.36,0,2,0,0.3,0.118,0,प्राकृतिक रंग चित्र,262.68,572.11
+SIH-CRAFT-0184,Jaipur Blue Pottery,Blue Pottery,597.69,13.7,2.42,1,2,11,0.972,0.814,1,क्वार्ट्ज प्लेट,3028.3,5367.59
+SIH-CRAFT-0185,Kolhapuri Chappal & Leather,Leather Craft,321.19,1.1,0.81,0,1,0,0.114,0.3,0,प्राकृतिक चमड़ा,56.76,706.62
+SIH-CRAFT-0186,Kolhapuri Chappal & Leather,Leather Craft,713.76,10.7,0.66,1,3,13,0.78,0.879,1,प्राकृतिक चमड़ा,2292.2,4530.55
+SIH-CRAFT-0187,Zari Zardozi Embroidery,Zari Embroidery,1319.7,23.3,0.8,0,4,33,0.919,0.807,1,मखमली सूट पीस,5457.9,9149.76
+SIH-CRAFT-0188,Jaipur Blue Pottery,Blue Pottery,268.41,2.6,2.2,0,1,4,0.266,0.388,0,हस्तशिल्प जार,153.66,590.5
+SIH-CRAFT-0189,Zari Zardozi Embroidery,Zari Embroidery,503.92,22.0,0.67,0,5,12,0.921,0.77,1,मखमली सूट पीस,5130.0,7605.79
+SIH-CRAFT-0190,Jaipur Blue Pottery,Blue Pottery,592.57,11.9,1.51,1,3,29,0.816,0.877,1,क्वार्ट्ज प्लेट,3064.9,5410.08
+SIH-CRAFT-0191,Gorakhpur Terracotta,Terracotta,305.6,9.2,3.49,1,4,36,0.774,0.977,1,धूपदानी,2453.6,4197.42
+SIH-CRAFT-0192,Kolhapuri Chappal & Leather,Leather Craft,562.57,13.5,0.98,1,3,33,0.713,0.771,1,हाथ की सिलाई,3141.0,5472.32
+SIH-CRAFT-0193,Moradabad Brassware,Brass Craft,1767.49,14.0,2.8,1,3,34,0.755,0.801,1,हाथ की ढलाई,3394.0,7440.51
+SIH-CRAFT-0194,Moradabad Brassware,Brass Craft,1288.17,18.9,5.53,1,5,25,0.965,0.933,1,ब्रास पूजा थाली,4722.0,8586.23
+SIH-CRAFT-0195,Gorakhpur Terracotta,Terracotta,364.24,6.8,1.83,1,3,33,0.721,0.94,1,हाथ से बनी मटकी,1827.8,3431.75
+SIH-CRAFT-0196,Kolhapuri Chappal & Leather,Leather Craft,432.36,11.8,0.87,1,2,6,0.871,0.854,1,हाथ की सिलाई,2261.2,4108.81
+SIH-CRAFT-0197,Varanasi Silk Handloom,Handloom Silk,1850.59,47.6,0.48,1,3,3,0.968,0.984,1,शुद्ध रेशमी साड़ी,11278.6,18196.91
+SIH-CRAFT-0198,Kutch Bandhani & Ajrakh,Bandhani,1004.52,13.6,0.66,1,3,23,0.744,0.717,1,कच्छी बंधेज दुपट्टा,3146.6,6076.51
+SIH-CRAFT-0199,Zari Zardozi Embroidery,Zari Embroidery,1225.62,31.3,0.33,0,3,29,0.941,0.751,1,जरदोज़ी का काम,6726.3,10735.09
+SIH-CRAFT-0200,Kutch Bandhani & Ajrakh,Bandhani,449.05,18.0,0.81,1,3,5,0.653,0.865,1,कच्छी बंधेज दुपट्टा,3783.0,6185.77
+SIH-CRAFT-0201,Saharanpur Wood Carving,Wood Carving,1389.1,19.0,2.63,1,3,35,0.804,0.756,1,शीशम की लकड़ी की जाली,4344.0,8212.19
+SIH-CRAFT-0202,Saharanpur Wood Carving,Wood Carving,858.91,12.2,1.49,1,4,21,0.837,0.92,1,शीशम की लकड़ी की जाली,2913.6,5565.39
+SIH-CRAFT-0203,Zari Zardozi Embroidery,Zari Embroidery,556.76,4.6,0.66,0,1,3,0.334,0.115,0,जरदोज़ी का काम,244.26,1224.87
+SIH-CRAFT-0204,Bastar Dhokra Bell Metal,Dhokra Art,772.85,15.7,1.44,1,4,24,0.75,0.91,1,ढोकरा आदिवासी मूर्ति,4096.6,7046.26
+SIH-CRAFT-0205,Moradabad Brassware,Brass Craft,1431.32,9.2,2.03,1,4,13,0.784,0.846,1,हाथ की ढलाई,2200.6,5375.59
+SIH-CRAFT-0206,Moradabad Brassware,Brass Craft,1366.45,26.8,3.15,1,3,17,0.966,0.839,1,ब्रास पूजा थाली,5775.8,10114.54
+SIH-CRAFT-0207,Zari Zardozi Embroidery,Zari Embroidery,1187.04,32.8,0.83,0,3,18,0.875,0.873,1,जरदोज़ी का काम,6862.8,10867.28
+SIH-CRAFT-0208,Kolhapuri Chappal & Leather,Leather Craft,772.26,5.9,0.85,1,1,38,0.948,0.759,1,हाथ की सिलाई,1584.8,3654.53
+SIH-CRAFT-0209,Mithila Madhubani Painting,Madhubani,719.97,20.4,0.58,1,5,40,0.811,0.961,1,पेड़ और मोर,5394.0,8726.36
+SIH-CRAFT-0210,Gorakhpur Terracotta,Terracotta,303.97,8.0,0.67,1,4,22,0.889,0.815,1,माटी का घड़ा,1994.0,3574.76
+SIH-CRAFT-0211,Varanasi Silk Handloom,Handloom Silk,1004.17,31.2,0.45,1,3,7,0.975,0.837,1,हाथ का ताना-बाना,7468.2,11910.2
+SIH-CRAFT-0212,Kutch Bandhani & Ajrakh,Bandhani,408.34,16.3,0.71,1,3,26,0.978,0.811,1,अजरख ब्लॉक प्रिंट,3747.8,6083.29
+SIH-CRAFT-0213,Kutch Bandhani & Ajrakh,Bandhani,1071.32,20.0,0.29,1,3,10,0.709,0.856,1,प्राकृतिक नील रंग,4270.0,7683.28
+SIH-CRAFT-0214,Mithila Madhubani Painting,Madhubani,372.48,8.1,0.12,1,4,32,0.872,0.858,1,पेड़ और मोर,2286.3,4061.85
+SIH-CRAFT-0215,Varanasi Silk Handloom,Handloom Silk,1696.17,28.1,1.15,1,5,10,0.661,0.891,1,बनारसी कतान सिल्क,7456.0,12827.93
+SIH-CRAFT-0216,Varanasi Silk Handloom,Handloom Silk,1132.06,17.5,0.88,1,5,6,0.731,0.713,1,जरी पल्लू,4640.0,8264.78
+SIH-CRAFT-0217,Varanasi Silk Handloom,Handloom Silk,2635.09,50.1,0.51,1,4,17,0.919,0.912,1,हाथ का ताना-बाना,12679.8,21147.6
+SIH-CRAFT-0218,Zari Zardozi Embroidery,Zari Embroidery,1156.16,18.0,0.51,0,3,36,0.723,0.787,1,जरदोज़ी का काम,4158.0,7174.12
+SIH-CRAFT-0219,Kolhapuri Chappal & Leather,Leather Craft,351.13,2.3,0.9,0,2,4,0.273,0.39,0,हाथ की सिलाई,126.96,772.49
+SIH-CRAFT-0220,Kutch Bandhani & Ajrakh,Bandhani,554.99,12.7,0.3,1,3,14,0.899,0.837,1,कच्छी बंधेज दुपट्टा,2826.2,5037.11
+SIH-CRAFT-0221,Moradabad Brassware,Brass Craft,309.29,2.6,1.76,0,2,3,0.295,0.097,0,पीतल का नक्काशीदार दीया,151.32,680.44
+SIH-CRAFT-0222,Moradabad Brassware,Brass Craft,1376.05,26.4,5.31,1,2,37,0.889,0.755,1,ब्रास पूजा थाली,5676.6,9993.58
+SIH-CRAFT-0223,Kutch Bandhani & Ajrakh,Bandhani,782.34,20.0,0.33,1,4,38,0.722,0.761,1,अजरख ब्लॉक प्रिंट,4930.0,8184.16
+SIH-CRAFT-0224,Moradabad Brassware,Brass Craft,247.36,4.0,5.83,0,1,5,0.45,0.218,0,पीतल का नक्काशीदार दीया,218.4,544.19
+SIH-CRAFT-0225,Zari Zardozi Embroidery,Zari Embroidery,866.46,16.0,0.53,0,4,27,0.804,0.888,1,सच्ची जरी कढ़ाई,3813.0,6317.27
+SIH-CRAFT-0226,Moradabad Brassware,Brass Craft,1659.37,17.3,5.11,1,5,23,0.952,0.808,1,ब्रास पूजा थाली,4324.0,8550.05
+SIH-CRAFT-0227,Gorakhpur Terracotta,Terracotta,216.38,4.6,1.28,1,4,21,0.7,0.796,1,धूपदानी,1271.8,2481.54
+SIH-CRAFT-0228,Zari Zardozi Embroidery,Zari Embroidery,974.27,26.4,0.78,0,4,34,0.969,0.886,1,सच्ची जरी कढ़ाई,6133.2,9595.08
+SIH-CRAFT-0229,Bastar Dhokra Bell Metal,Dhokra Art,1374.47,13.7,2.74,1,4,14,0.953,0.857,1,बेल मेटल बैल,3470.6,7013.34
+SIH-CRAFT-0230,Gorakhpur Terracotta,Terracotta,401.72,3.8,2.95,1,1,3,0.786,0.944,1,टेराकोटा सुराही,698.6,1957.93
+SIH-CRAFT-0231,Jaipur Blue Pottery,Blue Pottery,355.03,13.1,1.42,1,5,34,0.655,0.854,1,क्वार्ट्ज प्लेट,3719.5,5973.12
+SIH-CRAFT-0232,Gorakhpur Terracotta,Terracotta,366.66,8.9,1.36,1,4,14,0.685,0.728,1,टेराकोटा सुराही,2061.2,3750.11
+SIH-CRAFT-0233,Varanasi Silk Handloom,Handloom Silk,2110.85,51.9,0.61,1,4,8,0.773,0.818,1,शुद्ध रेशमी साड़ी,12991.2,20860.27
+SIH-CRAFT-0234,Varanasi Silk Handloom,Handloom Silk,2804.54,19.5,1.19,1,5,5,0.681,0.81,1,जरी पल्लू,5145.0,11204.38
+SIH-CRAFT-0235,Gorakhpur Terracotta,Terracotta,360.85,3.9,3.04,1,3,39,0.973,0.982,1,माटी का घड़ा,1349.4,2781.34
+SIH-CRAFT-0236,Varanasi Silk Handloom,Handloom Silk,2896.67,55.1,0.78,1,3,7,0.876,0.781,1,बनारसी कतान सिल्क,13108.6,22079.61
+SIH-CRAFT-0237,Mithila Madhubani Painting,Madhubani,169.19,5.2,0.51,0,2,0,0.205,0.247,0,पेड़ और मोर,310.44,372.22
+SIH-CRAFT-0238,Kolhapuri Chappal & Leather,Leather Craft,803.37,6.5,1.19,1,1,35,0.896,0.8,1,कोल्हापुरी हाथ की चप्पल,1643.0,3775.1
+SIH-CRAFT-0239,Kutch Bandhani & Ajrakh,Bandhani,360.81,15.7,0.63,1,4,28,0.97,0.795,1,प्राकृतिक नील रंग,3842.6,6147.1
+SIH-CRAFT-0240,Moradabad Brassware,Brass Craft,1140.66,12.6,3.99,1,5,30,0.711,0.87,1,ब्रास पूजा थाली,3348.0,6532.19
+SIH-CRAFT-0241,Jaipur Blue Pottery,Blue Pottery,512.46,9.5,0.76,1,4,12,0.775,0.927,1,नीली मिट्टी का फूलदान,2393.5,4395.55
+SIH-CRAFT-0242,Kutch Bandhani & Ajrakh,Bandhani,385.24,6.1,0.42,1,3,20,0.684,0.725,1,अजरख ब्लॉक प्रिंट,1556.6,3093.98
+SIH-CRAFT-0243,Bastar Dhokra Bell Metal,Dhokra Art,1063.68,12.3,1.04,1,5,8,0.847,0.927,1,मोम की ढलाई कला,3195.0,6221.72
+SIH-CRAFT-0244,Gorakhpur Terracotta,Terracotta,266.34,3.9,3.2,1,2,39,0.822,0.899,1,टेराकोटा सुराही,1302.6,2590.57
+SIH-CRAFT-0245,Mithila Madhubani Painting,Madhubani,397.62,12.1,0.22,1,4,29,0.749,0.927,1,प्राकृतिक रंग चित्र,3133.3,5239.24
+SIH-CRAFT-0246,Moradabad Brassware,Brass Craft,586.03,2.7,4.28,0,2,0,0.147,0.052,0,ब्रास पूजा थाली,157.14,1289.27
+SIH-CRAFT-0247,Saharanpur Wood Carving,Wood Carving,779.89,26.7,2.43,1,5,11,0.749,0.875,1,लकड़ी का झरोखा,6172.5,9858.23
+SIH-CRAFT-0248,Varanasi Silk Handloom,Handloom Silk,1308.57,33.5,0.66,1,5,34,0.969,0.927,1,हाथ का ताना-बाना,9220.0,14686.07
+SIH-CRAFT-0249,Kutch Bandhani & Ajrakh,Bandhani,928.69,11.8,0.85,1,2,40,0.979,0.752,1,प्राकृतिक नील रंग,2889.2,5626.65
+SIH-CRAFT-0250,Gorakhpur Terracotta,Terracotta,115.39,1.6,1.82,0,2,5,0.124,0.347,0,धूपदानी,88.32,253.86
+SIH-CRAFT-0251,Bastar Dhokra Bell Metal,Dhokra Art,833.12,15.6,1.22,1,4,27,0.674,0.987,1,मोम की ढलाई कला,4117.8,7156.24
+SIH-CRAFT-0252,Zari Zardozi Embroidery,Zari Embroidery,981.94,33.0,0.78,0,2,26,0.882,0.936,1,मखमली सूट पीस,6627.0,10272.07
+SIH-CRAFT-0253,Jaipur Blue Pottery,Blue Pottery,486.53,15.3,0.97,1,2,39,0.975,0.896,1,क्वार्ट्ज प्लेट,3782.7,6235.96
+SIH-CRAFT-0254,Saharanpur Wood Carving,Wood Carving,332.18,0.9,1.76,0,1,3,0.231,0.212,0,लकड़ी का झरोखा,47.79,730.8
+SIH-CRAFT-0255,Zari Zardozi Embroidery,Zari Embroidery,608.28,34.9,0.64,0,4,29,0.954,0.725,1,मखमली सूट पीस,7868.7,11443.92
+SIH-CRAFT-0256,Mithila Madhubani Painting,Madhubani,438.69,30.0,0.46,1,4,33,0.682,0.909,1,पेड़ और मोर,7185.0,10764.48
+SIH-CRAFT-0257,Saharanpur Wood Carving,Wood Carving,444.68,23.1,0.88,1,4,9,0.873,0.748,1,लकड़ी का झरोखा,5055.3,7897.47
+SIH-CRAFT-0258,Varanasi Silk Handloom,Handloom Silk,2169.39,30.6,0.74,1,4,17,0.913,0.883,1,शुद्ध रेशमी साड़ी,7843.8,13990.31
+SIH-CRAFT-0259,Kutch Bandhani & Ajrakh,Bandhani,889.91,20.1,0.51,1,3,27,0.651,0.762,1,अजरख ब्लॉक प्रिंट,4545.6,7810.44
+SIH-CRAFT-0260,Jaipur Blue Pottery,Blue Pottery,789.73,13.5,1.4,1,3,32,0.688,0.895,1,क्वार्ट्ज प्लेट,3463.5,6214.36
+SIH-CRAFT-0261,Kolhapuri Chappal & Leather,Leather Craft,215.22,1.4,0.71,0,1,2,0.223,0.21,0,कोल्हापुरी हाथ की चप्पल,72.24,473.48
+SIH-CRAFT-0262,Moradabad Brassware,Brass Craft,523.28,3.2,2.91,0,1,2,0.141,0.181,0,पीतल का नक्काशीदार दीया,174.72,1151.22
+SIH-CRAFT-0263,Kolhapuri Chappal & Leather,Leather Craft,707.86,11.3,0.74,1,4,37,0.879,0.887,1,कोल्हापुरी हाथ की चप्पल,2905.4,5350.4
+SIH-CRAFT-0264,Kolhapuri Chappal & Leather,Leather Craft,523.3,7.1,1.07,1,1,25,0.964,0.841,1,कोल्हापुरी हाथ की चप्पल,1596.2,3333.82
+SIH-CRAFT-0265,Kutch Bandhani & Ajrakh,Bandhani,281.74,2.1,0.68,0,2,5,0.394,0.221,0,कच्छी बंधेज दुपट्टा,122.22,619.83
+SIH-CRAFT-0266,Zari Zardozi Embroidery,Zari Embroidery,1249.11,17.3,0.49,0,4,13,0.908,0.864,1,सच्ची जरी कढ़ाई,3879.9,6924.16
+SIH-CRAFT-0267,Kolhapuri Chappal & Leather,Leather Craft,693.63,7.9,0.83,1,3,37,0.921,0.712,1,हाथ की सिलाई,2103.4,4248.49
+SIH-CRAFT-0268,Bastar Dhokra Bell Metal,Dhokra Art,1588.75,12.3,3.04,1,3,22,0.939,0.709,1,मोम की ढलाई कला,3109.8,6815.54
+SIH-CRAFT-0269,Saharanpur Wood Carving,Wood Carving,194.79,4.0,1.23,0,1,1,0.384,0.256,0,हाथ से तराशा बॉक्स,212.4,428.54
+SIH-CRAFT-0270,Zari Zardozi Embroidery,Zari Embroidery,624.28,13.5,0.44,0,3,6,0.838,0.854,1,मखमली सूट पीस,2803.5,4627.5
+SIH-CRAFT-0271,Kolhapuri Chappal & Leather,Leather Craft,937.4,8.2,0.86,1,1,11,0.968,0.928,1,कोल्हापुरी हाथ की चप्पल,1575.4,3864.78
+SIH-CRAFT-0272,Moradabad Brassware,Brass Craft,300.91,3.8,2.62,0,2,1,0.367,0.287,0,ब्रास पूजा थाली,221.16,662.0
+SIH-CRAFT-0273,Mithila Madhubani Painting,Madhubani,397.79,19.6,0.42,1,5,8,0.783,0.917,1,प्राकृतिक रंग चित्र,4726.0,7389.62
+SIH-CRAFT-0274,Bastar Dhokra Bell Metal,Dhokra Art,344.01,1.5,2.89,0,1,5,0.44,0.272,0,बेल मेटल बैल,90.9,756.82
+SIH-CRAFT-0275,Saharanpur Wood Carving,Wood Carving,478.27,2.3,4.38,0,1,3,0.194,0.34,0,हाथ से तराशा बॉक्स,122.13,1052.19
+SIH-CRAFT-0276,Kolhapuri Chappal & Leather,Leather Craft,689.69,10.3,0.67,1,1,5,0.683,0.927,1,प्राकृतिक चमड़ा,1846.6,3896.49
+SIH-CRAFT-0277,Gorakhpur Terracotta,Terracotta,407.3,7.9,0.5,1,4,15,0.979,0.964,1,हाथ से बनी मटकी,1868.2,3544.43
+SIH-CRAFT-0278,Mithila Madhubani Painting,Madhubani,292.85,1.6,0.35,0,1,2,0.333,0.277,0,मिथिला पेंटिंग,89.76,644.27
+SIH-CRAFT-0279,Kutch Bandhani & Ajrakh,Bandhani,880.79,18.1,0.5,1,2,9,0.65,0.838,1,कच्छी बंधेज दुपट्टा,3646.4,6584.21
+SIH-CRAFT-0280,Zari Zardozi Embroidery,Zari Embroidery,1163.98,10.2,0.79,0,2,30,0.879,0.839,1,जरदोज़ी का काम,2377.8,4781.4
+SIH-CRAFT-0281,Kutch Bandhani & Ajrakh,Bandhani,944.77,7.7,0.46,1,3,11,0.776,0.936,1,कच्छी बंधेज दुपट्टा,1751.2,4112.06
+SIH-CRAFT-0282,Mithila Madhubani Painting,Madhubani,559.81,25.1,0.21,1,4,16,0.857,0.744,1,पेड़ और मोर,5837.3,9108.6
+SIH-CRAFT-0283,Zari Zardozi Embroidery,Zari Embroidery,1352.96,12.2,0.37,0,2,40,0.891,0.802,1,सच्ची जरी कढ़ाई,2905.8,5749.33
+SIH-CRAFT-0284,Saharanpur Wood Carving,Wood Carving,647.79,21.5,1.72,1,4,4,0.93,0.891,1,हाथ से तराशा बॉक्स,4639.5,7610.34
+SIH-CRAFT-0285,Varanasi Silk Handloom,Handloom Silk,2071.9,48.9,0.64,1,3,18,0.813,0.733,1,जरी पल्लू,11810.4,19213.6
+SIH-CRAFT-0286,Zari Zardozi Embroidery,Zari Embroidery,1383.16,10.3,0.55,0,4,11,0.778,0.943,1,सच्ची जरी कढ़ाई,2358.9,5051.78
+SIH-CRAFT-0287,Saharanpur Wood Carving,Wood Carving,572.77,17.3,4.45,1,2,4,0.844,0.704,1,शीशम की लकड़ी की जाली,3329.7,5740.83
+SIH-CRAFT-0288,Gorakhpur Terracotta,Terracotta,173.84,1.1,1.36,0,2,3,0.346,0.079,0,टेराकोटा सुराही,60.72,382.45
+SIH-CRAFT-0289,Moradabad Brassware,Brass Craft,694.83,26.4,5.88,1,3,37,0.758,0.87,1,हाथ की ढलाई,5993.4,9501.61
+SIH-CRAFT-0290,Jaipur Blue Pottery,Blue Pottery,590.62,19.3,1.13,1,3,8,0.955,0.734,1,हस्तशिल्प जार,4385.3,7189.99
+SIH-CRAFT-0291,Zari Zardozi Embroidery,Zari Embroidery,1149.38,26.5,0.42,0,2,11,0.881,0.748,1,सच्ची जरी कढ़ाई,5173.5,8535.89
+SIH-CRAFT-0292,Kolhapuri Chappal & Leather,Leather Craft,843.5,7.9,0.7,1,3,10,0.905,0.709,1,प्राकृतिक चमड़ा,1698.4,3904.07
+SIH-CRAFT-0293,Moradabad Brassware,Brass Craft,915.54,27.5,4.32,1,5,32,0.819,0.716,1,हाथ की ढलाई,6805.0,10895.23
+SIH-CRAFT-0294,Mithila Madhubani Painting,Madhubani,390.31,10.9,0.5,1,5,10,0.725,0.848,1,मिथिला पेंटिंग,2711.5,4659.94
+SIH-CRAFT-0295,Gorakhpur Terracotta,Terracotta,291.53,7.2,0.95,1,1,38,0.915,0.907,1,धूपदानी,1808.4,3307.41
+SIH-CRAFT-0296,Varanasi Silk Handloom,Handloom Silk,1857.39,47.7,0.62,1,3,39,0.773,0.846,1,बनारसी कतान सिल्क,11842.2,18966.95
+SIH-CRAFT-0297,Mithila Madhubani Painting,Madhubani,533.68,9.3,0.38,1,4,21,0.905,0.79,1,मिथिला पेंटिंग,2388.9,4417.98
+SIH-CRAFT-0298,Kolhapuri Chappal & Leather,Leather Craft,571.35,8.2,1.03,1,2,32,0.772,0.982,1,कोल्हापुरी हाथ की चप्पल,1988.8,3928.7
+SIH-CRAFT-0299,Kolhapuri Chappal & Leather,Leather Craft,497.08,5.1,0.73,1,2,37,0.764,0.943,1,कोल्हापुरी हाथ की चप्पल,1493.4,3159.65
+SIH-CRAFT-0300,Saharanpur Wood Carving,Wood Carving,1057.3,26.4,3.49,1,2,16,0.825,0.769,1,हाथ से तराशा बॉक्स,5229.6,8959.82
+SIH-CRAFT-0301,Gorakhpur Terracotta,Terracotta,77.08,0.9,0.63,0,1,4,0.245,0.363,0,धूपदानी,46.44,169.58
+SIH-CRAFT-0302,Jaipur Blue Pottery,Blue Pottery,627.99,14.9,1.47,1,2,30,0.869,0.738,1,क्वार्ट्ज प्लेट,3564.1,6131.82
+SIH-CRAFT-0303,Moradabad Brassware,Brass Craft,684.5,2.4,5.24,0,2,2,0.258,0.132,0,पीतल का नक्काशीदार दीया,139.68,1505.9
+SIH-CRAFT-0304,Mithila Madhubani Painting,Madhubani,571.59,12.4,0.22,1,4,23,0.784,0.855,1,गोबर लीपा कैनवास,3110.2,5442.92
+SIH-CRAFT-0305,Bastar Dhokra Bell Metal,Dhokra Art,791.51,12.6,1.23,1,5,22,0.923,0.902,1,ढोकरा आदिवासी मूर्ति,3480.0,6239.04
+SIH-CRAFT-0306,Varanasi Silk Handloom,Handloom Silk,1653.93,20.0,0.6,1,4,28,0.819,0.896,1,हाथ का ताना-बाना,5380.0,9968.31
+SIH-CRAFT-0307,Mithila Madhubani Painting,Madhubani,472.42,20.7,0.62,1,3,9,0.802,0.933,1,गोबर लीपा कैनवास,4502.7,7188.91
+SIH-CRAFT-0308,Jaipur Blue Pottery,Blue Pottery,806.7,19.8,0.89,1,5,26,0.876,0.972,1,नीली मिट्टी का फूलदान,5241.0,8636.9
+SIH-CRAFT-0309,Zari Zardozi Embroidery,Zari Embroidery,1413.3,11.9,1.0,0,3,31,0.917,0.727,1,सच्ची जरी कढ़ाई,2856.9,5764.77
+SIH-CRAFT-0310,Jaipur Blue Pottery,Blue Pottery,603.55,8.4,1.86,1,5,34,0.66,0.898,1,नीली मिट्टी का फूलदान,2568.0,4754.09
+SIH-CRAFT-0311,Saharanpur Wood Carving,Wood Carving,587.15,12.7,4.07,1,2,18,0.864,0.845,1,लकड़ी का झरोखा,2670.3,4870.06
+SIH-CRAFT-0312,Bastar Dhokra Bell Metal,Dhokra Art,807.75,13.0,1.34,1,5,18,0.858,0.933,1,ढोकरा आदिवासी मूर्ति,3520.0,6314.96
+SIH-CRAFT-0313,Kutch Bandhani & Ajrakh,Bandhani,587.29,14.7,0.54,1,4,35,0.756,0.778,1,कच्छी बंधेज दुपट्टा,3729.6,6300.3
+SIH-CRAFT-0314,Saharanpur Wood Carving,Wood Carving,429.3,25.5,1.84,1,5,36,0.768,0.869,1,शीशम की लकड़ी की जाली,6277.5,9526.68
+SIH-CRAFT-0315,Mithila Madhubani Painting,Madhubani,611.28,15.5,0.67,1,5,6,0.902,0.975,1,पेड़ और मोर,3732.5,6336.6
+SIH-CRAFT-0316,Saharanpur Wood Carving,Wood Carving,556.62,1.5,1.68,0,2,5,0.344,0.37,0,शीशम की लकड़ी की जाली,85.05,1224.56
+SIH-CRAFT-0317,Saharanpur Wood Carving,Wood Carving,385.44,2.9,1.5,0,2,4,0.208,0.222,0,शीशम की लकड़ी की जाली,164.43,847.97
+SIH-CRAFT-0318,Gorakhpur Terracotta,Terracotta,215.64,8.8,0.5,1,2,11,0.762,0.751,1,हाथ से बनी मटकी,1784.2,3172.28
+SIH-CRAFT-0319,Gorakhpur Terracotta,Terracotta,325.98,13.1,2.82,1,3,7,0.773,0.973,1,धूपदानी,2672.6,4520.58
+SIH-CRAFT-0320,Zari Zardozi Embroidery,Zari Embroidery,766.85,13.4,0.41,0,5,34,0.864,0.751,1,मखमली सूट पीस,3525.0,5794.0
+SIH-CRAFT-0321,Zari Zardozi Embroidery,Zari Embroidery,684.4,24.7,0.42,0,4,21,0.692,0.911,1,मखमली सूट पीस,5576.1,8451.67
+SIH-CRAFT-0322,Zari Zardozi Embroidery,Zari Embroidery,1494.0,34.1,0.32,0,4,17,0.861,0.73,1,सच्ची जरी कढ़ाई,7518.3,12166.6
+SIH-CRAFT-0323,Mithila Madhubani Painting,Madhubani,292.79,17.7,0.32,1,5,8,0.921,0.894,1,प्राकृतिक रंग चित्र,4279.5,6645.09
+SIH-CRAFT-0324,Bastar Dhokra Bell Metal,Dhokra Art,730.65,25.2,1.75,1,3,3,0.666,0.827,1,मोम की ढलाई कला,5740.2,9208.15
+SIH-CRAFT-0325,Mithila Madhubani Painting,Madhubani,208.48,2.8,0.48,0,1,3,0.376,0.252,0,गोबर लीपा कैनवास,157.08,458.66
+SIH-CRAFT-0326,Mithila Madhubani Painting,Madhubani,689.56,8.9,0.11,1,4,9,0.674,0.749,1,पेड़ और मोर,2119.7,4265.0
+SIH-CRAFT-0327,Mithila Madhubani Painting,Madhubani,550.88,33.1,0.17,1,5,33,0.882,0.825,1,गोबर लीपा कैनवास,8273.5,12385.41
+SIH-CRAFT-0328,Zari Zardozi Embroidery,Zari Embroidery,245.98,1.9,0.44,0,1,3,0.344,0.303,0,मखमली सूट पीस,100.89,541.16
+SIH-CRAFT-0329,Kolhapuri Chappal & Leather,Leather Craft,518.91,7.6,0.44,1,4,12,0.668,0.701,1,कोल्हापुरी हाथ की चप्पल,1760.8,3550.11
+SIH-CRAFT-0330,Moradabad Brassware,Brass Craft,1350.11,17.6,1.94,1,3,13,0.861,0.983,1,ब्रास पूजा थाली,3820.6,7452.96
+SIH-CRAFT-0331,Jaipur Blue Pottery,Blue Pottery,568.61,12.8,2.05,1,2,37,0.778,0.808,1,क्वार्ट्ज प्लेट,3230.2,5600.89
+SIH-CRAFT-0332,Saharanpur Wood Carving,Wood Carving,444.62,16.6,1.77,1,4,39,0.67,0.918,1,लकड़ी का झरोखा,4120.8,6635.82
+SIH-CRAFT-0333,Jaipur Blue Pottery,Blue Pottery,539.09,13.6,2.74,1,3,38,0.67,0.812,1,हस्तशिल्प जार,3575.6,6027.33
+SIH-CRAFT-0334,Kutch Bandhani & Ajrakh,Bandhani,339.86,3.1,0.6,0,1,3,0.205,0.188,0,प्राकृतिक नील रंग,169.26,747.69
+SIH-CRAFT-0335,Gorakhpur Terracotta,Terracotta,420.14,11.8,2.53,1,2,10,0.963,0.83,1,टेराकोटा सुराही,2321.2,4173.31
+SIH-CRAFT-0336,Varanasi Silk Handloom,Handloom Silk,1190.23,34.6,1.19,1,4,15,0.979,0.882,1,हाथ का ताना-बाना,8805.8,13967.14
+SIH-CRAFT-0337,Saharanpur Wood Carving,Wood Carving,525.67,1.1,2.24,0,2,4,0.214,0.147,0,हाथ से तराशा बॉक्स,62.37,1156.47
+SIH-CRAFT-0338,Gorakhpur Terracotta,Terracotta,336.92,8.7,1.76,1,4,12,0.699,0.871,1,माटी का घड़ा,1989.6,3613.3
+SIH-CRAFT-0339,Jaipur Blue Pottery,Blue Pottery,405.54,10.0,1.78,1,4,29,0.737,0.89,1,हस्तशिल्प जार,2765.0,4752.73
+SIH-CRAFT-0340,Zari Zardozi Embroidery,Zari Embroidery,630.81,20.1,0.73,0,5,5,0.781,0.955,1,मखमली सूट पीस,4597.5,7058.22
+SIH-CRAFT-0341,Varanasi Silk Handloom,Handloom Silk,1993.0,27.8,0.7,1,4,22,0.753,0.944,1,बनारसी कतान सिल्क,7224.4,12915.99
+SIH-CRAFT-0342,Varanasi Silk Handloom,Handloom Silk,3140.7,35.5,1.06,1,4,29,0.85,0.726,1,जरी पल्लू,9239.0,17185.1
+SIH-CRAFT-0343,Varanasi Silk Handloom,Handloom Silk,734.6,5.6,0.81,0,2,0,0.28,0.106,0,हाथ का ताना-बाना,376.32,1616.12
+SIH-CRAFT-0344,Kolhapuri Chappal & Leather,Leather Craft,818.31,10.8,0.85,1,2,15,0.939,0.758,1,कोल्हापुरी हाथ की चप्पल,2212.2,4563.69
+SIH-CRAFT-0345,Varanasi Silk Handloom,Handloom Silk,1016.29,31.9,0.56,1,4,32,0.817,0.884,1,बनारसी कतान सिल्क,8391.2,13172.61
+SIH-CRAFT-0346,Gorakhpur Terracotta,Terracotta,296.64,7.9,3.38,1,4,40,0.832,0.8,1,हाथ से बनी मटकी,2243.2,3901.28
+SIH-CRAFT-0347,Jaipur Blue Pottery,Blue Pottery,562.61,8.3,1.86,1,3,17,0.864,0.897,1,क्वार्ट्ज प्लेट,2089.3,4052.58
+SIH-CRAFT-0348,Kutch Bandhani & Ajrakh,Bandhani,991.7,21.5,0.68,1,3,11,0.864,0.874,1,कच्छी बंधेज दुपट्टा,4594.0,8013.19
+SIH-CRAFT-0349,Varanasi Silk Handloom,Handloom Silk,2751.7,29.4,1.17,1,5,20,0.79,0.809,1,हाथ का ताना-बाना,7944.0,14911.69
+SIH-CRAFT-0350,Bastar Dhokra Bell Metal,Dhokra Art,1013.37,24.9,3.03,1,4,40,0.684,0.848,1,बेल मेटल बैल,6526.2,10650.92
+SIH-CRAFT-0351,Saharanpur Wood Carving,Wood Carving,993.77,12.8,3.33,1,5,7,0.761,0.78,1,हाथ से तराशा बॉक्स,2985.0,5843.84
+SIH-CRAFT-0352,Moradabad Brassware,Brass Craft,1453.31,25.8,2.84,1,3,36,0.903,0.961,1,हाथ की ढलाई,5854.8,10338.45
+SIH-CRAFT-0353,Kutch Bandhani & Ajrakh,Bandhani,844.6,17.5,0.66,1,3,19,0.949,0.817,1,प्राकृतिक नील रंग,3890.0,6864.21
+SIH-CRAFT-0354,Gorakhpur Terracotta,Terracotta,448.43,12.0,1.53,1,2,37,0.861,0.838,1,हाथ से बनी मटकी,2763.0,4807.93
+SIH-CRAFT-0355,Kolhapuri Chappal & Leather,Leather Craft,451.99,12.2,0.85,1,3,9,0.805,0.915,1,हाथ की सिलाई,2526.2,4493.06
+SIH-CRAFT-0356,Kolhapuri Chappal & Leather,Leather Craft,459.84,12.5,0.67,1,1,17,0.767,0.916,1,प्राकृतिक चमड़ा,2405.0,4340.03
+SIH-CRAFT-0357,Kutch Bandhani & Ajrakh,Bandhani,565.05,10.2,0.41,1,2,33,0.668,0.884,1,प्राकृतिक नील रंग,2473.8,4574.95
+SIH-CRAFT-0358,Zari Zardozi Embroidery,Zari Embroidery,1383.9,22.5,0.91,0,5,36,0.748,0.716,1,जरदोज़ी का काम,5602.5,9431.64
+SIH-CRAFT-0359,Mithila Madhubani Painting,Madhubani,175.39,5.3,0.72,0,2,1,0.211,0.3,0,मिथिला पेंटिंग,316.41,385.86
+SIH-CRAFT-0360,Bastar Dhokra Bell Metal,Dhokra Art,1585.3,16.9,0.96,1,4,20,0.719,0.924,1,बेल मेटल बैल,4322.2,8447.62
+SIH-CRAFT-0361,Mithila Madhubani Painting,Madhubani,669.96,10.5,0.53,1,5,30,0.783,0.98,1,पेड़ और मोर,2917.5,5315.57
+SIH-CRAFT-0362,Gorakhpur Terracotta,Terracotta,209.82,7.1,0.54,1,3,36,0.713,0.896,1,टेराकोटा सुराही,1931.6,3363.42
+SIH-CRAFT-0363,Varanasi Silk Handloom,Handloom Silk,1692.0,21.7,0.71,1,5,22,0.705,0.939,1,हाथ का ताना-बाना,5972.0,10818.9
+SIH-CRAFT-0364,Moradabad Brassware,Brass Craft,1224.35,18.5,3.45,1,3,24,0.979,0.842,1,पीतल का नक्काशीदार दीया,4171.0,7756.22
+SIH-CRAFT-0365,Mithila Madhubani Painting,Madhubani,302.01,2.9,0.26,0,1,1,0.357,0.256,0,गोबर लीपा कैनवास,162.69,664.42
+SIH-CRAFT-0366,Jaipur Blue Pottery,Blue Pottery,707.8,6.5,2.53,1,4,37,0.856,0.872,1,नीली मिट्टी का फूलदान,2069.5,4221.86
+SIH-CRAFT-0367,Jaipur Blue Pottery,Blue Pottery,360.86,15.7,1.52,1,5,10,0.831,0.838,1,नीली मिट्टी का फूलदान,3996.5,6354.94
+SIH-CRAFT-0368,Varanasi Silk Handloom,Handloom Silk,2349.72,29.2,0.93,1,5,36,0.739,0.876,1,शुद्ध रेशमी साड़ी,8132.0,14622.82
+SIH-CRAFT-0369,Kutch Bandhani & Ajrakh,Bandhani,383.93,17.5,0.28,1,2,9,0.814,0.877,1,अजरख ब्लॉक प्रिंट,3530.0,5756.31
+SIH-CRAFT-0370,Kolhapuri Chappal & Leather,Leather Craft,225.9,1.4,0.53,0,2,1,0.341,0.218,0,कोल्हापुरी हाथ की चप्पल,77.28,496.98
+SIH-CRAFT-0371,Gorakhpur Terracotta,Terracotta,176.7,4.2,2.22,1,4,12,0.963,0.926,1,माटी का घड़ा,1053.6,2133.4
+SIH-CRAFT-0372,Jaipur Blue Pottery,Blue Pottery,281.75,1.9,2.75,0,2,3,0.118,0.335,0,नीली मिट्टी का फूलदान,119.13,619.85
+SIH-CRAFT-0373,Moradabad Brassware,Brass Craft,1412.12,16.5,2.02,1,2,3,0.931,0.892,1,पीतल का नक्काशीदार दीया,3246.0,6760.96
+SIH-CRAFT-0374,Saharanpur Wood Carving,Wood Carving,837.71,20.9,4.05,1,2,26,0.919,0.753,1,हाथ से तराशा बॉक्स,4340.1,7462.54
+SIH-CRAFT-0375,Kutch Bandhani & Ajrakh,Bandhani,206.99,1.8,0.8,0,2,5,0.41,0.108,0,कच्छी बंधेज दुपट्टा,104.76,455.38
+SIH-CRAFT-0376,Gorakhpur Terracotta,Terracotta,161.32,0.6,3.23,0,2,4,0.337,0.113,0,धूपदानी,33.12,354.9
+SIH-CRAFT-0377,Saharanpur Wood Carving,Wood Carving,1262.58,27.1,3.49,1,3,33,0.954,0.733,1,हाथ से तराशा बॉक्स,5942.1,10198.82
+SIH-CRAFT-0378,Bastar Dhokra Bell Metal,Dhokra Art,787.77,16.9,2.7,1,5,36,0.903,0.867,1,बेल मेटल बैल,4765.0,7968.74
+SIH-CRAFT-0379,Varanasi Silk Handloom,Handloom Silk,976.26,4.6,0.82,0,1,3,0.332,0.137,0,हाथ का ताना-बाना,292.56,2147.77
+SIH-CRAFT-0380,Kutch Bandhani & Ajrakh,Bandhani,961.15,20.3,0.63,1,2,13,0.817,0.836,1,अजरख ब्लॉक प्रिंट,4133.2,7349.87
+SIH-CRAFT-0381,Mithila Madhubani Painting,Madhubani,520.41,14.7,0.78,1,3,35,0.723,0.887,1,पेड़ और मोर,3626.7,6071.1
+SIH-CRAFT-0382,Varanasi Silk Handloom,Handloom Silk,1921.63,41.2,0.47,1,4,31,0.754,0.984,1,बनारसी कतान सिल्क,10682.6,17488.21
+SIH-CRAFT-0383,Jaipur Blue Pottery,Blue Pottery,369.71,13.7,2.42,1,4,35,0.836,0.89,1,क्वार्ट्ज प्लेट,3717.1,5989.69
+SIH-CRAFT-0384,Saharanpur Wood Carving,Wood Carving,454.28,11.4,2.48,1,5,26,0.886,0.733,1,लकड़ी का झरोखा,2955.0,5075.03
+SIH-CRAFT-0385,Varanasi Silk Handloom,Handloom Silk,1716.82,43.9,1.04,1,5,36,0.773,0.731,1,शुद्ध रेशमी साड़ी,11954.0,18928.11
+SIH-CRAFT-0386,Bastar Dhokra Bell Metal,Dhokra Art,1288.54,25.9,1.09,1,5,15,0.712,0.97,1,मोम की ढलाई कला,6700.0,11257.03
+SIH-CRAFT-0387,Varanasi Silk Handloom,Handloom Silk,2697.27,47.5,0.49,1,4,5,0.956,0.943,1,बनारसी कतान सिल्क,11855.0,20118.06
+SIH-CRAFT-0388,Bastar Dhokra Bell Metal,Dhokra Art,1148.25,21.1,3.4,1,3,36,0.893,0.86,1,मोम की ढलाई कला,5308.6,9189.25
+SIH-CRAFT-0389,Zari Zardozi Embroidery,Zari Embroidery,983.75,33.0,0.42,0,3,11,0.684,0.891,1,मखमली सूट पीस,6798.0,10505.36
+SIH-CRAFT-0390,Saharanpur Wood Carving,Wood Carving,784.66,29.5,4.19,1,3,20,0.781,0.799,1,हाथ से तराशा बॉक्स,6229.5,9941.62
+SIH-CRAFT-0391,Bastar Dhokra Bell Metal,Dhokra Art,652.0,23.3,3.19,1,5,22,0.928,0.859,1,मोम की ढलाई कला,6155.0,9661.95
+SIH-CRAFT-0392,Kolhapuri Chappal & Leather,Leather Craft,470.53,11.9,0.63,1,3,11,0.974,0.889,1,कोल्हापुरी हाथ की चप्पल,2497.4,4479.21
+SIH-CRAFT-0393,Kolhapuri Chappal & Leather,Leather Craft,732.13,12.8,1.01,1,4,40,0.838,0.893,1,प्राकृतिक चमड़ा,3262.4,5865.12
+SIH-CRAFT-0394,Kolhapuri Chappal & Leather,Leather Craft,858.38,13.9,0.82,1,1,27,0.698,0.894,1,कोल्हापुरी हाथ की चप्पल,2795.8,5405.64
+SIH-CRAFT-0395,Moradabad Brassware,Brass Craft,793.12,13.7,2.63,1,2,21,0.717,0.857,1,ब्रास पूजा थाली,2972.8,5556.49
+SIH-CRAFT-0396,Bastar Dhokra Bell Metal,Dhokra Art,1454.84,26.3,3.14,1,5,38,0.778,0.848,1,बेल मेटल बैल,7145.0,12082.28
+SIH-CRAFT-0397,Moradabad Brassware,Brass Craft,656.38,15.6,3.37,1,4,38,0.668,0.916,1,पीतल का नक्काशीदार दीया,3970.8,6719.19
+SIH-CRAFT-0398,Zari Zardozi Embroidery,Zari Embroidery,541.39,3.2,0.46,0,2,4,0.291,0.261,0,मखमली सूट पीस,181.44,1191.06
+SIH-CRAFT-0399,Varanasi Silk Handloom,Handloom Silk,1308.08,46.0,0.55,1,3,35,0.689,0.712,1,हाथ का ताना-बाना,11381.0,17602.76
+SIH-CRAFT-0400,Kolhapuri Chappal & Leather,Leather Craft,446.56,14.3,0.4,1,4,12,0.663,0.969,1,हाथ की सिलाई,3154.4,5333.8
+SIH-CRAFT-0401,Gorakhpur Terracotta,Terracotta,337.61,12.3,1.4,1,3,7,0.909,0.792,1,टेराकोटा सुराही,2515.8,4324.6
+SIH-CRAFT-0402,Mithila Madhubani Painting,Madhubani,682.44,12.5,0.48,1,4,8,0.765,0.956,1,प्राकृतिक रंग चित्र,2907.5,5318.92
+SIH-CRAFT-0403,Saharanpur Wood Carving,Wood Carving,618.45,24.1,2.76,1,2,10,0.871,0.829,1,लकड़ी का झरोखा,4704.9,7659.02
+SIH-CRAFT-0404,Zari Zardozi Embroidery,Zari Embroidery,282.41,1.6,0.92,0,2,0,0.235,0.239,0,सच्ची जरी कढ़ाई,90.72,621.3
+SIH-CRAFT-0405,Gorakhpur Terracotta,Terracotta,158.65,1.1,2.91,0,2,3,0.115,0.364,0,टेराकोटा सुराही,60.72,349.03
+SIH-CRAFT-0406,Saharanpur Wood Carving,Wood Carving,1348.21,10.0,4.34,1,2,7,0.72,0.883,1,शीशम की लकड़ी की जाली,1995.0,4985.83
+SIH-CRAFT-0407,Kutch Bandhani & Ajrakh,Bandhani,464.46,19.3,0.82,1,4,30,0.863,0.973,1,प्राकृतिक नील रंग,4657.4,7387.01
+SIH-CRAFT-0408,Mithila Madhubani Painting,Madhubani,644.28,9.1,0.15,1,3,19,0.834,0.867,1,गोबर लीपा कैनवास,2205.1,4319.16
+SIH-CRAFT-0409,Moradabad Brassware,Brass Craft,1141.35,16.1,2.92,1,5,10,0.826,0.886,1,हाथ की ढलाई,3853.0,7214.87
+SIH-CRAFT-0410,Jaipur Blue Pottery,Blue Pottery,672.08,15.8,0.76,1,2,21,0.91,0.787,1,नीली मिट्टी का फूलदान,3617.2,6263.03
+SIH-CRAFT-0411,Moradabad Brassware,Brass Craft,1125.21,15.9,4.47,1,5,13,0.826,0.74,1,ब्रास पूजा थाली,3852.0,7191.73
+SIH-CRAFT-0412,Kolhapuri Chappal & Leather,Leather Craft,730.43,8.3,1.11,1,3,3,0.833,0.861,1,कोल्हापुरी हाथ की चप्पल,1671.8,3715.51
+SIH-CRAFT-0413,Gorakhpur Terracotta,Terracotta,329.0,8.9,3.34,1,3,16,0.897,0.962,1,हाथ से बनी मटकी,1984.4,3595.59
+SIH-CRAFT-0414,Varanasi Silk Handloom,Handloom Silk,2385.64,38.6,0.53,1,3,19,0.714,0.753,1,बनारसी कतान सिल्क,9394.6,16375.82
+SIH-CRAFT-0415,Kolhapuri Chappal & Leather,Leather Craft,679.8,8.2,0.45,1,1,15,0.889,0.841,1,प्राकृतिक चमड़ा,1635.4,3598.02
+SIH-CRAFT-0416,Saharanpur Wood Carving,Wood Carving,1055.47,8.4,3.09,1,3,23,0.81,0.795,1,लकड़ी का झरोखा,2033.4,4642.47
+SIH-CRAFT-0417,Moradabad Brassware,Brass Craft,782.87,19.3,5.13,1,5,13,0.652,0.771,1,पीतल का नक्काशीदार दीया,4634.0,7785.27
+SIH-CRAFT-0418,Kutch Bandhani & Ajrakh,Bandhani,587.59,16.9,0.43,1,3,32,0.797,0.925,1,अजरख ब्लॉक प्रिंट,3961.4,6613.64
+SIH-CRAFT-0419,Kolhapuri Chappal & Leather,Leather Craft,737.33,5.9,0.62,1,2,37,0.715,0.913,1,हाथ की सिलाई,1640.6,3682.71
+SIH-CRAFT-0420,Jaipur Blue Pottery,Blue Pottery,840.66,17.9,1.99,1,5,40,0.72,0.711,1,क्वार्ट्ज प्लेट,4985.5,8337.82
+SIH-CRAFT-0421,Kolhapuri Chappal & Leather,Leather Craft,269.52,1.8,0.52,0,2,1,0.412,0.256,0,प्राकृतिक चमड़ा,99.36,592.94
+SIH-CRAFT-0422,Mithila Madhubani Painting,Madhubani,530.73,19.1,0.45,1,5,18,0.93,0.934,1,गोबर लीपा कैनवास,4758.5,7612.96
+SIH-CRAFT-0423,Kolhapuri Chappal & Leather,Leather Craft,445.53,11.2,0.85,1,2,33,0.96,0.712,1,प्राकृतिक चमड़ा,2555.8,4524.3
+SIH-CRAFT-0424,Varanasi Silk Handloom,Handloom Silk,1749.7,17.9,0.57,1,4,27,0.805,0.832,1,बनारसी कतान सिल्क,4844.2,9374.26
+SIH-CRAFT-0425,Gorakhpur Terracotta,Terracotta,98.89,1.6,2.06,0,2,5,0.192,0.241,0,टेराकोटा सुराही,88.32,217.56
+SIH-CRAFT-0426,Kutch Bandhani & Ajrakh,Bandhani,592.24,16.5,0.78,1,4,19,0.774,0.963,1,प्राकृतिक नील रंग,3882.0,6512.72
+SIH-CRAFT-0427,Kutch Bandhani & Ajrakh,Bandhani,994.18,13.8,0.54,1,4,3,0.816,0.74,1,कच्छी बंधेज दुपट्टा,3053.4,5936.73
+SIH-CRAFT-0428,Varanasi Silk Handloom,Handloom Silk,2380.0,25.3,0.55,1,4,10,0.868,0.82,1,हाथ का ताना-बाना,6424.4,12358.44
+SIH-CRAFT-0429,Jaipur Blue Pottery,Blue Pottery,613.35,8.9,0.95,1,5,4,0.73,0.737,1,हस्तशिल्प जार,2240.5,4325.2
+SIH-CRAFT-0430,Mithila Madhubani Painting,Madhubani,531.95,32.9,0.2,1,3,19,0.954,0.85,1,पेड़ और मोर,7226.9,10946.95
+SIH-CRAFT-0431,Zari Zardozi Embroidery,Zari Embroidery,447.8,4.8,0.81,0,2,0,0.176,0.262,0,सच्ची जरी कढ़ाई,272.16,985.16
+SIH-CRAFT-0432,Bastar Dhokra Bell Metal,Dhokra Art,1413.4,23.2,2.95,1,3,35,0.737,0.91,1,मोम की ढलाई कला,5768.2,10167.66
+SIH-CRAFT-0433,Bastar Dhokra Bell Metal,Dhokra Art,575.73,18.3,1.16,1,3,15,0.822,0.964,1,बेल मेटल बैल,4360.8,7136.82
+SIH-CRAFT-0434,Kutch Bandhani & Ajrakh,Bandhani,784.41,8.8,0.83,1,4,5,0.94,0.854,1,कच्छी बंधेज दुपट्टा,1993.4,4222.54
+SIH-CRAFT-0435,Jaipur Blue Pottery,Blue Pottery,421.68,14.4,2.42,1,5,36,0.789,0.954,1,हस्तशिल्प जार,4068.0,6533.57
+SIH-CRAFT-0436,Kolhapuri Chappal & Leather,Leather Craft,913.05,10.3,1.01,1,3,40,0.916,0.963,1,हाथ की सिलाई,2618.8,5240.5
+SIH-CRAFT-0437,Zari Zardozi Embroidery,Zari Embroidery,590.58,21.9,0.46,0,2,21,0.847,0.858,1,सच्ची जरी कढ़ाई,4454.1,6810.32
+SIH-CRAFT-0438,Varanasi Silk Handloom,Handloom Silk,2610.39,16.3,0.82,1,5,3,0.774,0.76,1,हाथ का ताना-बाना,4283.0,9778.58
+SIH-CRAFT-0439,Kutch Bandhani & Ajrakh,Bandhani,423.82,16.4,0.38,1,4,30,0.836,0.877,1,प्राकृतिक नील रंग,4025.2,6478.68
+SIH-CRAFT-0440,Kutch Bandhani & Ajrakh,Bandhani,630.58,18.5,0.54,1,3,38,0.833,0.774,1,अजरख ब्लॉक प्रिंट,4381.0,7238.13
+SIH-CRAFT-0441,Zari Zardozi Embroidery,Zari Embroidery,1190.77,28.4,0.9,0,2,17,0.797,0.903,1,जरदोज़ी का काम,5622.6,9198.05
+SIH-CRAFT-0442,Jaipur Blue Pottery,Blue Pottery,570.31,10.7,1.81,1,2,13,0.778,0.884,1,नीली मिट्टी का फूलदान,2431.3,4524.67
+SIH-CRAFT-0443,Mithila Madhubani Painting,Madhubani,580.13,10.5,0.28,1,4,8,0.851,0.91,1,पेड़ और मोर,2461.5,4578.7
+SIH-CRAFT-0444,Zari Zardozi Embroidery,Zari Embroidery,750.79,34.1,0.34,0,3,34,0.795,0.758,1,मखमली सूट पीस,7364.1,10955.1
+SIH-CRAFT-0445,Kolhapuri Chappal & Leather,Leather Craft,370.17,11.6,0.81,1,2,13,0.872,0.804,1,हाथ की सिलाई,2329.4,4116.92
+SIH-CRAFT-0446,Gorakhpur Terracotta,Terracotta,70.42,0.9,1.7,0,2,3,0.305,0.231,0,माटी का घड़ा,49.68,154.92
+SIH-CRAFT-0447,Jaipur Blue Pottery,Blue Pottery,749.38,13.8,1.88,1,4,20,0.725,0.979,1,क्वार्ट्ज प्लेट,3515.4,6229.95
+SIH-CRAFT-0448,Kutch Bandhani & Ajrakh,Bandhani,508.89,12.5,0.27,1,2,35,0.747,0.975,1,प्राकृतिक नील रंग,2950.0,5142.0
+SIH-CRAFT-0449,Moradabad Brassware,Brass Craft,630.31,2.9,4.62,0,2,4,0.269,0.135,0,ब्रास पूजा थाली,168.78,1386.68
+SIH-CRAFT-0450,Bastar Dhokra Bell Metal,Dhokra Art,1486.18,29.0,2.1,1,4,7,0.776,0.929,1,ढोकरा आदिवासी मूर्ति,7007.0,11938.29
+SIH-CRAFT-0451,Varanasi Silk Handloom,Handloom Silk,1848.58,31.5,0.83,1,5,19,0.732,0.727,1,हाथ का ताना-बाना,8475.0,14409.33
+SIH-CRAFT-0452,Jaipur Blue Pottery,Blue Pottery,448.17,10.4,1.08,1,4,14,0.963,0.898,1,नीली मिट्टी का फूलदान,2633.2,4632.35
+SIH-CRAFT-0453,Bastar Dhokra Bell Metal,Dhokra Art,758.35,15.3,1.52,1,3,15,0.926,0.943,1,मोम की ढलाई कला,3682.8,6468.05
+SIH-CRAFT-0454,Mithila Madhubani Painting,Madhubani,315.93,10.2,0.77,1,4,3,0.902,0.857,1,मिथिला पेंटिंग,2319.6,4030.47
+SIH-CRAFT-0455,Bastar Dhokra Bell Metal,Dhokra Art,846.96,29.8,3.18,1,5,20,0.812,0.985,1,बेल मेटल बैल,7750.0,12078.4
+SIH-CRAFT-0456,Moradabad Brassware,Brass Craft,1500.2,10.6,3.87,1,5,33,0.96,0.709,1,ब्रास पूजा थाली,2933.0,6457.32
+SIH-CRAFT-0457,Kutch Bandhani & Ajrakh,Bandhani,368.29,2.0,0.28,0,2,2,0.341,0.054,0,कच्छी बंधेज दुपट्टा,116.4,810.24
+SIH-CRAFT-0458,Kutch Bandhani & Ajrakh,Bandhani,560.35,15.8,0.38,1,4,19,0.728,0.837,1,प्राकृतिक नील रंग,3729.4,6263.66
+SIH-CRAFT-0459,Saharanpur Wood Carving,Wood Carving,898.77,11.1,3.39,1,4,26,0.932,0.781,1,शीशम की लकड़ी की जाली,2754.3,5404.14
+SIH-CRAFT-0460,Zari Zardozi Embroidery,Zari Embroidery,1054.69,15.7,0.37,0,4,18,0.833,0.948,1,जरदोज़ी का काम,3614.1,6302.87
+SIH-CRAFT-0461,Mithila Madhubani Painting,Madhubani,656.2,21.2,0.11,1,4,34,0.694,0.959,1,प्राकृतिक रंग चित्र,5237.6,8429.13
+SIH-CRAFT-0462,Bastar Dhokra Bell Metal,Dhokra Art,1118.35,22.5,1.88,1,5,13,0.67,0.936,1,मोम की ढलाई कला,5820.0,9839.27
+SIH-CRAFT-0463,Jaipur Blue Pottery,Blue Pottery,534.06,11.1,1.83,1,4,25,0.657,0.735,1,हस्तशिल्प जार,2961.3,5191.24
+SIH-CRAFT-0464,Zari Zardozi Embroidery,Zari Embroidery,1054.69,26.2,0.42,0,4,25,0.757,0.848,1,मखमली सूट पीस,5955.6,9463.89
+SIH-CRAFT-0465,Bastar Dhokra Bell Metal,Dhokra Art,367.67,2.4,2.51,0,1,1,0.324,0.375,0,मोम की ढलाई कला,145.44,808.87
+SIH-CRAFT-0466,Zari Zardozi Embroidery,Zari Embroidery,1341.35,11.8,0.41,0,3,23,0.755,0.784,1,सच्ची जरी कढ़ाई,2716.8,5478.5
+SIH-CRAFT-0467,Zari Zardozi Embroidery,Zari Embroidery,734.81,21.1,0.9,0,4,40,0.822,0.831,1,जरदोज़ी का काम,5094.3,7869.3
+SIH-CRAFT-0468,Mithila Madhubani Painting,Madhubani,127.51,2.2,0.28,0,1,1,0.158,0.086,0,मिथिला पेंटिंग,123.42,280.52
+SIH-CRAFT-0469,Bastar Dhokra Bell Metal,Dhokra Art,529.0,18.7,2.87,1,3,9,0.737,0.745,1,बेल मेटल बैल,4361.2,7074.27
+SIH-CRAFT-0470,Kutch Bandhani & Ajrakh,Bandhani,497.92,10.5,0.64,1,2,36,0.927,0.708,1,प्राकृतिक नील रंग,2577.0,4623.64
+SIH-CRAFT-0471,Saharanpur Wood Carving,Wood Carving,290.08,2.6,4.41,0,2,4,0.256,0.389,0,लकड़ी का झरोखा,147.42,638.18
+SIH-CRAFT-0472,Kolhapuri Chappal & Leather,Leather Craft,708.55,11.9,0.91,1,4,36,0.861,0.855,1,प्राकृतिक चमड़ा,3015.2,5499.56
+SIH-CRAFT-0473,Bastar Dhokra Bell Metal,Dhokra Art,1385.18,19.7,1.79,1,4,12,0.75,0.7,1,ढोकरा आदिवासी मूर्ति,4868.6,8915.1
+SIH-CRAFT-0474,Saharanpur Wood Carving,Wood Carving,935.1,22.5,2.62,1,5,22,0.653,0.825,1,हाथ से तराशा बॉक्स,5392.5,9014.76
+SIH-CRAFT-0475,Zari Zardozi Embroidery,Zari Embroidery,457.58,19.3,0.59,0,5,28,0.732,0.907,1,मखमली सूट पीस,4762.5,7047.11
+SIH-CRAFT-0476,Kutch Bandhani & Ajrakh,Bandhani,476.47,7.3,0.64,1,4,20,0.744,0.915,1,अजरख ब्लॉक प्रिंट,1891.4,3669.12
+SIH-CRAFT-0477,Kutch Bandhani & Ajrakh,Bandhani,354.77,8.2,0.28,1,3,31,0.74,0.881,1,कच्छी बंधेज दुपट्टा,2154.2,3859.61
+SIH-CRAFT-0478,Saharanpur Wood Carving,Wood Carving,449.63,18.8,1.49,1,2,21,0.739,0.907,1,लकड़ी का झरोखा,3868.2,6301.57
+SIH-CRAFT-0479,Gorakhpur Terracotta,Terracotta,195.21,8.4,1.53,1,3,34,0.979,0.834,1,माटी का घड़ा,2156.4,3647.17
+SIH-CRAFT-0480,Saharanpur Wood Carving,Wood Carving,1150.57,9.5,1.79,1,5,7,0.829,0.753,1,हाथ से तराशा बॉक्स,2242.5,5053.14
+SIH-CRAFT-0481,Kutch Bandhani & Ajrakh,Bandhani,397.57,18.3,0.37,1,3,18,0.893,0.71,1,अजरख ब्लॉक प्रिंट,4039.8,6462.95
+SIH-CRAFT-0482,Jaipur Blue Pottery,Blue Pottery,890.16,12.6,2.1,1,4,23,0.702,0.911,1,हस्तशिल्प जार,3280.8,6103.3
+SIH-CRAFT-0483,Kolhapuri Chappal & Leather,Leather Craft,501.99,12.0,0.56,1,1,16,0.971,0.768,1,प्राकृतिक चमड़ा,2304.0,4260.59
+SIH-CRAFT-0484,Saharanpur Wood Carving,Wood Carving,1194.39,20.0,2.26,1,3,3,0.97,0.869,1,लकड़ी का झरोखा,4065.0,7572.68
+SIH-CRAFT-0485,Bastar Dhokra Bell Metal,Dhokra Art,670.49,27.0,1.47,1,4,8,0.876,0.798,1,बेल मेटल बैल,6546.0,10214.76
+SIH-CRAFT-0486,Gorakhpur Terracotta,Terracotta,343.37,10.7,2.87,1,2,34,0.727,0.985,1,हाथ से बनी मटकी,2478.8,4282.43
+SIH-CRAFT-0487,Bastar Dhokra Bell Metal,Dhokra Art,523.49,18.3,2.76,1,4,5,0.81,0.827,1,मोम की ढलाई कला,4430.4,7160.25
+SIH-CRAFT-0488,Kolhapuri Chappal & Leather,Leather Craft,463.87,7.1,0.68,1,4,20,0.936,0.874,1,हाथ की सिलाई,1776.8,3497.4
+SIH-CRAFT-0489,Mithila Madhubani Painting,Madhubani,335.26,16.3,0.28,1,4,32,0.65,0.885,1,पेड़ और मोर,4114.9,6480.22
+SIH-CRAFT-0490,Mithila Madhubani Painting,Madhubani,236.34,2.7,0.53,0,2,5,0.122,0.389,0,पेड़ और मोर,161.19,519.95
+SIH-CRAFT-0491,Varanasi Silk Handloom,Handloom Silk,2044.36,40.3,0.89,1,4,29,0.861,0.732,1,बनारसी कतान सिल्क,10429.4,17312.08
+SIH-CRAFT-0492,Gorakhpur Terracotta,Terracotta,188.93,12.6,1.11,1,4,15,0.683,0.866,1,धूपदानी,2845.8,4569.39
+SIH-CRAFT-0493,Bastar Dhokra Bell Metal,Dhokra Art,1271.45,15.6,1.79,1,5,7,0.654,0.967,1,बेल मेटल बैल,4005.0,7595.71
+SIH-CRAFT-0494,Bastar Dhokra Bell Metal,Dhokra Art,566.11,3.0,2.53,0,2,4,0.36,0.362,0,मोम की ढलाई कला,192.6,1245.44
+SIH-CRAFT-0495,Gorakhpur Terracotta,Terracotta,229.74,3.4,0.71,1,3,7,0.962,0.979,1,माटी का घड़ा,771.4,1824.04
+SIH-CRAFT-0496,Jaipur Blue Pottery,Blue Pottery,642.41,8.7,1.76,1,3,39,0.856,0.752,1,हस्तशिल्प जार,2507.7,4725.15
+SIH-CRAFT-0497,Kolhapuri Chappal & Leather,Leather Craft,413.31,12.0,0.69,1,4,30,0.941,0.748,1,कोल्हापुरी हाथ की चप्पल,2946.0,5007.57
+SIH-CRAFT-0498,Kolhapuri Chappal & Leather,Leather Craft,552.51,6.7,1.2,1,4,25,0.948,0.86,1,प्राकृतिक चमड़ा,1768.6,3606.0
+SIH-CRAFT-0499,Saharanpur Wood Carving,Wood Carving,1033.24,25.8,2.0,1,3,39,0.83,0.809,1,लकड़ी का झरोखा,5770.8,9657.95
+SIH-CRAFT-0500,Moradabad Brassware,Brass Craft,1142.88,27.2,1.5,1,2,21,0.847,0.85,1,ब्रास पूजा थाली,5591.8,9564.32
+SIH-CRAFT-0501,Gorakhpur Terracotta,Terracotta,216.57,12.4,0.57,1,3,38,0.819,0.865,1,टेराकोटा सुराही,3000.4,4815.41
+SIH-CRAFT-0502,Jaipur Blue Pottery,Blue Pottery,545.61,7.9,1.41,1,3,17,0.735,0.787,1,हस्तशिल्प जार,2000.9,3910.29
+SIH-CRAFT-0503,Kutch Bandhani & Ajrakh,Bandhani,473.95,7.2,0.43,1,3,14,0.811,0.961,1,प्राकृतिक नील रंग,1693.2,3398.15
+SIH-CRAFT-0504,Zari Zardozi Embroidery,Zari Embroidery,550.13,26.1,0.33,0,5,8,0.907,0.967,1,सच्ची जरी कढ़ाई,5992.5,8832.55
+SIH-CRAFT-0505,Saharanpur Wood Carving,Wood Carving,333.72,4.2,1.25,0,1,5,0.328,0.261,0,शीशम की लकड़ी की जाली,223.02,734.18
+SIH-CRAFT-0506,Kutch Bandhani & Ajrakh,Bandhani,719.51,11.1,0.6,1,3,35,0.88,0.744,1,प्राकृतिक नील रंग,2811.6,5239.5
+SIH-CRAFT-0507,Kutch Bandhani & Ajrakh,Bandhani,360.91,2.3,0.26,0,2,2,0.375,0.102,0,अजरख ब्लॉक प्रिंट,133.86,794.0
+SIH-CRAFT-0508,Jaipur Blue Pottery,Blue Pottery,759.92,13.7,1.18,1,5,35,0.793,0.902,1,नीली मिट्टी का फूलदान,3881.5,6738.42
+SIH-CRAFT-0509,Bastar Dhokra Bell Metal,Dhokra Art,1036.65,24.3,1.33,1,5,36,0.731,0.721,1,मोम की ढलाई कला,6615.0,10802.23
+SIH-CRAFT-0510,Saharanpur Wood Carving,Wood Carving,976.02,8.7,2.33,1,4,25,0.713,0.8,1,लकड़ी का झरोखा,2228.1,4798.06
+SIH-CRAFT-0511,Gorakhpur Terracotta,Terracotta,200.78,6.8,2.96,1,4,12,0.795,0.968,1,टेराकोटा सुराही,1594.4,2895.99
+SIH-CRAFT-0512,Varanasi Silk Handloom,Handloom Silk,1258.78,48.1,0.47,1,5,6,0.73,0.88,1,शुद्ध रेशमी साड़ी,12596.0,19176.45
+SIH-CRAFT-0513,Moradabad Brassware,Brass Craft,1432.55,10.2,3.53,1,2,24,0.719,0.856,1,पीतल का नक्काशीदार दीया,2338.8,5563.82
+SIH-CRAFT-0514,Kolhapuri Chappal & Leather,Leather Craft,505.19,10.3,0.98,1,2,4,0.774,0.963,1,हाथ की सिलाई,1955.2,3794.03
+SIH-CRAFT-0515,Gorakhpur Terracotta,Terracotta,168.03,5.2,2.59,1,3,6,0.803,0.974,1,माटी का घड़ा,1109.2,2196.76
+SIH-CRAFT-0516,Kutch Bandhani & Ajrakh,Bandhani,830.39,20.6,0.45,1,2,4,0.747,0.956,1,अजरख ब्लॉक प्रिंट,4056.4,7069.67
+SIH-CRAFT-0517,Varanasi Silk Handloom,Handloom Silk,827.86,7.1,1.12,0,2,4,0.286,0.115,0,जरी पल्लू,477.12,1821.29
+SIH-CRAFT-0518,Kolhapuri Chappal & Leather,Leather Craft,145.16,1.2,0.82,0,2,3,0.238,0.105,0,प्राकृतिक चमड़ा,66.24,319.35
+SIH-CRAFT-0519,Saharanpur Wood Carving,Wood Carving,702.33,29.9,4.42,1,4,6,0.857,0.955,1,शीशम की लकड़ी की जाली,6458.7,10139.89
+SIH-CRAFT-0520,Kolhapuri Chappal & Leather,Leather Craft,194.14,1.3,0.71,0,1,0,0.355,0.232,0,हाथ की सिलाई,67.08,427.11
+SIH-CRAFT-0521,Zari Zardozi Embroidery,Zari Embroidery,468.34,3.1,0.7,0,2,2,0.418,0.165,0,मखमली सूट पीस,175.77,1030.35
+SIH-CRAFT-0522,Mithila Madhubani Painting,Madhubani,326.22,23.2,0.66,1,3,22,0.877,0.961,1,गोबर लीपा कैनवास,5225.2,7966.92
+SIH-CRAFT-0523,Kutch Bandhani & Ajrakh,Bandhani,432.25,1.2,0.85,0,1,2,0.124,0.237,0,प्राकृतिक नील रंग,65.52,950.95
+SIH-CRAFT-0524,Jaipur Blue Pottery,Blue Pottery,811.74,8.0,0.66,1,4,29,0.967,0.788,1,हस्तशिल्प जार,2299.0,4672.0
+SIH-CRAFT-0525,Moradabad Brassware,Brass Craft,825.52,10.6,1.62,1,4,39,0.852,0.873,1,पीतल का नक्काशीदार दीया,2895.8,5496.28
+SIH-CRAFT-0526,Gorakhpur Terracotta,Terracotta,356.44,8.2,2.01,1,4,26,0.711,0.812,1,धूपदानी,2095.6,3782.75
+SIH-CRAFT-0527,Mithila Madhubani Painting,Madhubani,374.45,19.4,0.78,1,4,29,0.723,0.895,1,गोबर लीपा कैनवास,4761.2,7405.63
+SIH-CRAFT-0528,Varanasi Silk Handloom,Handloom Silk,3032.34,59.4,1.09,1,4,23,0.936,0.957,1,जरी पल्लू,15076.2,24919.03
+SIH-CRAFT-0529,Kutch Bandhani & Ajrakh,Bandhani,786.34,19.2,0.7,1,3,39,0.846,0.852,1,प्राकृतिक नील रंग,4540.2,7663.33
+SIH-CRAFT-0530,Gorakhpur Terracotta,Terracotta,285.48,12.1,0.63,1,2,36,0.827,0.985,1,माटी का घड़ा,2766.4,4592.54
+SIH-CRAFT-0531,Kolhapuri Chappal & Leather,Leather Craft,809.1,15.6,0.55,1,4,28,0.942,0.924,1,प्राकृतिक चमड़ा,3664.8,6512.27
+SIH-CRAFT-0532,Bastar Dhokra Bell Metal,Dhokra Art,823.86,30.2,2.66,1,3,32,0.924,0.831,1,बेल मेटल बैल,7305.2,11446.73
+SIH-CRAFT-0533,Kolhapuri Chappal & Leather,Leather Craft,817.24,15.3,0.96,1,2,28,0.786,0.831,1,कोल्हापुरी हाथ की चप्पल,3235.2,5943.29
+SIH-CRAFT-0534,Bastar Dhokra Bell Metal,Dhokra Art,1283.9,14.4,2.03,1,4,23,0.878,0.963,1,ढोकरा आदिवासी मूर्ति,3772.2,7298.24
+SIH-CRAFT-0535,Jaipur Blue Pottery,Blue Pottery,738.42,14.9,0.79,1,5,35,0.852,0.746,1,हस्तशिल्प जार,4175.5,7106.29
+SIH-CRAFT-0536,Kutch Bandhani & Ajrakh,Bandhani,436.71,11.4,0.81,1,2,13,0.937,0.752,1,प्राकृतिक नील रंग,2406.6,4310.97
+SIH-CRAFT-0537,Gorakhpur Terracotta,Terracotta,242.86,11.5,1.84,1,2,10,0.947,0.979,1,माटी का घड़ा,2266.0,3859.46
+SIH-CRAFT-0538,Zari Zardozi Embroidery,Zari Embroidery,462.82,22.4,0.65,0,2,34,0.728,0.871,1,सच्ची जरी कढ़ाई,4743.6,7028.67
+SIH-CRAFT-0539,Bastar Dhokra Bell Metal,Dhokra Art,587.35,23.2,1.46,1,5,20,0.855,0.862,1,ढोकरा आदिवासी मूर्ति,6100.0,9500.42
+SIH-CRAFT-0540,Gorakhpur Terracotta,Terracotta,166.52,6.8,0.94,1,1,39,0.927,0.787,1,माटी का घड़ा,1754.6,3066.01
+SIH-CRAFT-0541,Gorakhpur Terracotta,Terracotta,448.12,4.8,1.35,1,2,32,0.897,0.804,1,माटी का घड़ा,1363.2,2917.78
+SIH-CRAFT-0542,Jaipur Blue Pottery,Blue Pottery,527.55,18.6,2.4,1,5,38,0.671,0.837,1,नीली मिट्टी का फूलदान,5127.0,8106.14
+SIH-CRAFT-0543,Moradabad Brassware,Brass Craft,1096.51,12.2,2.44,1,2,9,0.839,0.984,1,हाथ की ढलाई,2501.8,5330.22
+SIH-CRAFT-0544,Jaipur Blue Pottery,Blue Pottery,728.76,19.1,2.77,1,4,30,0.851,0.792,1,हस्तशिल्प जार,4900.3,8071.73
+SIH-CRAFT-0545,Zari Zardozi Embroidery,Zari Embroidery,328.62,2.0,0.69,0,2,3,0.383,0.359,0,जरदोज़ी का काम,113.4,722.96
+SIH-CRAFT-0546,Moradabad Brassware,Brass Craft,240.76,1.3,4.31,0,1,5,0.397,0.33,0,ब्रास पूजा थाली,70.98,529.67
+SIH-CRAFT-0547,Kutch Bandhani & Ajrakh,Bandhani,579.72,18.9,0.35,1,4,15,0.878,0.774,1,कच्छी बंधेज दुपट्टा,4345.2,7121.14
+SIH-CRAFT-0548,Moradabad Brassware,Brass Craft,1259.99,23.3,2.01,1,4,24,0.781,0.865,1,पीतल का नक्काशीदार दीया,5439.4,9516.68
+SIH-CRAFT-0549,Mithila Madhubani Painting,Madhubani,708.6,33.8,0.44,1,4,5,0.863,0.84,1,पेड़ और मोर,7612.4,11705.85
+SIH-CRAFT-0550,Kolhapuri Chappal & Leather,Leather Craft,250.99,2.1,1.14,0,1,4,0.205,0.304,0,प्राकृतिक चमड़ा,108.36,552.18
+SIH-CRAFT-0551,Kolhapuri Chappal & Leather,Leather Craft,474.96,12.5,1.04,1,3,7,0.97,0.781,1,कोल्हापुरी हाथ की चप्पल,2555.0,4562.95
+SIH-CRAFT-0552,Saharanpur Wood Carving,Wood Carving,410.6,3.9,2.91,0,2,1,0.308,0.353,0,हाथ से तराशा बॉक्स,221.13,903.32
+SIH-CRAFT-0553,Saharanpur Wood Carving,Wood Carving,671.5,8.1,4.05,1,4,31,0.924,0.788,1,लकड़ी का झरोखा,2190.3,4335.93
+SIH-CRAFT-0554,Moradabad Brassware,Brass Craft,1049.06,8.7,2.41,1,2,31,0.817,0.932,1,हाथ की ढलाई,2152.8,4795.01
+SIH-CRAFT-0555,Mithila Madhubani Painting,Madhubani,758.0,28.5,0.47,1,4,12,0.904,0.728,1,गोबर लीपा कैनवास,6535.5,10318.73
+SIH-CRAFT-0556,Varanasi Silk Handloom,Handloom Silk,1956.55,47.4,0.82,1,3,22,0.958,0.899,1,बनारसी कतान सिल्क,11516.4,18660.98
+SIH-CRAFT-0557,Saharanpur Wood Carving,Wood Carving,446.14,18.5,3.24,1,4,4,0.841,0.791,1,शीशम की लकड़ी की जाली,4000.5,6475.46
+SIH-CRAFT-0558,Saharanpur Wood Carving,Wood Carving,686.57,18.8,3.66,1,2,20,0.699,0.779,1,शीशम की लकड़ी की जाली,3853.2,6601.19
+SIH-CRAFT-0559,Zari Zardozi Embroidery,Zari Embroidery,557.49,23.6,0.68,0,4,12,0.961,0.933,1,मखमली सूट पीस,5206.8,7781.79
+SIH-CRAFT-0560,Varanasi Silk Handloom,Handloom Silk,1616.17,55.3,0.83,1,3,11,0.66,0.962,1,बनारसी कतान सिल्क,13215.8,20495.66
+SIH-CRAFT-0561,Jaipur Blue Pottery,Blue Pottery,397.37,11.5,2.15,1,5,25,0.753,0.937,1,हस्तशिल्प जार,3192.5,5318.82
+SIH-CRAFT-0562,Kolhapuri Chappal & Leather,Leather Craft,903.67,13.4,0.85,1,1,32,0.682,0.79,1,हाथ की सिलाई,2784.8,5451.93
+SIH-CRAFT-0563,Bastar Dhokra Bell Metal,Dhokra Art,1542.19,13.2,3.22,1,4,26,0.779,0.903,1,बेल मेटल बैल,3531.6,7322.12
+SIH-CRAFT-0564,Saharanpur Wood Carving,Wood Carving,1282.4,16.9,0.91,1,5,10,0.766,0.834,1,शीशम की लकड़ी की जाली,3952.5,7539.61
+SIH-CRAFT-0565,Moradabad Brassware,Brass Craft,1325.33,10.5,1.96,1,2,23,0.834,0.721,1,ब्रास पूजा थाली,2382.0,5477.4
+SIH-CRAFT-0566,Kolhapuri Chappal & Leather,Leather Craft,704.32,7.6,0.59,1,2,33,0.777,0.799,1,हाथ की सिलाई,1893.4,3979.42
+SIH-CRAFT-0567,Zari Zardozi Embroidery,Zari Embroidery,1479.22,24.2,0.54,0,3,14,0.869,0.723,1,मखमली सूट पीस,5074.2,8847.12
+SIH-CRAFT-0568,Zari Zardozi Embroidery,Zari Embroidery,570.04,24.9,0.53,0,2,31,0.708,0.977,1,जरदोज़ी का काम,5171.1,7750.54
+SIH-CRAFT-0569,Zari Zardozi Embroidery,Zari Embroidery,1304.77,29.3,0.57,0,5,6,0.68,0.937,1,मखमली सूट पीस,6682.5,10782.81
+SIH-CRAFT-0570,Gorakhpur Terracotta,Terracotta,348.26,8.0,1.37,1,4,15,0.718,0.954,1,हाथ से बनी मटकी,1889.0,3492.8
+SIH-CRAFT-0571,Zari Zardozi Embroidery,Zari Embroidery,1163.54,33.0,0.96,0,4,8,0.842,0.877,1,मखमली सूट पीस,7149.0,11221.93
+SIH-CRAFT-0572,Kutch Bandhani & Ajrakh,Bandhani,982.0,7.0,0.83,1,2,3,0.882,0.938,1,अजरख ब्लॉक प्रिंट,1403.0,3692.25
+SIH-CRAFT-0573,Jaipur Blue Pottery,Blue Pottery,330.45,1.4,2.14,0,2,5,0.211,0.184,0,क्वार्ट्ज प्लेट,87.78,726.99
+SIH-CRAFT-0574,Kutch Bandhani & Ajrakh,Bandhani,829.99,13.6,0.33,1,3,26,0.927,0.745,1,प्राकृतिक नील रंग,3191.6,5901.65
+SIH-CRAFT-0575,Mithila Madhubani Painting,Madhubani,289.46,8.4,0.6,1,4,30,0.972,0.739,1,गोबर लीपा कैनवास,2323.2,3999.59
+SIH-CRAFT-0576,Kutch Bandhani & Ajrakh,Bandhani,405.95,2.6,0.85,0,1,3,0.278,0.243,0,अजरख ब्लॉक प्रिंट,141.96,893.09
+SIH-CRAFT-0577,Kutch Bandhani & Ajrakh,Bandhani,448.63,15.7,0.6,1,4,18,0.885,0.778,1,प्राकृतिक नील रंग,3692.6,6063.16
+SIH-CRAFT-0578,Zari Zardozi Embroidery,Zari Embroidery,1477.15,24.2,0.79,0,2,40,0.809,0.9,1,जरदोज़ी का काम,5173.8,8978.78
+SIH-CRAFT-0579,Kolhapuri Chappal & Leather,Leather Craft,376.08,2.0,0.77,0,1,4,0.411,0.081,0,प्राकृतिक चमड़ा,103.2,827.38
+SIH-CRAFT-0580,Jaipur Blue Pottery,Blue Pottery,646.56,14.1,1.95,1,4,37,0.907,0.836,1,हस्तशिल्प जार,3840.3,6529.76
+SIH-CRAFT-0581,Bastar Dhokra Bell Metal,Dhokra Art,864.67,17.8,3.44,1,4,21,0.705,0.902,1,बेल मेटल बैल,4551.4,7784.19
+SIH-CRAFT-0582,Moradabad Brassware,Brass Craft,1276.45,9.2,3.63,1,3,39,0.667,0.987,1,हाथ की ढलाई,2480.2,5543.98
+SIH-CRAFT-0583,Zari Zardozi Embroidery,Zari Embroidery,959.0,13.2,0.35,0,4,19,0.694,0.781,1,सच्ची जरी कढ़ाई,3096.6,5475.06
+SIH-CRAFT-0584,Gorakhpur Terracotta,Terracotta,331.15,13.0,2.72,1,4,26,0.917,0.776,1,टेराकोटा सुराही,3094.0,5096.45
+SIH-CRAFT-0585,Bastar Dhokra Bell Metal,Dhokra Art,1080.13,10.7,3.46,1,3,12,0.926,0.918,1,मोम की ढलाई कला,2598.2,5438.25
+SIH-CRAFT-0586,Kutch Bandhani & Ajrakh,Bandhani,652.15,16.2,0.35,1,4,25,0.668,0.777,1,कच्छी बंधेज दुपट्टा,3906.6,6626.81
+SIH-CRAFT-0587,Gorakhpur Terracotta,Terracotta,269.62,6.3,2.74,1,2,27,0.876,0.813,1,हाथ से बनी मटकी,1564.2,2948.16
+SIH-CRAFT-0588,Mithila Madhubani Painting,Madhubani,489.1,16.1,0.66,1,4,23,0.967,0.898,1,मिथिला पेंटिंग,3935.3,6445.44
+SIH-CRAFT-0589,Jaipur Blue Pottery,Blue Pottery,280.23,2.9,1.55,0,2,2,0.195,0.331,0,क्वार्ट्ज प्लेट,181.83,616.51
+SIH-CRAFT-0590,Zari Zardozi Embroidery,Zari Embroidery,1261.81,28.7,0.81,0,3,36,0.761,0.9,1,जरदोज़ी का काम,6308.7,10220.19
+SIH-CRAFT-0591,Saharanpur Wood Carving,Wood Carving,1072.8,26.0,0.84,1,2,36,0.684,0.829,1,शीशम की लकड़ी की जाली,5454.0,9283.68
+SIH-CRAFT-0592,Moradabad Brassware,Brass Craft,640.85,20.4,1.76,1,3,10,0.884,0.735,1,हाथ की ढलाई,4352.4,7213.39
+SIH-CRAFT-0593,Mithila Madhubani Painting,Madhubani,670.12,26.1,0.66,1,3,10,0.88,0.773,1,पेड़ और मोर,5657.1,9014.25
+SIH-CRAFT-0594,Jaipur Blue Pottery,Blue Pottery,857.48,9.9,1.54,1,4,19,0.703,0.721,1,नीली मिट्टी का फूलदान,2591.7,5128.89
+SIH-CRAFT-0595,Kutch Bandhani & Ajrakh,Bandhani,1096.77,10.1,0.77,1,2,31,0.673,0.984,1,कच्छी बंधेज दुपट्टा,2424.4,5226.08
+SIH-CRAFT-0596,Zari Zardozi Embroidery,Zari Embroidery,1127.76,12.7,0.68,0,5,16,0.853,0.731,1,सच्ची जरी कढ़ाई,3097.5,5704.1
+SIH-CRAFT-0597,Moradabad Brassware,Brass Craft,687.5,19.4,2.63,1,5,4,0.946,0.743,1,हाथ की ढलाई,4522.0,7505.32
+SIH-CRAFT-0598,Gorakhpur Terracotta,Terracotta,139.75,0.9,2.6,0,2,4,0.101,0.298,0,धूपदानी,49.68,307.45
+SIH-CRAFT-0599,Bastar Dhokra Bell Metal,Dhokra Art,1428.45,27.2,2.92,1,5,17,0.651,0.977,1,मोम की ढलाई कला,7055.0,11925.16
+SIH-CRAFT-0600,Jaipur Blue Pottery,Blue Pottery,864.27,11.0,2.1,1,5,6,0.859,0.978,1,नीली मिट्टी का फूलदान,2785.0,5399.01
+SIH-CRAFT-0601,Saharanpur Wood Carving,Wood Carving,1360.93,7.9,2.5,1,4,15,0.708,0.711,1,हाथ से तराशा बॉक्स,1907.7,4885.15
+SIH-CRAFT-0602,Varanasi Silk Handloom,Handloom Silk,1797.24,20.7,0.95,1,4,8,0.942,0.827,1,शुद्ध रेशमी साड़ी,5253.6,9991.13
+SIH-CRAFT-0603,Mithila Madhubani Painting,Madhubani,263.95,35.9,0.27,1,4,7,0.912,0.887,1,पेड़ और मोर,8110.7,11778.28
+SIH-CRAFT-0604,Kolhapuri Chappal & Leather,Leather Craft,334.83,2.3,0.41,0,2,0,0.218,0.302,0,प्राकृतिक चमड़ा,126.96,736.63
+SIH-CRAFT-0605,Jaipur Blue Pottery,Blue Pottery,709.62,13.3,2.67,1,3,40,0.727,0.721,1,हस्तशिल्प जार,3539.3,6208.54
+SIH-CRAFT-0606,Mithila Madhubani Painting,Madhubani,260.48,33.4,0.53,1,3,11,0.655,0.883,1,प्राकृतिक रंग चित्र,7212.4,10560.89
+SIH-CRAFT-0607,Jaipur Blue Pottery,Blue Pottery,443.88,14.3,2.4,1,2,10,0.814,0.932,1,नीली मिट्टी का फूलदान,3138.7,5308.98
+SIH-CRAFT-0608,Jaipur Blue Pottery,Blue Pottery,584.42,17.4,2.76,1,5,23,0.69,0.898,1,हस्तशिल्प जार,4608.0,7482.27
+SIH-CRAFT-0609,Mithila Madhubani Painting,Madhubani,780.58,14.0,0.13,1,3,24,0.671,0.779,1,पेड़ और मोर,3314.0,6000.18
+SIH-CRAFT-0610,Mithila Madhubani Painting,Madhubani,554.37,20.3,0.75,1,3,11,0.683,0.946,1,पेड़ और मोर,4448.3,7226.1
+SIH-CRAFT-0611,Mithila Madhubani Painting,Madhubani,517.83,8.2,0.23,1,3,40,0.943,0.821,1,पेड़ और मोर,2330.2,4317.34
+SIH-CRAFT-0612,Mithila Madhubani Painting,Madhubani,601.9,22.6,0.39,1,3,5,0.847,0.908,1,मिथिला पेंटिंग,4843.6,7823.93
+SIH-CRAFT-0613,Moradabad Brassware,Brass Craft,605.48,12.7,2.03,1,2,26,0.935,0.986,1,हाथ की ढलाई,2853.8,5142.53
+SIH-CRAFT-0614,Varanasi Silk Handloom,Handloom Silk,2340.87,25.2,0.44,1,3,12,0.876,0.981,1,जरी पल्लू,6127.2,11904.39
+SIH-CRAFT-0615,Bastar Dhokra Bell Metal,Dhokra Art,1237.16,10.9,2.54,1,4,16,0.793,0.797,1,मोम की ढलाई कला,2834.2,5968.84
+SIH-CRAFT-0616,Gorakhpur Terracotta,Terracotta,165.74,8.9,0.97,1,1,34,0.82,0.721,1,टेराकोटा सुराही,2040.8,3451.33
+SIH-CRAFT-0617,Bastar Dhokra Bell Metal,Dhokra Art,858.57,14.4,2.63,1,4,17,0.907,0.795,1,ढोकरा आदिवासी मूर्ति,3682.2,6602.54
+SIH-CRAFT-0618,Varanasi Silk Handloom,Handloom Silk,2900.74,32.5,0.58,1,4,40,0.81,0.958,1,शुद्ध रेशमी साड़ी,8660.0,16079.5
+SIH-CRAFT-0619,Varanasi Silk Handloom,Handloom Silk,778.59,5.0,0.51,0,1,5,0.226,0.144,0,हाथ का ताना-बाना,318.0,1712.9
+SIH-CRAFT-0620,Mithila Madhubani Painting,Madhubani,562.77,15.9,0.18,1,4,32,0.788,0.92,1,गोबर लीपा कैनवास,4025.7,6666.93
+SIH-CRAFT-0621,Moradabad Brassware,Brass Craft,1547.46,20.8,4.25,1,3,39,0.97,0.948,1,पीतल का नक्काशीदार दीया,4869.8,9135.8
+SIH-CRAFT-0622,Kutch Bandhani & Ajrakh,Bandhani,276.55,3.3,0.61,0,2,2,0.105,0.2,0,कच्छी बंधेज दुपट्टा,192.06,608.41
+SIH-CRAFT-0623,Varanasi Silk Handloom,Handloom Silk,2232.77,55.2,0.87,1,3,39,0.946,0.821,1,बनारसी कतान सिल्क,13612.2,21863.21
+SIH-CRAFT-0624,Gorakhpur Terracotta,Terracotta,148.02,1.3,1.78,0,2,3,0.383,0.294,0,माटी का घड़ा,71.76,325.64
+SIH-CRAFT-0625,Bastar Dhokra Bell Metal,Dhokra Art,591.4,26.6,2.67,1,4,16,0.694,0.786,1,बेल मेटल बैल,6570.8,10141.47
+SIH-CRAFT-0626,Jaipur Blue Pottery,Blue Pottery,717.97,8.3,1.61,1,2,32,0.803,0.74,1,हस्तशिल्प जार,2214.7,4431.6
+SIH-CRAFT-0627,Kutch Bandhani & Ajrakh,Bandhani,997.24,16.0,0.69,1,2,7,0.777,0.9,1,प्राकृतिक नील रंग,3209.0,6150.92
+SIH-CRAFT-0628,Gorakhpur Terracotta,Terracotta,375.87,10.7,2.34,1,2,8,0.855,0.797,1,माटी का घड़ा,2088.8,3799.8
+SIH-CRAFT-0629,Kolhapuri Chappal & Leather,Leather Craft,301.92,2.2,0.49,0,2,3,0.317,0.178,0,कोल्हापुरी हाथ की चप्पल,121.44,664.22
+SIH-CRAFT-0630,Kolhapuri Chappal & Leather,Leather Craft,686.45,13.5,0.51,1,3,18,0.828,0.888,1,हाथ की सिलाई,2916.0,5335.81
+SIH-CRAFT-0631,Zari Zardozi Embroidery,Zari Embroidery,475.19,4.3,0.83,0,2,2,0.414,0.226,0,सच्ची जरी कढ़ाई,243.81,1045.42
+SIH-CRAFT-0632,Moradabad Brassware,Brass Craft,1047.38,17.0,3.76,1,2,33,0.884,0.897,1,हाथ की ढलाई,3793.0,7007.01
+SIH-CRAFT-0633,Moradabad Brassware,Brass Craft,1041.78,21.5,4.62,1,2,15,0.944,0.833,1,पीतल का नक्काशीदार दीया,4396.0,7813.5
+SIH-CRAFT-0634,Kutch Bandhani & Ajrakh,Bandhani,212.28,3.2,0.28,0,2,0,0.344,0.224,0,कच्छी बंधेज दुपट्टा,186.24,467.02
+SIH-CRAFT-0635,Kolhapuri Chappal & Leather,Leather Craft,145.45,1.4,0.95,0,1,3,0.221,0.205,0,हाथ की सिलाई,72.24,319.99
+SIH-CRAFT-0636,Gorakhpur Terracotta,Terracotta,168.88,12.6,1.2,1,3,29,0.841,0.89,1,हाथ से बनी मटकी,2904.6,4621.7
+SIH-CRAFT-0637,Bastar Dhokra Bell Metal,Dhokra Art,1266.55,28.5,2.0,1,4,39,0.694,0.929,1,ढोकरा आदिवासी मूर्ति,7368.0,12129.14
+SIH-CRAFT-0638,Moradabad Brassware,Brass Craft,1046.28,13.8,5.3,1,3,25,0.744,0.977,1,हाथ की ढलाई,3217.8,6229.01
+SIH-CRAFT-0639,Mithila Madhubani Painting,Madhubani,406.89,35.2,0.69,1,5,12,0.703,0.734,1,प्राकृतिक रंग चित्र,8452.0,12432.0
+SIH-CRAFT-0640,Zari Zardozi Embroidery,Zari Embroidery,723.43,14.6,0.69,0,2,23,0.973,0.743,1,सच्ची जरी कढ़ाई,3104.4,5167.57
+SIH-CRAFT-0641,Kolhapuri Chappal & Leather,Leather Craft,268.07,1.0,0.42,0,2,1,0.432,0.375,0,कोल्हापुरी हाथ की चप्पल,55.2,589.75
+SIH-CRAFT-0642,Gorakhpur Terracotta,Terracotta,125.54,1.3,2.44,0,2,3,0.414,0.389,0,टेराकोटा सुराही,71.76,276.19
+SIH-CRAFT-0643,Zari Zardozi Embroidery,Zari Embroidery,1418.41,18.5,0.38,0,5,5,0.696,0.86,1,सच्ची जरी कढ़ाई,4237.5,7635.48
+SIH-CRAFT-0644,Gorakhpur Terracotta,Terracotta,402.26,7.9,0.78,1,1,15,0.843,0.764,1,हाथ से बनी मटकी,1583.8,3153.68
+SIH-CRAFT-0645,Varanasi Silk Handloom,Handloom Silk,2138.35,35.6,0.94,1,3,35,0.78,0.842,1,बनारसी कतान सिल्क,8926.6,15410.18
+SIH-CRAFT-0646,Saharanpur Wood Carving,Wood Carving,1115.96,16.3,2.23,1,2,21,0.764,0.789,1,हाथ से तराशा बॉक्स,3395.7,6563.24
+SIH-CRAFT-0647,Kolhapuri Chappal & Leather,Leather Craft,786.71,9.9,1.19,1,4,21,0.704,0.911,1,प्राकृतिक चमड़ा,2374.2,4739.73
+SIH-CRAFT-0648,Kutch Bandhani & Ajrakh,Bandhani,769.74,7.4,0.35,1,3,36,0.976,0.719,1,प्राकृतिक नील रंग,2064.4,4298.59
+SIH-CRAFT-0649,Kutch Bandhani & Ajrakh,Bandhani,627.57,20.6,0.49,1,4,32,0.884,0.919,1,कच्छी बंधेज दुपट्टा,4970.8,8030.3
+SIH-CRAFT-0650,Varanasi Silk Handloom,Handloom Silk,1778.07,40.4,0.43,1,4,40,0.75,0.862,1,जरी पल्लू,10619.2,17208.81
+SIH-CRAFT-0651,Varanasi Silk Handloom,Handloom Silk,905.63,27.6,1.16,1,5,33,0.691,0.893,1,हाथ का ताना-बाना,7671.0,12050.95
+SIH-CRAFT-0652,Kutch Bandhani & Ajrakh,Bandhani,1025.43,16.3,0.22,1,3,34,0.978,0.719,1,प्राकृतिक नील रंग,3867.8,7078.36
+SIH-CRAFT-0653,Saharanpur Wood Carving,Wood Carving,965.57,26.8,3.12,1,5,10,0.773,0.913,1,शीशम की लकड़ी की जाली,6180.0,10119.02
+SIH-CRAFT-0654,Moradabad Brassware,Brass Craft,670.21,14.4,5.45,1,3,25,0.704,0.779,1,ब्रास पूजा थाली,3341.4,5888.17
+SIH-CRAFT-0655,Saharanpur Wood Carving,Wood Carving,691.66,21.3,1.08,1,3,14,0.902,0.874,1,शीशम की लकड़ी की जाली,4491.3,7469.5
+SIH-CRAFT-0656,Kolhapuri Chappal & Leather,Leather Craft,539.73,14.3,1.04,1,3,26,0.682,0.868,1,कोल्हापुरी हाथ की चप्पल,3192.8,5511.42
+SIH-CRAFT-0657,Gorakhpur Terracotta,Terracotta,234.43,11.6,1.74,1,2,9,0.722,0.846,1,टेराकोटा सुराही,2269.4,3852.67
+SIH-CRAFT-0658,Kolhapuri Chappal & Leather,Leather Craft,848.85,10.8,0.83,1,1,29,0.802,0.722,1,कोल्हापुरी हाथ की चप्पल,2292.6,4713.46
+SIH-CRAFT-0659,Gorakhpur Terracotta,Terracotta,243.47,7.0,2.95,1,3,14,0.884,0.708,1,माटी का घड़ा,1582.0,2936.88
+SIH-CRAFT-0660,Varanasi Silk Handloom,Handloom Silk,2496.76,46.3,0.65,1,3,11,0.974,0.823,1,बनारसी कतान सिल्क,11091.8,18817.06
+SIH-CRAFT-0661,Jaipur Blue Pottery,Blue Pottery,616.34,12.0,1.03,1,2,35,0.846,0.836,1,क्वार्ट्ज प्लेट,3033.0,5399.11
+SIH-CRAFT-0662,Gorakhpur Terracotta,Terracotta,350.28,11.3,2.85,1,2,40,0.947,0.754,1,हाथ से बनी मटकी,2679.2,4562.3
+SIH-CRAFT-0663,Gorakhpur Terracotta,Terracotta,403.76,13.4,3.35,1,3,25,0.703,0.845,1,टेराकोटा सुराही,3001.4,5069.47
+SIH-CRAFT-0664,Kolhapuri Chappal & Leather,Leather Craft,409.46,11.4,0.41,1,2,15,0.968,0.75,1,हाथ की सिलाई,2322.6,4160.78
+SIH-CRAFT-0665,Gorakhpur Terracotta,Terracotta,71.84,0.8,2.01,0,2,2,0.344,0.115,0,माटी का घड़ा,44.16,158.05
+SIH-CRAFT-0666,Mithila Madhubani Painting,Madhubani,789.72,19.9,0.46,1,4,10,0.901,0.791,1,पेड़ और मोर,4587.7,7732.02
+SIH-CRAFT-0667,Jaipur Blue Pottery,Blue Pottery,622.7,11.1,1.23,1,2,8,0.758,0.734,1,क्वार्ट्ज प्लेट,2439.9,4607.01
+SIH-CRAFT-0668,Bastar Dhokra Bell Metal,Dhokra Art,843.21,31.5,2.0,1,5,29,0.746,0.948,1,ढोकरा आदिवासी मूर्ति,8310.0,12829.33
+SIH-CRAFT-0669,Jaipur Blue Pottery,Blue Pottery,316.54,2.9,1.41,0,1,5,0.272,0.087,0,क्वार्ट्ज प्लेट,171.39,696.39
+SIH-CRAFT-0670,Kolhapuri Chappal & Leather,Leather Craft,401.0,6.6,0.72,1,1,13,0.671,0.983,1,प्राकृतिक चमड़ा,1330.2,2809.62
+SIH-CRAFT-0671,Varanasi Silk Handloom,Handloom Silk,3178.52,21.4,1.07,1,5,34,0.742,0.907,1,हाथ का ताना-बाना,6074.0,12963.4
+SIH-CRAFT-0672,Kutch Bandhani & Ajrakh,Bandhani,833.34,21.2,0.89,1,4,20,0.699,0.832,1,कच्छी बंधेज दुपट्टा,4921.6,8241.67
+SIH-CRAFT-0673,Moradabad Brassware,Brass Craft,876.99,26.8,1.63,1,2,7,0.814,0.708,1,पीतल का नक्काशीदार दीया,5304.2,8817.11
+SIH-CRAFT-0674,Kutch Bandhani & Ajrakh,Bandhani,561.56,10.8,0.64,1,2,36,0.903,0.93,1,कच्छी बंधेज दुपट्टा,2635.2,4788.13
+SIH-CRAFT-0675,Moradabad Brassware,Brass Craft,1188.3,13.2,3.05,1,2,5,0.977,0.955,1,पीतल का नक्काशीदार दीया,2635.8,5635.03
+SIH-CRAFT-0676,Kutch Bandhani & Ajrakh,Bandhani,982.3,13.1,0.23,1,2,38,0.868,0.926,1,प्राकृतिक नील रंग,3111.4,5998.99
+SIH-CRAFT-0677,Mithila Madhubani Painting,Madhubani,323.97,28.0,0.44,1,3,39,0.873,0.891,1,पेड़ और मोर,6493.0,9675.41
+SIH-CRAFT-0678,Bastar Dhokra Bell Metal,Dhokra Art,671.94,11.2,1.51,1,5,27,0.854,0.802,1,मोम की ढलाई कला,3205.0,5706.37
+SIH-CRAFT-0679,Saharanpur Wood Carving,Wood Carving,990.46,9.1,2.16,1,2,24,0.776,0.824,1,हाथ से तराशा बॉक्स,2079.9,4617.49
+SIH-CRAFT-0680,Kutch Bandhani & Ajrakh,Bandhani,828.99,10.0,0.65,1,4,8,0.95,0.719,1,अजरख ब्लॉक प्रिंट,2300.0,4696.64
+SIH-CRAFT-0681,Jaipur Blue Pottery,Blue Pottery,360.84,10.6,1.61,1,5,39,0.82,0.822,1,नीली मिट्टी का फूलदान,3182.0,5255.33
+SIH-CRAFT-0682,Bastar Dhokra Bell Metal,Dhokra Art,1584.34,18.3,1.85,1,5,9,0.917,0.729,1,बेल मेटल बैल,4710.0,8969.86
+SIH-CRAFT-0683,Varanasi Silk Handloom,Handloom Silk,2056.37,49.7,0.67,1,5,22,0.77,0.826,1,जरी पल्लू,13252.0,21138.8
+SIH-CRAFT-0684,Jaipur Blue Pottery,Blue Pottery,644.71,10.0,0.7,1,5,17,0.856,0.978,1,हस्तशिल्प जार,2705.0,4994.61
+SIH-CRAFT-0685,Zari Zardozi Embroidery,Zari Embroidery,803.68,11.7,0.86,0,5,30,0.719,0.931,1,मखमली सूट पीस,3082.5,5246.34
+SIH-CRAFT-0686,Moradabad Brassware,Brass Craft,959.89,21.3,2.91,1,5,28,0.733,0.849,1,हाथ की ढलाई,5319.0,8949.0
+SIH-CRAFT-0687,Kolhapuri Chappal & Leather,Leather Craft,361.16,12.7,1.09,1,4,16,0.868,0.939,1,प्राकृतिक चमड़ा,2881.6,4850.23
+SIH-CRAFT-0688,Moradabad Brassware,Brass Craft,495.71,3.0,4.96,0,2,4,0.354,0.071,0,पीतल का नक्काशीदार दीया,174.6,1090.56
+SIH-CRAFT-0689,Saharanpur Wood Carving,Wood Carving,640.37,23.9,3.63,1,5,29,0.755,0.941,1,शीशम की लकड़ी की जाली,5812.5,9183.87
+SIH-CRAFT-0690,Varanasi Silk Handloom,Handloom Silk,1513.95,28.6,0.53,1,5,18,0.784,0.733,1,शुद्ध रेशमी साड़ी,7706.0,12919.43
+SIH-CRAFT-0691,Gorakhpur Terracotta,Terracotta,398.17,8.1,2.18,1,4,30,0.863,0.711,1,टेराकोटा सुराही,2134.8,3892.01
+SIH-CRAFT-0692,Moradabad Brassware,Brass Craft,910.08,24.1,4.46,1,3,5,0.968,0.841,1,पीतल का नक्काशीदार दीया,5039.6,8504.57
+SIH-CRAFT-0693,Gorakhpur Terracotta,Terracotta,70.07,1.4,3.1,0,2,2,0.335,0.36,0,धूपदानी,77.28,154.15
+SIH-CRAFT-0694,Mithila Madhubani Painting,Madhubani,564.04,22.0,0.18,1,5,40,0.963,0.97,1,प्राकृतिक रंग चित्र,5770.0,9023.45
+SIH-CRAFT-0695,Bastar Dhokra Bell Metal,Dhokra Art,304.75,1.9,2.98,0,2,4,0.358,0.332,0,बेल मेटल बैल,121.98,670.45
+SIH-CRAFT-0696,Varanasi Silk Handloom,Handloom Silk,560.57,3.1,0.57,0,2,3,0.243,0.352,0,बनारसी कतान सिल्क,208.32,1233.25
+SIH-CRAFT-0697,Bastar Dhokra Bell Metal,Dhokra Art,1269.58,12.5,2.27,1,4,18,0.968,0.955,1,ढोकरा आदिवासी मूर्ति,3245.0,6567.18
+SIH-CRAFT-0698,Saharanpur Wood Carving,Wood Carving,767.74,13.4,3.19,1,2,6,0.878,0.929,1,शीशम की लकड़ी की जाली,2622.6,5049.46
+SIH-CRAFT-0699,Moradabad Brassware,Brass Craft,971.12,27.2,3.13,1,2,37,0.936,0.949,1,ब्रास पूजा थाली,5831.8,9656.44
+SIH-CRAFT-0700,Gorakhpur Terracotta,Terracotta,107.16,2.1,1.27,0,1,1,0.204,0.351,0,टेराकोटा सुराही,108.36,235.75
+SIH-CRAFT-0701,Bastar Dhokra Bell Metal,Dhokra Art,1467.41,26.9,1.9,1,3,20,0.936,0.939,1,मोम की ढलाई कला,6379.4,11065.69
+SIH-CRAFT-0702,Bastar Dhokra Bell Metal,Dhokra Art,1519.15,17.3,1.94,1,3,13,0.88,0.847,1,मोम की ढलाई कला,4104.8,8064.83
+SIH-CRAFT-0703,Kutch Bandhani & Ajrakh,Bandhani,950.74,17.8,0.52,1,2,6,0.862,0.753,1,अजरख ब्लॉक प्रिंट,3543.2,6539.32
+SIH-CRAFT-0704,Mithila Madhubani Painting,Madhubani,360.04,16.6,0.5,1,3,13,0.732,0.907,1,गोबर लीपा कैनवास,3697.6,5950.31
+SIH-CRAFT-0705,Zari Zardozi Embroidery,Zari Embroidery,1282.27,18.0,0.63,0,3,19,0.707,0.872,1,सच्ची जरी कढ़ाई,3903.0,7000.11
+SIH-CRAFT-0706,Moradabad Brassware,Brass Craft,1097.4,11.6,5.44,1,3,4,0.963,0.968,1,हाथ की ढलाई,2449.6,5260.95
+SIH-CRAFT-0707,Zari Zardozi Embroidery,Zari Embroidery,1402.19,34.4,0.44,0,3,6,0.782,0.824,1,सच्ची जरी कढ़ाई,7004.4,11348.9
+SIH-CRAFT-0708,Mithila Madhubani Painting,Madhubani,452.36,34.5,0.18,1,5,36,0.794,0.967,1,पेड़ और मोर,8647.5,12757.31
+SIH-CRAFT-0709,Bastar Dhokra Bell Metal,Dhokra Art,1284.92,14.2,3.13,1,4,21,0.896,0.811,1,मोम की ढलाई कला,3694.6,7194.85
+SIH-CRAFT-0710,Varanasi Silk Handloom,Handloom Silk,3188.98,28.5,0.94,1,4,14,0.785,0.742,1,हाथ का ताना-बाना,7278.0,14602.92
+SIH-CRAFT-0711,Moradabad Brassware,Brass Craft,1141.17,13.0,4.12,1,5,8,0.653,0.739,1,ब्रास पूजा थाली,3110.0,6211.58
+SIH-CRAFT-0712,Kutch Bandhani & Ajrakh,Bandhani,870.67,17.3,0.72,1,3,7,0.681,0.717,1,अजरख ब्लॉक प्रिंट,3668.8,6600.78
+SIH-CRAFT-0713,Varanasi Silk Handloom,Handloom Silk,1714.89,42.7,0.94,1,5,5,0.652,0.846,1,जरी पल्लू,11177.0,17876.55
+SIH-CRAFT-0714,Moradabad Brassware,Brass Craft,562.21,1.6,5.52,0,1,4,0.163,0.109,0,ब्रास पूजा थाली,87.36,1236.86
+SIH-CRAFT-0715,Saharanpur Wood Carving,Wood Carving,212.77,2.0,2.76,0,1,2,0.141,0.065,0,शीशम की लकड़ी की जाली,106.2,468.09
+SIH-CRAFT-0716,Bastar Dhokra Bell Metal,Dhokra Art,567.31,4.0,3.3,0,2,2,0.315,0.317,0,मोम की ढलाई कला,256.8,1248.08
+SIH-CRAFT-0717,Kolhapuri Chappal & Leather,Leather Craft,885.6,8.5,1.2,1,2,38,0.932,0.891,1,प्राकृतिक चमड़ा,2134.0,4548.96
+SIH-CRAFT-0718,Gorakhpur Terracotta,Terracotta,166.37,5.0,1.91,1,2,32,0.794,0.989,1,धूपदानी,1400.0,2587.1
+SIH-CRAFT-0719,Gorakhpur Terracotta,Terracotta,446.65,9.2,1.87,1,1,12,0.691,0.727,1,हाथ से बनी मटकी,1762.4,3454.72
+SIH-CRAFT-0720,Mithila Madhubani Painting,Madhubani,662.47,31.0,0.49,1,5,40,0.72,0.989,1,मिथिला पेंटिंग,7885.0,12011.58
+SIH-CRAFT-0721,Kolhapuri Chappal & Leather,Leather Craft,458.34,15.1,0.6,1,4,9,0.943,0.708,1,हाथ की सिलाई,3275.8,5513.59
+SIH-CRAFT-0722,Jaipur Blue Pottery,Blue Pottery,674.69,19.3,2.44,1,3,4,0.677,0.941,1,हस्तशिल्प जार,4325.3,7222.49
+SIH-CRAFT-0723,Bastar Dhokra Bell Metal,Dhokra Art,1550.72,23.1,0.82,1,3,31,0.757,0.912,1,बेल मेटल बैल,5685.6,10241.53
+SIH-CRAFT-0724,Zari Zardozi Embroidery,Zari Embroidery,1356.44,30.0,0.5,0,2,7,0.831,0.875,1,जरदोज़ी का काम,5775.0,9627.44
+SIH-CRAFT-0725,Kutch Bandhani & Ajrakh,Bandhani,492.06,18.3,0.48,1,2,16,0.704,0.926,1,अजरख ब्लॉक प्रिंट,3790.2,6253.55
+SIH-CRAFT-0726,Mithila Madhubani Painting,Madhubani,519.96,20.1,0.66,1,4,11,0.768,0.728,1,प्राकृतिक रंग चित्र,4647.3,7448.3
+SIH-CRAFT-0727,Kolhapuri Chappal & Leather,Leather Craft,617.27,9.3,0.61,1,4,8,0.9,0.935,1,हाथ की सिलाई,2054.4,4079.25
+SIH-CRAFT-0728,Mithila Madhubani Painting,Madhubani,484.31,9.1,0.34,1,4,17,0.864,0.907,1,पेड़ और मोर,2284.3,4210.12
+SIH-CRAFT-0729,Kolhapuri Chappal & Leather,Leather Craft,664.81,8.2,0.75,1,4,22,0.699,0.737,1,प्राकृतिक चमड़ा,2035.6,4118.05
+SIH-CRAFT-0730,Varanasi Silk Handloom,Handloom Silk,1579.61,18.1,0.46,1,3,35,0.686,0.823,1,बनारसी कतान सिल्क,4796.6,9080.38
+SIH-CRAFT-0731,Bastar Dhokra Bell Metal,Dhokra Art,1125.33,15.6,1.49,1,3,35,0.655,0.915,1,मोम की ढलाई कला,4050.6,7460.01
+SIH-CRAFT-0732,Mithila Madhubani Painting,Madhubani,713.6,9.3,0.39,1,5,22,0.754,0.91,1,पेड़ और मोर,2515.5,4831.78
+SIH-CRAFT-0733,Zari Zardozi Embroidery,Zari Embroidery,808.4,33.0,0.87,0,3,14,0.676,0.985,1,सच्ची जरी कढ़ाई,6843.0,10329.39
+SIH-CRAFT-0734,Jaipur Blue Pottery,Blue Pottery,359.85,11.5,0.63,1,5,32,0.878,0.952,1,हस्तशिल्प जार,3297.5,5409.92
+SIH-CRAFT-0735,Zari Zardozi Embroidery,Zari Embroidery,767.94,30.3,0.73,0,5,22,0.679,0.739,1,जरदोज़ी का काम,7147.5,10685.84
+SIH-CRAFT-0736,Jaipur Blue Pottery,Blue Pottery,732.82,8.6,0.66,1,5,12,0.864,0.826,1,हस्तशिल्प जार,2287.0,4549.26
+SIH-CRAFT-0737,Kolhapuri Chappal & Leather,Leather Craft,530.55,10.1,0.78,1,1,10,0.705,0.744,1,हाथ की सिलाई,1887.2,3736.46
+SIH-CRAFT-0738,Bastar Dhokra Bell Metal,Dhokra Art,407.46,4.3,2.38,0,1,2,0.299,0.342,0,ढोकरा आदिवासी मूर्ति,260.58,896.41
+SIH-CRAFT-0739,Saharanpur Wood Carving,Wood Carving,1030.41,23.1,4.42,1,5,40,0.847,0.861,1,हाथ से तराशा बॉक्स,5797.5,9690.18
+SIH-CRAFT-0740,Gorakhpur Terracotta,Terracotta,295.83,9.5,2.33,1,4,17,0.886,0.853,1,धूपदानी,2231.0,3883.72
+SIH-CRAFT-0741,Zari Zardozi Embroidery,Zari Embroidery,516.69,32.3,0.59,0,5,10,0.813,0.972,1,सच्ची जरी कढ़ाई,7417.5,10711.16
+SIH-CRAFT-0742,Bastar Dhokra Bell Metal,Dhokra Art,522.89,16.3,1.32,1,4,31,0.727,0.764,1,बेल मेटल बैल,4344.4,7043.34
+SIH-CRAFT-0743,Saharanpur Wood Carving,Wood Carving,501.38,3.5,2.53,0,2,5,0.349,0.386,0,लकड़ी का झरोखा,198.45,1103.04
+SIH-CRAFT-0744,Saharanpur Wood Carving,Wood Carving,1199.76,26.3,3.1,1,4,8,0.87,0.737,1,शीशम की लकड़ी की जाली,5721.9,9816.74
+SIH-CRAFT-0745,Mithila Madhubani Painting,Madhubani,305.5,19.6,0.8,1,4,18,0.719,0.714,1,मिथिला पेंटिंग,4640.8,7150.01
+SIH-CRAFT-0746,Saharanpur Wood Carving,Wood Carving,302.82,1.5,3.86,0,1,0,0.218,0.09,0,शीशम की लकड़ी की जाली,79.65,666.2
+SIH-CRAFT-0747,Jaipur Blue Pottery,Blue Pottery,617.5,19.9,2.33,1,2,38,0.738,0.744,1,हस्तशिल्प जार,4729.1,7690.41
+SIH-CRAFT-0748,Kolhapuri Chappal & Leather,Leather Craft,412.49,5.6,1.16,1,4,10,0.972,0.927,1,हाथ की सिलाई,1314.8,2804.34
+SIH-CRAFT-0749,Jaipur Blue Pottery,Blue Pottery,373.08,7.5,1.99,1,3,26,0.702,0.785,1,क्वार्ट्ज प्लेट,2047.5,3740.28
+SIH-CRAFT-0750,Kolhapuri Chappal & Leather,Leather Craft,872.3,6.7,0.69,1,2,10,0.93,0.827,1,प्राकृतिक चमड़ा,1382.8,3516.88
+SIH-CRAFT-0751,Gorakhpur Terracotta,Terracotta,392.74,6.8,2.02,1,1,20,0.773,0.919,1,हाथ से बनी मटकी,1469.6,2986.66
+SIH-CRAFT-0752,Varanasi Silk Handloom,Handloom Silk,2633.07,34.6,0.58,1,4,29,0.953,0.96,1,हाथ का ताना-बाना,9015.8,16198.47
+SIH-CRAFT-0753,Gorakhpur Terracotta,Terracotta,381.05,10.9,2.05,1,1,8,0.762,0.816,1,टेराकोटा सुराही,1994.8,3679.9
+SIH-CRAFT-0754,Kutch Bandhani & Ajrakh,Bandhani,907.35,16.6,0.65,1,4,6,0.973,0.984,1,प्राकृतिक नील रंग,3708.8,6704.3
+SIH-CRAFT-0755,Kolhapuri Chappal & Leather,Leather Craft,240.63,2.2,0.96,0,2,5,0.36,0.368,0,कोल्हापुरी हाथ की चप्पल,121.44,529.39
+SIH-CRAFT-0756,Moradabad Brassware,Brass Craft,532.99,1.6,3.32,0,1,4,0.319,0.266,0,ब्रास पूजा थाली,87.36,1172.58
+SIH-CRAFT-0757,Saharanpur Wood Carving,Wood Carving,472.63,2.4,1.53,0,2,0,0.113,0.167,0,लकड़ी का झरोखा,136.08,1039.79
+SIH-CRAFT-0758,Mithila Madhubani Painting,Madhubani,547.43,14.0,0.46,1,4,36,0.762,0.884,1,मिथिला पेंटिंग,3662.0,6155.23
+SIH-CRAFT-0759,Gorakhpur Terracotta,Terracotta,124.79,0.9,3.0,0,2,5,0.248,0.227,0,माटी का घड़ा,49.68,274.54
+SIH-CRAFT-0760,Saharanpur Wood Carving,Wood Carving,907.5,9.0,3.6,1,2,31,0.748,0.914,1,हाथ से तराशा बॉक्स,2166.0,4621.73
+SIH-CRAFT-0761,Saharanpur Wood Carving,Wood Carving,482.16,4.5,2.89,0,1,2,0.205,0.283,0,लकड़ी का झरोखा,238.95,1060.75
+SIH-CRAFT-0762,Zari Zardozi Embroidery,Zari Embroidery,1200.07,23.0,0.47,0,4,36,0.842,0.939,1,सच्ची जरी कढ़ाई,5439.0,8962.74
+SIH-CRAFT-0763,Bastar Dhokra Bell Metal,Dhokra Art,1282.8,28.2,1.02,1,3,30,0.943,0.838,1,मोम की ढलाई कला,6823.2,11415.6
+SIH-CRAFT-0764,Jaipur Blue Pottery,Blue Pottery,639.44,14.2,1.74,1,5,19,0.843,0.885,1,क्वार्ट्ज प्लेट,3764.0,6417.14
+SIH-CRAFT-0765,Bastar Dhokra Bell Metal,Dhokra Art,958.61,13.6,2.17,1,4,32,0.693,0.904,1,बेल मेटल बैल,3716.8,6784.3
+SIH-CRAFT-0766,Jaipur Blue Pottery,Blue Pottery,600.49,6.5,0.95,1,4,10,0.849,0.818,1,नीली मिट्टी का फूलदान,1664.5,3530.24
+SIH-CRAFT-0767,Saharanpur Wood Carving,Wood Carving,440.28,9.7,2.17,1,4,22,0.747,0.708,1,शीशम की लकड़ी की जाली,2396.1,4301.61
+SIH-CRAFT-0768,Mithila Madhubani Painting,Madhubani,481.97,34.2,0.31,1,4,16,0.71,0.915,1,मिथिला पेंटिंग,7866.6,11743.07
+SIH-CRAFT-0769,Jaipur Blue Pottery,Blue Pottery,387.16,6.6,1.66,1,4,39,0.799,0.798,1,क्वार्ट्ज प्लेट,2122.8,3860.95
+SIH-CRAFT-0770,Bastar Dhokra Bell Metal,Dhokra Art,1417.05,12.9,1.17,1,5,32,0.901,0.893,1,ढोकरा आदिवासी मूर्ति,3705.0,7387.27
+SIH-CRAFT-0771,Saharanpur Wood Carving,Wood Carving,1024.77,21.0,2.23,1,5,24,0.829,0.978,1,हाथ से तराशा बॉक्स,5085.0,8720.69
+SIH-CRAFT-0772,Moradabad Brassware,Brass Craft,1639.14,22.1,4.07,1,4,38,0.863,0.887,1,पीतल का नक्काशीदार दीया,5387.8,9958.87
+SIH-CRAFT-0773,Varanasi Silk Handloom,Handloom Silk,858.49,7.4,1.17,0,1,3,0.276,0.057,0,शुद्ध रेशमी साड़ी,470.64,1888.68
+SIH-CRAFT-0774,Gorakhpur Terracotta,Terracotta,211.74,12.1,3.02,1,4,8,0.916,0.876,1,धूपदानी,2636.8,4318.03
+SIH-CRAFT-0775,Zari Zardozi Embroidery,Zari Embroidery,1355.07,10.6,0.61,0,5,4,0.934,0.792,1,सच्ची जरी कढ़ाई,2445.0,5130.09
+SIH-CRAFT-0776,Jaipur Blue Pottery,Blue Pottery,404.63,8.4,0.92,1,4,8,0.701,0.976,1,हस्तशिल्प जार,2077.2,3822.97
+SIH-CRAFT-0777,Mithila Madhubani Painting,Madhubani,778.62,13.1,0.6,1,4,27,0.683,0.741,1,प्राकृतिक रंग चित्र,3326.3,6014.14
+SIH-CRAFT-0778,Moradabad Brassware,Brass Craft,1593.29,10.4,2.41,1,3,34,0.818,0.846,1,पीतल का नक्काशीदार दीया,2652.4,6204.18
+SIH-CRAFT-0779,Moradabad Brassware,Brass Craft,1157.79,16.1,3.68,1,5,17,0.952,0.705,1,हाथ की ढलाई,3958.0,7378.82
+SIH-CRAFT-0780,Zari Zardozi Embroidery,Zari Embroidery,708.63,23.9,0.85,0,4,39,0.784,0.724,1,मखमली सूट पीस,5675.7,8618.85
+SIH-CRAFT-0781,Kolhapuri Chappal & Leather,Leather Craft,930.75,9.1,1.19,1,2,37,0.964,0.979,1,हाथ की सिलाई,2229.4,4738.7
+SIH-CRAFT-0782,Bastar Dhokra Bell Metal,Dhokra Art,1393.91,31.1,2.48,1,5,13,0.65,0.971,1,मोम की ढलाई कला,7970.0,13113.78
+SIH-CRAFT-0783,Moradabad Brassware,Brass Craft,1607.39,15.6,3.08,1,3,40,0.927,0.782,1,पीतल का नक्काशीदार दीया,3813.6,7790.84
+SIH-CRAFT-0784,Kolhapuri Chappal & Leather,Leather Craft,530.38,9.3,0.5,1,2,38,0.98,0.955,1,कोल्हापुरी हाथ की चप्पल,2281.2,4268.13
+SIH-CRAFT-0785,Zari Zardozi Embroidery,Zari Embroidery,1292.16,32.1,0.96,0,4,31,0.74,0.892,1,सच्ची जरी कढ़ाई,7302.3,11602.52
+SIH-CRAFT-0786,Saharanpur Wood Carving,Wood Carving,1358.99,13.9,4.18,1,3,3,0.851,0.701,1,शीशम की लकड़ी की जाली,2838.9,6139.65
+SIH-CRAFT-0787,Mithila Madhubani Painting,Madhubani,742.4,27.7,0.63,1,5,8,0.91,0.888,1,मिथिला पेंटिंग,6629.5,10424.56
+SIH-CRAFT-0788,Kolhapuri Chappal & Leather,Leather Craft,849.25,12.4,0.94,1,3,27,0.923,0.804,1,कोल्हापुरी हाथ की चप्पल,2835.4,5446.78
+SIH-CRAFT-0789,Gorakhpur Terracotta,Terracotta,261.14,5.1,0.53,1,1,20,0.875,0.906,1,टेराकोटा सुराही,1177.2,2414.26
+SIH-CRAFT-0790,Jaipur Blue Pottery,Blue Pottery,693.88,17.3,1.09,1,5,26,0.662,0.843,1,हस्तशिल्प जार,4628.5,7657.71
+SIH-CRAFT-0791,Zari Zardozi Embroidery,Zari Embroidery,655.89,30.5,0.58,0,4,39,0.815,0.749,1,जरदोज़ी का काम,7081.5,10445.48
+SIH-CRAFT-0792,Zari Zardozi Embroidery,Zari Embroidery,1083.12,14.4,0.71,0,2,11,0.736,0.865,1,जरदोज़ी का काम,2886.6,5359.12
+SIH-CRAFT-0793,Kolhapuri Chappal & Leather,Leather Craft,514.6,14.3,0.42,1,3,38,0.941,0.701,1,प्राकृतिक चमड़ा,3372.8,5720.49
+SIH-CRAFT-0794,Gorakhpur Terracotta,Terracotta,98.76,1.8,1.72,0,1,5,0.281,0.223,0,माटी का घड़ा,92.88,217.27
+SIH-CRAFT-0795,Varanasi Silk Handloom,Handloom Silk,3012.3,39.4,0.65,1,4,15,0.76,0.955,1,बनारसी कतान सिल्क,9996.2,18033.97
+SIH-CRAFT-0796,Varanasi Silk Handloom,Handloom Silk,749.91,2.9,0.6,0,1,2,0.209,0.269,0,बनारसी कतान सिल्क,184.44,1649.8
+SIH-CRAFT-0797,Gorakhpur Terracotta,Terracotta,392.42,9.5,2.38,1,3,19,0.732,0.837,1,हाथ से बनी मटकी,2147.0,3900.72
+SIH-CRAFT-0798,Gorakhpur Terracotta,Terracotta,305.9,5.6,0.72,1,4,9,0.856,0.868,1,माटी का घड़ा,1299.8,2640.19
+SIH-CRAFT-0799,Gorakhpur Terracotta,Terracotta,105.29,1.9,2.58,0,1,0,0.422,0.205,0,हाथ से बनी मटकी,98.04,231.64
+SIH-CRAFT-0800,Zari Zardozi Embroidery,Zari Embroidery,519.08,26.9,0.69,0,4,27,0.783,0.879,1,सच्ची जरी कढ़ाई,6134.7,8982.6
+SIH-CRAFT-0801,Varanasi Silk Handloom,Handloom Silk,1084.48,6.5,0.76,0,2,3,0.408,0.267,0,हाथ का ताना-बाना,436.8,2385.86
+SIH-CRAFT-0802,Gorakhpur Terracotta,Terracotta,248.46,5.1,0.81,1,1,40,0.911,0.756,1,टेराकोटा सुराही,1477.2,2802.14
+SIH-CRAFT-0803,Kolhapuri Chappal & Leather,Leather Craft,602.6,13.0,0.76,1,2,11,0.913,0.718,1,प्राकृतिक चमड़ा,2557.0,4737.96
+SIH-CRAFT-0804,Zari Zardozi Embroidery,Zari Embroidery,1457.73,28.9,0.52,0,3,12,0.805,0.875,1,सच्ची जरी कढ़ाई,5988.9,10052.95
+SIH-CRAFT-0805,Saharanpur Wood Carving,Wood Carving,367.07,3.3,1.34,0,1,4,0.387,0.246,0,शीशम की लकड़ी की जाली,175.23,807.55
+SIH-CRAFT-0806,Kutch Bandhani & Ajrakh,Bandhani,1081.21,16.2,0.34,1,2,24,0.712,0.838,1,प्राकृतिक नील रंग,3502.8,6660.91
+SIH-CRAFT-0807,Bastar Dhokra Bell Metal,Dhokra Art,864.26,22.7,3.4,1,5,22,0.788,0.747,1,मोम की ढलाई कला,6005.0,9746.0
+SIH-CRAFT-0808,Gorakhpur Terracotta,Terracotta,425.99,10.0,2.58,1,4,16,0.729,0.913,1,हाथ से बनी मटकी,2320.0,4179.59
+SIH-CRAFT-0809,Kutch Bandhani & Ajrakh,Bandhani,447.4,21.8,0.45,1,2,25,0.66,0.733,1,अजरख ब्लॉक प्रिंट,4604.2,7292.16
+SIH-CRAFT-0810,Bastar Dhokra Bell Metal,Dhokra Art,1144.26,26.8,0.92,1,3,15,0.715,0.751,1,मोम की ढलाई कला,6281.8,10497.68
+SIH-CRAFT-0811,Mithila Madhubani Painting,Madhubani,554.98,13.0,0.12,1,4,9,0.657,0.896,1,पेड़ और मोर,3034.0,5317.62
+SIH-CRAFT-0812,Jaipur Blue Pottery,Blue Pottery,465.63,12.4,1.41,1,4,13,0.961,0.983,1,हस्तशिल्प जार,3084.2,5264.77
+SIH-CRAFT-0813,Kutch Bandhani & Ajrakh,Bandhani,140.92,1.2,0.85,0,1,1,0.286,0.293,0,अजरख ब्लॉक प्रिंट,65.52,310.02
+SIH-CRAFT-0814,Zari Zardozi Embroidery,Zari Embroidery,1117.95,33.0,0.83,0,3,37,0.747,0.743,1,जरदोज़ी का काम,7188.0,11213.03
+SIH-CRAFT-0815,Gorakhpur Terracotta,Terracotta,234.02,4.4,2.02,1,4,16,0.89,0.928,1,माटी का घड़ा,1155.2,2347.95
+SIH-CRAFT-0816,Mithila Madhubani Painting,Madhubani,663.22,26.1,0.46,1,4,36,0.803,0.793,1,प्राकृतिक रंग चित्र,6360.3,9954.25
+SIH-CRAFT-0817,Kolhapuri Chappal & Leather,Leather Craft,779.39,10.4,0.61,1,4,40,0.864,0.76,1,कोल्हापुरी हाथ की चप्पल,2763.2,5255.0
+SIH-CRAFT-0818,Bastar Dhokra Bell Metal,Dhokra Art,374.2,2.5,3.2,0,1,2,0.189,0.08,0,ढोकरा आदिवासी मूर्ति,151.5,823.24
+SIH-CRAFT-0819,Moradabad Brassware,Brass Craft,1021.89,19.7,3.59,1,4,30,0.799,0.825,1,ब्रास पूजा थाली,4744.6,8257.26
+SIH-CRAFT-0820,Bastar Dhokra Bell Metal,Dhokra Art,920.61,14.0,1.43,1,5,7,0.769,0.724,1,बेल मेटल बैल,3605.0,6582.07
+SIH-CRAFT-0821,Kolhapuri Chappal & Leather,Leather Craft,396.9,8.0,0.58,1,1,7,0.769,0.858,1,प्राकृतिक चमड़ा,1481.0,3007.66
+SIH-CRAFT-0822,Varanasi Silk Handloom,Handloom Silk,1475.05,48.8,1.01,1,4,15,0.883,0.989,1,हाथ का ताना-बाना,12327.4,19105.81
+SIH-CRAFT-0823,Gorakhpur Terracotta,Terracotta,234.55,6.8,3.49,1,4,40,0.9,0.703,1,टेराकोटा सुराही,2014.4,3508.58
+SIH-CRAFT-0824,Kutch Bandhani & Ajrakh,Bandhani,878.67,9.4,0.36,1,4,38,0.9,0.91,1,अजरख ब्लॉक प्रिंट,2619.2,5194.62
+SIH-CRAFT-0825,Saharanpur Wood Carving,Wood Carving,713.07,10.5,3.65,1,5,16,0.795,0.947,1,शीशम की लकड़ी की जाली,2602.5,4948.52
+SIH-CRAFT-0826,Saharanpur Wood Carving,Wood Carving,1273.75,13.3,3.53,1,5,25,0.762,0.822,1,लकड़ी का झरोखा,3367.5,6738.19
+SIH-CRAFT-0827,Kutch Bandhani & Ajrakh,Bandhani,852.41,10.8,0.61,1,4,5,0.954,0.745,1,अजरख ब्लॉक प्रिंट,2429.4,4902.94
+SIH-CRAFT-0828,Zari Zardozi Embroidery,Zari Embroidery,1083.15,25.2,0.91,0,5,16,0.963,0.718,1,सच्ची जरी कढ़ाई,5910.0,9440.75
+SIH-CRAFT-0829,Varanasi Silk Handloom,Handloom Silk,1656.34,58.3,0.91,1,4,8,0.707,0.896,1,शुद्ध रेशमी साड़ी,14578.4,22389.4
+SIH-CRAFT-0830,Gorakhpur Terracotta,Terracotta,331.01,3.3,1.1,1,4,21,0.718,0.784,1,माटी का घड़ा,1001.4,2271.25
+SIH-CRAFT-0831,Bastar Dhokra Bell Metal,Dhokra Art,1070.38,13.8,3.12,1,4,28,0.702,0.732,1,बेल मेटल बैल,3704.4,6918.45
+SIH-CRAFT-0832,Kutch Bandhani & Ajrakh,Bandhani,355.01,21.3,0.81,1,2,16,0.752,0.937,1,प्राकृतिक नील रंग,4372.2,6854.23
+SIH-CRAFT-0833,Bastar Dhokra Bell Metal,Dhokra Art,1132.6,16.8,1.35,1,5,32,0.741,0.702,1,ढोकरा आदिवासी मूर्ति,4680.0,8319.51
+SIH-CRAFT-0834,Bastar Dhokra Bell Metal,Dhokra Art,939.16,27.8,2.22,1,5,34,0.802,0.867,1,बेल मेटल बैल,7460.0,11811.37
+SIH-CRAFT-0835,Jaipur Blue Pottery,Blue Pottery,834.55,12.4,2.14,1,4,28,0.852,0.935,1,नीली मिट्टी का फूलदान,3309.2,6066.56
+SIH-CRAFT-0836,Kutch Bandhani & Ajrakh,Bandhani,1019.97,17.7,0.52,1,4,14,0.881,0.728,1,प्राकृतिक नील रंग,4068.6,7342.07
+SIH-CRAFT-0837,Gorakhpur Terracotta,Terracotta,411.16,6.0,2.38,1,3,7,0.88,0.909,1,टेराकोटा सुराही,1281.0,2756.92
+SIH-CRAFT-0838,Bastar Dhokra Bell Metal,Dhokra Art,1338.05,12.7,1.8,1,3,35,0.903,0.795,1,मोम की ढलाई कला,3395.2,6862.39
+SIH-CRAFT-0839,Mithila Madhubani Painting,Madhubani,528.34,20.9,0.15,1,5,32,0.776,0.916,1,गोबर लीपा कैनवास,5391.5,8464.28
+SIH-CRAFT-0840,Kutch Bandhani & Ajrakh,Bandhani,500.48,17.3,0.3,1,4,32,0.81,0.72,1,प्राकृतिक नील रंग,4251.4,6887.54
+SIH-CRAFT-0841,Varanasi Silk Handloom,Handloom Silk,1906.76,36.7,0.62,1,3,13,0.927,0.876,1,शुद्ध रेशमी साड़ी,8856.2,15002.5
+SIH-CRAFT-0842,Moradabad Brassware,Brass Craft,1489.74,11.4,4.52,1,2,20,0.701,0.804,1,पीतल का नक्काशीदार दीया,2511.6,5874.31
+SIH-CRAFT-0843,Gorakhpur Terracotta,Terracotta,123.88,1.2,0.64,0,1,3,0.342,0.205,0,माटी का घड़ा,61.92,272.54
+SIH-CRAFT-0844,Gorakhpur Terracotta,Terracotta,380.13,13.2,1.62,1,2,15,0.68,0.822,1,माटी का घड़ा,2653.8,4568.31
+SIH-CRAFT-0845,Saharanpur Wood Carving,Wood Carving,1079.96,7.5,4.35,1,2,13,0.889,0.713,1,लकड़ी का झरोखा,1612.5,4107.32
+SIH-CRAFT-0846,Jaipur Blue Pottery,Blue Pottery,527.47,14.8,1.97,1,5,30,0.69,0.762,1,क्वार्ट्ज प्लेट,4076.0,6687.18
+SIH-CRAFT-0847,Saharanpur Wood Carving,Wood Carving,802.14,13.6,2.24,1,5,17,0.672,0.936,1,लकड़ी का झरोखा,3315.0,6030.64
+SIH-CRAFT-0848,Zari Zardozi Embroidery,Zari Embroidery,520.7,15.5,0.51,0,5,9,0.885,0.929,1,मखमली सूट पीस,3622.5,5593.32
+SIH-CRAFT-0849,Mithila Madhubani Painting,Madhubani,302.11,17.1,0.54,1,4,11,0.76,0.884,1,प्राकृतिक रंग चित्र,3978.3,6251.05
+SIH-CRAFT-0850,Bastar Dhokra Bell Metal,Dhokra Art,519.41,30.1,2.01,1,5,17,0.816,0.904,1,ढोकरा आदिवासी मूर्ति,7780.0,11676.7
+SIH-CRAFT-0851,Varanasi Silk Handloom,Handloom Silk,2645.56,21.5,0.59,1,4,18,0.855,0.717,1,हाथ का ताना-बाना,5602.0,11606.71
+SIH-CRAFT-0852,Bastar Dhokra Bell Metal,Dhokra Art,666.84,14.5,0.9,1,5,31,0.894,0.795,1,मोम की ढलाई कला,4090.0,6894.23
+SIH-CRAFT-0853,Saharanpur Wood Carving,Wood Carving,1160.49,18.5,4.42,1,4,4,0.726,0.913,1,हाथ से तराशा बॉक्स,4000.5,7439.84
+SIH-CRAFT-0854,Varanasi Silk Handloom,Handloom Silk,1024.37,56.4,1.19,1,5,17,0.851,0.811,1,हाथ का ताना-बाना,14919.0,21996.05
+SIH-CRAFT-0855,Mithila Madhubani Painting,Madhubani,253.32,32.4,0.15,1,3,6,0.859,0.741,1,गोबर लीपा कैनवास,6926.4,10165.12
+SIH-CRAFT-0856,Mithila Madhubani Painting,Madhubani,575.95,31.3,0.75,1,3,35,0.676,0.91,1,प्राकृतिक रंग चित्र,7129.3,10874.59
+SIH-CRAFT-0857,Mithila Madhubani Painting,Madhubani,384.71,12.9,0.27,1,4,39,0.798,0.884,1,प्राकृतिक रंग चित्र,3461.7,5665.15
+SIH-CRAFT-0858,Bastar Dhokra Bell Metal,Dhokra Art,1569.81,18.8,1.25,1,4,30,0.817,0.913,1,ढोकरा आदिवासी मूर्ति,4924.4,9239.68
+SIH-CRAFT-0859,Bastar Dhokra Bell Metal,Dhokra Art,919.56,28.8,2.85,1,4,37,0.7,0.911,1,मोम की ढलाई कला,7409.4,11716.6
+SIH-CRAFT-0860,Kutch Bandhani & Ajrakh,Bandhani,662.88,12.0,0.62,1,2,24,0.695,0.836,1,कच्छी बंधेज दुपट्टा,2688.0,4996.19
+SIH-CRAFT-0861,Varanasi Silk Handloom,Handloom Silk,2881.81,48.1,0.7,1,4,29,0.96,0.981,1,हाथ का ताना-बाना,12363.8,21054.07
+SIH-CRAFT-0862,Kutch Bandhani & Ajrakh,Bandhani,812.84,15.4,0.49,1,2,10,0.777,0.864,1,कच्छी बंधेज दुपट्टा,3137.6,5805.59
+SIH-CRAFT-0863,Kutch Bandhani & Ajrakh,Bandhani,366.81,2.7,0.44,0,2,5,0.341,0.294,0,प्राकृतिक नील रंग,157.14,806.98
+SIH-CRAFT-0864,Kutch Bandhani & Ajrakh,Bandhani,355.41,1.5,0.22,0,2,5,0.347,0.06,0,प्राकृतिक नील रंग,87.3,781.9
+SIH-CRAFT-0865,Mithila Madhubani Painting,Madhubani,500.51,27.1,0.28,1,5,40,0.964,0.944,1,मिथिला पेंटिंग,6968.5,10555.66
+SIH-CRAFT-0866,Jaipur Blue Pottery,Blue Pottery,704.42,18.8,1.47,1,2,36,0.95,0.954,1,नीली मिट्टी का फूलदान,4469.2,7456.89
+SIH-CRAFT-0867,Kutch Bandhani & Ajrakh,Bandhani,541.78,21.5,0.66,1,3,40,0.752,0.819,1,प्राकृतिक नील रंग,5029.0,7993.05
+SIH-CRAFT-0868,Jaipur Blue Pottery,Blue Pottery,664.94,17.2,2.39,1,4,16,0.957,0.815,1,क्वार्ट्ज प्लेट,4247.6,7104.43
+SIH-CRAFT-0869,Gorakhpur Terracotta,Terracotta,157.97,0.5,0.71,0,2,4,0.246,0.151,0,धूपदानी,27.6,347.53
+SIH-CRAFT-0870,Mithila Madhubani Painting,Madhubani,352.52,11.8,0.44,1,5,10,0.799,0.936,1,गोबर लीपा कैनवास,2923.0,4894.45
+SIH-CRAFT-0871,Varanasi Silk Handloom,Handloom Silk,1320.28,49.4,0.61,1,4,31,0.857,0.881,1,शुद्ध रेशमी साड़ी,12716.2,19421.75
+SIH-CRAFT-0872,Jaipur Blue Pottery,Blue Pottery,557.75,9.9,1.35,1,3,33,0.81,0.921,1,नीली मिट्टी का फूलदान,2682.9,4847.38
+SIH-CRAFT-0873,Gorakhpur Terracotta,Terracotta,436.56,10.3,2.87,1,1,9,0.72,0.93,1,धूपदानी,1906.6,3635.77
+SIH-CRAFT-0874,Zari Zardozi Embroidery,Zari Embroidery,1460.16,16.6,0.64,0,4,30,0.761,0.898,1,सच्ची जरी कढ़ाई,3985.8,7352.05
+SIH-CRAFT-0875,Saharanpur Wood Carving,Wood Carving,1340.99,22.0,2.2,1,2,25,0.938,0.934,1,शीशम की लकड़ी की जाली,4533.0,8402.39
+SIH-CRAFT-0876,Bastar Dhokra Bell Metal,Dhokra Art,376.8,4.3,3.3,0,1,4,0.143,0.236,0,बेल मेटल बैल,260.58,828.96
+SIH-CRAFT-0877,Varanasi Silk Handloom,Handloom Silk,2322.21,45.0,0.78,1,4,15,0.651,0.885,1,हाथ का ताना-बाना,11385.0,18977.23
+SIH-CRAFT-0878,Gorakhpur Terracotta,Terracotta,412.03,13.7,2.71,1,4,17,0.85,0.816,1,माटी का घड़ा,3104.6,5219.95
+SIH-CRAFT-0879,Saharanpur Wood Carving,Wood Carving,1331.48,28.3,4.45,1,2,27,0.747,0.757,1,शीशम की लकड़ी की जाली,5753.7,10037.49
+SIH-CRAFT-0880,Kolhapuri Chappal & Leather,Leather Craft,328.37,1.9,0.43,0,2,0,0.205,0.286,0,हाथ की सिलाई,104.88,722.41
+SIH-CRAFT-0881,Bastar Dhokra Bell Metal,Dhokra Art,990.92,12.5,2.59,1,3,18,0.72,0.918,1,बेल मेटल बैल,3095.0,5988.49
+SIH-CRAFT-0882,Jaipur Blue Pottery,Blue Pottery,896.35,6.4,2.64,1,4,27,0.903,0.764,1,क्वार्ट्ज प्लेट,1896.2,4242.44
+SIH-CRAFT-0883,Bastar Dhokra Bell Metal,Dhokra Art,495.06,3.7,3.29,0,2,0,0.378,0.166,0,ढोकरा आदिवासी मूर्ति,237.54,1089.13
+SIH-CRAFT-0884,Zari Zardozi Embroidery,Zari Embroidery,1080.71,26.1,0.56,0,5,38,0.969,0.827,1,जरदोज़ी का काम,6442.5,10156.33
+SIH-CRAFT-0885,Varanasi Silk Handloom,Handloom Silk,1569.25,20.9,0.67,1,5,15,0.896,0.734,1,हाथ का ताना-बाना,5659.0,10230.64
+SIH-CRAFT-0886,Mithila Madhubani Painting,Madhubani,309.9,3.6,0.1,0,1,4,0.287,0.346,0,पेड़ और मोर,201.96,681.78
+SIH-CRAFT-0887,Saharanpur Wood Carving,Wood Carving,1197.52,28.4,1.27,1,3,9,0.78,0.856,1,हाथ से तराशा बॉक्स,5843.4,9977.74
+SIH-CRAFT-0888,Saharanpur Wood Carving,Wood Carving,1342.89,26.1,2.65,1,5,12,0.848,0.742,1,लकड़ी का झरोखा,6052.5,10456.28
+SIH-CRAFT-0889,Gorakhpur Terracotta,Terracotta,242.67,13.9,0.87,1,4,16,0.813,0.904,1,धूपदानी,3131.2,5027.22
+SIH-CRAFT-0890,Gorakhpur Terracotta,Terracotta,99.98,1.8,1.13,0,1,5,0.358,0.373,0,टेराकोटा सुराही,92.88,219.96
+SIH-CRAFT-0891,Bastar Dhokra Bell Metal,Dhokra Art,829.01,27.9,3.26,1,3,4,0.831,0.798,1,बेल मेटल बैल,6365.4,10184.95
+SIH-CRAFT-0892,Bastar Dhokra Bell Metal,Dhokra Art,533.39,2.8,2.23,0,2,2,0.344,0.118,0,बेल मेटल बैल,179.76,1173.46
+SIH-CRAFT-0893,Kutch Bandhani & Ajrakh,Bandhani,558.73,18.7,0.81,1,2,22,0.801,0.747,1,कच्छी बंधेज दुपट्टा,3957.8,6569.82
+SIH-CRAFT-0894,Bastar Dhokra Bell Metal,Dhokra Art,820.19,13.2,1.39,1,5,15,0.893,0.703,1,बेल मेटल बैल,3525.0,6338.51
+SIH-CRAFT-0895,Zari Zardozi Embroidery,Zari Embroidery,1274.77,31.5,0.56,0,5,13,0.956,0.728,1,सच्ची जरी कढ़ाई,7282.5,11552.31
+SIH-CRAFT-0896,Mithila Madhubani Painting,Madhubani,125.82,3.4,0.34,0,2,1,0.319,0.191,0,मिथिला पेंटिंग,202.98,276.8
+SIH-CRAFT-0897,Jaipur Blue Pottery,Blue Pottery,618.74,15.6,2.7,1,5,8,0.907,0.951,1,हस्तशिल्प जार,3942.0,6629.5
+SIH-CRAFT-0898,Kutch Bandhani & Ajrakh,Bandhani,822.56,11.9,0.28,1,2,10,0.811,0.894,1,प्राकृतिक नील रंग,2458.6,4902.07
+SIH-CRAFT-0899,Varanasi Silk Handloom,Handloom Silk,2217.86,41.2,0.62,1,5,9,0.912,0.753,1,जरी पल्लू,10847.0,18110.06
+SIH-CRAFT-0900,Kutch Bandhani & Ajrakh,Bandhani,400.19,11.2,0.7,1,4,14,0.784,0.903,1,अजरख ब्लॉक प्रिंट,2651.6,4592.42
+SIH-CRAFT-0901,Kolhapuri Chappal & Leather,Leather Craft,820.08,10.8,0.45,1,1,16,0.969,0.96,1,कोल्हापुरी हाथ की चप्पल,2097.6,4411.37
+SIH-CRAFT-0902,Zari Zardozi Embroidery,Zari Embroidery,455.59,21.2,0.52,0,2,11,0.84,0.889,1,जरदोज़ी का काम,4171.8,6246.98
+SIH-CRAFT-0903,Kolhapuri Chappal & Leather,Leather Craft,801.84,5.9,0.5,1,3,26,0.969,0.75,1,हाथ की सिलाई,1546.4,3642.62
+SIH-CRAFT-0904,Gorakhpur Terracotta,Terracotta,163.85,13.4,3.21,1,3,37,0.797,0.867,1,हाथ से बनी मटकी,3181.4,4988.59
+SIH-CRAFT-0905,Kolhapuri Chappal & Leather,Leather Craft,379.23,1.8,0.81,0,1,5,0.387,0.133,0,कोल्हापुरी हाथ की चप्पल,92.88,834.31
+SIH-CRAFT-0906,Mithila Madhubani Painting,Madhubani,707.95,34.8,0.52,1,3,40,0.768,0.737,1,पेड़ और मोर,7942.8,12151.01
+SIH-CRAFT-0907,Jaipur Blue Pottery,Blue Pottery,493.37,15.1,0.96,1,5,8,0.962,0.896,1,हस्तशिल्प जार,3819.5,6294.87
+SIH-CRAFT-0908,Mithila Madhubani Painting,Madhubani,288.81,28.5,0.8,1,5,15,0.886,0.863,1,गोबर लीपा कैनवास,6922.5,10207.77
+SIH-CRAFT-0909,Kutch Bandhani & Ajrakh,Bandhani,553.09,18.6,0.47,1,4,18,0.676,0.736,1,कच्छी बंधेज दुपट्टा,4324.8,7057.65
+SIH-CRAFT-0910,Kolhapuri Chappal & Leather,Leather Craft,547.61,6.0,1.13,1,3,12,0.937,0.765,1,कोल्हापुरी हाथ की चप्पल,1356.0,3042.37
+SIH-CRAFT-0911,Jaipur Blue Pottery,Blue Pottery,882.83,11.3,0.83,1,2,14,0.824,0.954,1,हस्तशिल्प जार,2571.7,5136.12
+SIH-CRAFT-0912,Bastar Dhokra Bell Metal,Dhokra Art,883.79,22.6,1.56,1,4,9,0.946,0.75,1,मोम की ढलाई कला,5513.8,9109.25
+SIH-CRAFT-0913,Mithila Madhubani Painting,Madhubani,657.71,35.1,0.47,1,5,28,0.807,0.737,1,मिथिला पेंटिंग,8668.5,13062.88
+SIH-CRAFT-0914,Kolhapuri Chappal & Leather,Leather Craft,744.54,6.6,0.85,1,3,6,0.953,0.885,1,प्राकृतिक चमड़ा,1383.6,3345.49
+SIH-CRAFT-0915,Varanasi Silk Handloom,Handloom Silk,1861.96,36.1,0.75,1,4,32,0.816,0.78,1,जरी पल्लू,9432.8,15720.43
+SIH-CRAFT-0916,Kolhapuri Chappal & Leather,Leather Craft,351.53,2.1,0.64,0,1,2,0.242,0.159,0,कोल्हापुरी हाथ की चप्पल,108.36,773.37
+SIH-CRAFT-0917,Jaipur Blue Pottery,Blue Pottery,482.02,7.3,1.87,1,2,21,0.833,0.843,1,नीली मिट्टी का फूलदान,1840.7,3608.17
+SIH-CRAFT-0918,Kutch Bandhani & Ajrakh,Bandhani,1045.95,8.2,0.55,1,4,37,0.88,0.818,1,प्राकृतिक नील रंग,2342.6,5047.04
+SIH-CRAFT-0919,Varanasi Silk Handloom,Handloom Silk,1046.24,7.1,0.96,0,2,1,0.448,0.281,0,बनारसी कतान सिल्क,477.12,2301.73
+SIH-CRAFT-0920,Zari Zardozi Embroidery,Zari Embroidery,626.96,33.3,0.83,0,3,14,0.675,0.943,1,मखमली सूट पीस,6903.3,10165.85
+SIH-CRAFT-0921,Saharanpur Wood Carving,Wood Carving,329.09,2.3,2.18,0,1,2,0.42,0.137,0,लकड़ी का झरोखा,122.13,724.0
+SIH-CRAFT-0922,Jaipur Blue Pottery,Blue Pottery,615.72,9.7,0.6,1,5,16,0.955,0.969,1,हस्तशिल्प जार,2616.5,4836.0
+SIH-CRAFT-0923,Kolhapuri Chappal & Leather,Leather Craft,371.26,10.1,0.89,1,4,6,0.767,0.879,1,प्राकृतिक चमड़ा,2190.8,3931.28
+SIH-CRAFT-0924,Moradabad Brassware,Brass Craft,606.19,25.8,2.34,1,4,3,0.683,0.843,1,पीतल का नक्काशीदार दीया,5669.4,8944.55
+SIH-CRAFT-0925,Kolhapuri Chappal & Leather,Leather Craft,442.23,6.4,0.79,1,2,19,0.725,0.815,1,प्राकृतिक चमड़ा,1462.6,3044.02
+SIH-CRAFT-0926,Saharanpur Wood Carving,Wood Carving,582.18,25.5,1.2,1,5,31,0.703,0.803,1,हाथ से तराशा बॉक्स,6202.5,9631.82
+SIH-CRAFT-0927,Gorakhpur Terracotta,Terracotta,411.15,5.2,1.07,1,1,11,0.78,0.916,1,माटी का घड़ा,1059.4,2457.74
+SIH-CRAFT-0928,Mithila Madhubani Painting,Madhubani,771.61,34.9,0.79,1,3,29,0.811,0.844,1,गोबर लीपा कैनवास,7798.9,12042.69
+SIH-CRAFT-0929,Saharanpur Wood Carving,Wood Carving,1180.34,15.6,3.49,1,5,11,0.686,0.731,1,शीशम की लकड़ी की जाली,3675.0,7027.21
+SIH-CRAFT-0930,Mithila Madhubani Painting,Madhubani,525.0,29.5,0.27,1,5,24,0.792,0.873,1,मिथिला पेंटिंग,7292.5,11026.12
+SIH-CRAFT-0931,Kutch Bandhani & Ajrakh,Bandhani,525.78,7.3,0.5,1,4,12,0.891,0.754,1,अजरख ब्लॉक प्रिंट,1771.4,3573.69
+SIH-CRAFT-0932,Jaipur Blue Pottery,Blue Pottery,358.74,1.4,2.41,0,1,3,0.347,0.333,0,हस्तशिल्प जार,82.74,789.23
+SIH-CRAFT-0933,Kolhapuri Chappal & Leather,Leather Craft,463.2,14.4,0.9,1,2,17,0.69,0.816,1,प्राकृतिक चमड़ा,2904.6,5019.03
+SIH-CRAFT-0934,Varanasi Silk Handloom,Handloom Silk,752.2,6.5,0.47,0,1,3,0.243,0.157,0,शुद्ध रेशमी साड़ी,413.4,1654.84
+SIH-CRAFT-0935,Varanasi Silk Handloom,Handloom Silk,2002.15,38.4,0.92,1,4,10,0.739,0.781,1,हाथ का ताना-बाना,9673.2,16234.22
+SIH-CRAFT-0936,Kutch Bandhani & Ajrakh,Bandhani,1016.08,8.9,0.2,1,4,23,0.72,0.837,1,प्राकृतिक नील रंग,2285.2,4929.23
+SIH-CRAFT-0937,Jaipur Blue Pottery,Blue Pottery,488.74,12.9,1.34,1,2,9,0.871,0.898,1,नीली मिट्टी का फूलदान,2831.1,4954.28
+SIH-CRAFT-0938,Saharanpur Wood Carving,Wood Carving,1210.04,23.8,2.98,1,4,18,0.865,0.761,1,हाथ से तराशा बॉक्स,5339.4,9314.24
+SIH-CRAFT-0939,Jaipur Blue Pottery,Blue Pottery,168.71,2.5,0.86,0,1,1,0.347,0.374,0,नीली मिट्टी का फूलदान,147.75,371.16
+SIH-CRAFT-0940,Kolhapuri Chappal & Leather,Leather Craft,530.89,10.2,1.01,1,2,5,0.692,0.821,1,हाथ की सिलाई,1951.8,3824.13
+SIH-CRAFT-0941,Moradabad Brassware,Brass Craft,604.49,3.7,4.02,0,2,2,0.257,0.301,0,ब्रास पूजा थाली,215.34,1329.88
+SIH-CRAFT-0942,Jaipur Blue Pottery,Blue Pottery,638.07,19.3,2.34,1,3,20,0.88,0.737,1,नीली मिट्टी का फूलदान,4565.3,7497.05
+SIH-CRAFT-0943,Zari Zardozi Embroidery,Zari Embroidery,1471.1,14.8,0.87,0,5,37,0.937,0.982,1,जरदोज़ी का काम,3885.0,7230.74
+SIH-CRAFT-0944,Bastar Dhokra Bell Metal,Dhokra Art,922.57,27.1,1.88,1,4,16,0.711,0.746,1,ढोकरा आदिवासी मूर्ति,6689.8,10749.2
+SIH-CRAFT-0945,Zari Zardozi Embroidery,Zari Embroidery,1373.11,29.8,0.62,0,4,22,0.931,0.786,1,सच्ची जरी कढ़ाई,6677.4,10868.19
+SIH-CRAFT-0946,Kolhapuri Chappal & Leather,Leather Craft,484.36,10.9,0.63,1,2,20,0.956,0.778,1,कोल्हापुरी हाथ की चप्पल,2305.6,4238.95
+SIH-CRAFT-0947,Varanasi Silk Handloom,Handloom Silk,553.17,3.2,0.92,0,2,2,0.129,0.297,0,हाथ का ताना-बाना,215.04,1216.97
+SIH-CRAFT-0948,Mithila Madhubani Painting,Madhubani,586.32,17.1,0.14,1,3,25,0.722,0.98,1,गोबर लीपा कैनवास,3983.1,6641.22
+SIH-CRAFT-0949,Moradabad Brassware,Brass Craft,497.95,4.1,5.0,0,1,5,0.361,0.184,0,हाथ की ढलाई,223.86,1095.49
+SIH-CRAFT-0950,Moradabad Brassware,Brass Craft,544.47,2.9,5.18,0,1,2,0.194,0.254,0,ब्रास पूजा थाली,158.34,1197.83
+SIH-CRAFT-0951,Mithila Madhubani Painting,Madhubani,651.4,20.1,0.2,1,4,8,0.814,0.833,1,गोबर लीपा कैनवास,4602.3,7564.99
+SIH-CRAFT-0952,Varanasi Silk Handloom,Handloom Silk,3069.72,23.9,0.63,1,4,13,0.942,0.937,1,शुद्ध रेशमी साड़ी,6122.2,12881.59
+SIH-CRAFT-0953,Jaipur Blue Pottery,Blue Pottery,584.52,12.4,2.02,1,5,9,0.889,0.74,1,नीली मिट्टी का फूलदान,3173.0,5545.15
+SIH-CRAFT-0954,Zari Zardozi Embroidery,Zari Embroidery,853.19,12.8,0.31,0,2,11,0.732,0.724,1,जरदोज़ी का काम,2584.2,4640.48
+SIH-CRAFT-0955,Zari Zardozi Embroidery,Zari Embroidery,1464.68,33.9,0.37,0,4,8,0.717,0.839,1,मखमली सूट पीस,7340.7,11887.26
+SIH-CRAFT-0956,Bastar Dhokra Bell Metal,Dhokra Art,838.12,20.5,1.46,1,5,20,0.857,0.736,1,ढोकरा आदिवासी मूर्ति,5425.0,8927.71
+SIH-CRAFT-0957,Jaipur Blue Pottery,Blue Pottery,406.41,18.4,1.51,1,2,17,0.658,0.824,1,नीली मिट्टी का फूलदान,4100.6,6556.96
+SIH-CRAFT-0958,Saharanpur Wood Carving,Wood Carving,625.88,27.1,2.22,1,2,34,0.706,0.732,1,शीशम की लकड़ी की जाली,5631.9,8920.5
+SIH-CRAFT-0959,Moradabad Brassware,Brass Craft,1338.84,10.4,5.65,1,2,5,0.849,0.752,1,हाथ की ढलाई,2092.6,5104.94
+SIH-CRAFT-0960,Saharanpur Wood Carving,Wood Carving,1079.43,9.6,3.27,1,4,21,0.765,0.73,1,हाथ से तराशा बॉक्स,2359.8,5115.46
+SIH-CRAFT-0961,Saharanpur Wood Carving,Wood Carving,484.29,3.5,1.08,0,1,1,0.372,0.101,0,शीशम की लकड़ी की जाली,185.85,1065.44
+SIH-CRAFT-0962,Kutch Bandhani & Ajrakh,Bandhani,937.48,21.6,0.77,1,2,39,0.791,0.911,1,कच्छी बंधेज दुपट्टा,4775.4,8184.89
+SIH-CRAFT-0963,Jaipur Blue Pottery,Blue Pottery,420.14,16.7,1.38,1,5,30,0.809,0.982,1,हस्तशिल्प जार,4541.5,7170.71
+SIH-CRAFT-0964,Saharanpur Wood Carving,Wood Carving,1344.03,28.1,2.22,1,5,37,0.826,0.854,1,शीशम की लकड़ी की जाली,6877.5,11571.57
+SIH-CRAFT-0965,Kutch Bandhani & Ajrakh,Bandhani,871.94,14.4,0.74,1,4,17,0.882,0.768,1,कच्छी बंधेज दुपट्टा,3394.2,6231.79
+SIH-CRAFT-0966,Varanasi Silk Handloom,Handloom Silk,375.78,6.1,1.17,0,1,0,0.419,0.176,0,शुद्ध रेशमी साड़ी,387.96,826.72
+SIH-CRAFT-0967,Moradabad Brassware,Brass Craft,1602.3,19.0,5.69,1,5,18,0.72,0.765,1,हाथ की ढलाई,4640.0,8899.6
+SIH-CRAFT-0968,Mithila Madhubani Painting,Madhubani,632.68,12.0,0.61,1,5,30,0.773,0.903,1,मिथिला पेंटिंग,3270.0,5741.12
+SIH-CRAFT-0969,Bastar Dhokra Bell Metal,Dhokra Art,1457.52,10.7,1.79,1,3,18,0.675,0.865,1,मोम की ढलाई कला,2688.2,6069.22
+SIH-CRAFT-0970,Mithila Madhubani Painting,Madhubani,508.37,11.9,0.47,1,4,33,0.786,0.798,1,मिथिला पेंटिंग,3148.7,5409.54
+SIH-CRAFT-0971,Moradabad Brassware,Brass Craft,672.0,20.8,4.22,1,3,35,0.703,0.815,1,ब्रास पूजा थाली,4809.8,7872.93
+SIH-CRAFT-0972,Bastar Dhokra Bell Metal,Dhokra Art,1412.47,30.2,2.16,1,5,17,0.79,0.745,1,ढोकरा आदिवासी मूर्ति,7805.0,12916.08
+SIH-CRAFT-0973,Kolhapuri Chappal & Leather,Leather Craft,920.64,13.2,0.72,1,1,17,0.779,0.939,1,हाथ की सिलाई,2525.4,5124.65
+SIH-CRAFT-0974,Zari Zardozi Embroidery,Zari Embroidery,1307.39,21.7,0.52,0,5,27,0.704,0.933,1,मखमली सूट पीस,5287.5,8903.1
+SIH-CRAFT-0975,Kutch Bandhani & Ajrakh,Bandhani,386.72,7.2,0.62,1,3,4,0.729,0.747,1,कच्छी बंधेज दुपट्टा,1543.2,3077.89
+SIH-CRAFT-0976,Jaipur Blue Pottery,Blue Pottery,356.04,18.7,1.01,1,3,5,0.729,0.725,1,हस्तशिल्प जार,4207.7,6633.55
+SIH-CRAFT-0977,Zari Zardozi Embroidery,Zari Embroidery,1485.82,22.1,0.33,0,2,22,0.653,0.803,1,सच्ची जरी कढ़ाई,4506.9,8090.17
+SIH-CRAFT-0978,Kutch Bandhani & Ajrakh,Bandhani,551.58,12.3,0.45,1,2,9,0.759,0.96,1,प्राकृतिक नील रंग,2521.2,4620.75
+SIH-CRAFT-0979,Jaipur Blue Pottery,Blue Pottery,776.28,6.3,2.35,1,5,40,0.937,0.711,1,नीली मिट्टी का फूलदान,2143.5,4414.2
+SIH-CRAFT-0980,Mithila Madhubani Painting,Madhubani,293.31,25.5,0.77,1,3,16,0.916,0.89,1,गोबर लीपा कैनवास,5620.5,8456.14
+SIH-CRAFT-0981,Kolhapuri Chappal & Leather,Leather Craft,787.23,12.2,1.14,1,3,31,0.909,0.798,1,प्राकृतिक चमड़ा,2856.2,5391.13
+SIH-CRAFT-0982,Zari Zardozi Embroidery,Zari Embroidery,360.98,4.8,0.84,0,2,1,0.173,0.264,0,जरदोज़ी का काम,272.16,794.16
+SIH-CRAFT-0983,Mithila Madhubani Painting,Madhubani,796.92,10.7,0.11,1,4,38,0.936,0.931,1,मिथिला पेंटिंग,2956.1,5539.08
+SIH-CRAFT-0984,Bastar Dhokra Bell Metal,Dhokra Art,845.09,30.5,1.24,1,4,39,0.77,0.726,1,ढोकरा आदिवासी मूर्ति,7844.0,12202.77
+SIH-CRAFT-0985,Bastar Dhokra Bell Metal,Dhokra Art,1020.59,15.6,3.17,1,5,11,0.96,0.982,1,मोम की ढलाई कला,4065.0,7338.05
+SIH-CRAFT-0986,Gorakhpur Terracotta,Terracotta,235.99,7.5,2.36,1,2,31,0.771,0.945,1,हाथ से बनी मटकी,1845.0,3281.84
+SIH-CRAFT-0987,Saharanpur Wood Carving,Wood Carving,813.19,16.8,4.05,1,2,6,0.895,0.771,1,लकड़ी का झरोखा,3265.2,5978.33
+SIH-CRAFT-0988,Gorakhpur Terracotta,Terracotta,181.59,7.1,2.21,1,1,17,0.778,0.834,1,माटी का घड़ा,1476.2,2710.52
+SIH-CRAFT-0989,Saharanpur Wood Carving,Wood Carving,1042.48,27.6,2.52,1,2,14,0.891,0.966,1,हाथ से तराशा बॉक्स,5426.4,9205.49
+SIH-CRAFT-0990,Kutch Bandhani & Ajrakh,Bandhani,562.98,11.1,0.9,1,3,16,0.882,0.838,1,अजरख ब्लॉक प्रिंट,2526.6,4643.43
+SIH-CRAFT-0991,Bastar Dhokra Bell Metal,Dhokra Art,671.32,20.3,2.53,1,4,39,0.66,0.874,1,मोम की ढलाई कला,5416.4,8690.92
+SIH-CRAFT-0992,Gorakhpur Terracotta,Terracotta,103.38,1.2,1.92,0,1,1,0.404,0.383,0,धूपदानी,61.92,227.44
+SIH-CRAFT-0993,Moradabad Brassware,Brass Craft,811.33,10.8,2.73,1,2,22,0.938,0.831,1,ब्रास पूजा थाली,2425.2,4841.82
+SIH-CRAFT-0994,Kolhapuri Chappal & Leather,Leather Craft,885.84,7.0,0.44,1,4,24,0.968,0.786,1,कोल्हापुरी हाथ की चप्पल,1816.0,4119.98
+SIH-CRAFT-0995,Saharanpur Wood Carving,Wood Carving,352.65,2.8,3.7,0,2,2,0.419,0.25,0,शीशम की लकड़ी की जाली,158.76,775.83
+SIH-CRAFT-0996,Kolhapuri Chappal & Leather,Leather Craft,708.28,5.9,0.93,1,2,23,0.869,0.939,1,हाथ की सिलाई,1430.6,3359.99
+SIH-CRAFT-0997,Saharanpur Wood Carving,Wood Carving,1296.5,28.4,2.65,1,4,10,0.911,0.895,1,हाथ से तराशा बॉक्स,6199.2,10591.69
+SIH-CRAFT-0998,Kolhapuri Chappal & Leather,Leather Craft,942.94,15.4,1.09,1,4,40,0.682,0.763,1,कोल्हापुरी हाथ की चप्पल,3803.2,6879.79
+SIH-CRAFT-0999,Kutch Bandhani & Ajrakh,Bandhani,919.51,15.6,0.35,1,2,15,0.971,0.867,1,कच्छी बंधेज दुपट्टा,3251.4,6103.23
+SIH-CRAFT-1000,Saharanpur Wood Carving,Wood Carving,416.19,27.5,2.66,1,2,34,0.864,0.832,1,हाथ से तराशा बॉक्स,5707.5,8739.48
+SIH-CRAFT-1001,Saharanpur Wood Carving,Wood Carving,942.47,18.6,3.63,1,2,14,0.801,0.808,1,लकड़ी का झरोखा,3725.4,6774.12
+SIH-CRAFT-1002,Zari Zardozi Embroidery,Zari Embroidery,907.67,17.1,0.76,0,5,21,0.882,0.972,1,जरदोज़ी का काम,4162.5,6844.73
+SIH-CRAFT-1003,Jaipur Blue Pottery,Blue Pottery,407.1,15.1,1.96,1,5,9,0.814,0.918,1,हस्तशिल्प जार,3834.5,6198.66
+SIH-CRAFT-1004,Jaipur Blue Pottery,Blue Pottery,626.85,17.3,2.07,1,5,16,0.724,0.832,1,क्वार्ट्ज प्लेट,4478.5,7364.72
+SIH-CRAFT-1005,Jaipur Blue Pottery,Blue Pottery,608.27,7.7,2.73,1,5,29,0.95,0.887,1,हस्तशिल्प जार,2321.5,4427.69
+SIH-CRAFT-1006,Kutch Bandhani & Ajrakh,Bandhani,599.72,9.6,0.4,1,4,19,0.751,0.962,1,अजरख ब्लॉक प्रिंट,2377.8,4492.15
+SIH-CRAFT-1007,Varanasi Silk Handloom,Handloom Silk,2990.84,17.4,0.42,1,4,36,0.921,0.874,1,हाथ का ताना-बाना,4855.2,11064.65
+SIH-CRAFT-1008,Mithila Madhubani Painting,Madhubani,318.42,2.2,0.78,0,1,4,0.326,0.34,0,पेड़ और मोर,123.42,700.52
+SIH-CRAFT-1009,Mithila Madhubani Painting,Madhubani,185.89,4.3,0.38,0,2,4,0.155,0.131,0,गोबर लीपा कैनवास,256.71,408.96
+SIH-CRAFT-1010,Kolhapuri Chappal & Leather,Leather Craft,696.16,9.3,1.01,1,3,38,0.702,0.793,1,कोल्हापुरी हाथ की चप्पल,2392.8,4642.6
+SIH-CRAFT-1011,Jaipur Blue Pottery,Blue Pottery,356.35,16.8,0.94,1,2,39,0.776,0.915,1,नीली मिट्टी का फूलदान,4096.2,6483.44
+SIH-CRAFT-1012,Bastar Dhokra Bell Metal,Dhokra Art,1355.35,14.1,2.56,1,3,22,0.714,0.944,1,बेल मेटल बैल,3516.6,7049.63
+SIH-CRAFT-1013,Kutch Bandhani & Ajrakh,Bandhani,827.41,10.4,0.85,1,4,4,0.861,0.868,1,कच्छी बंधेज दुपट्टा,2327.2,4731.22
+SIH-CRAFT-1014,Jaipur Blue Pottery,Blue Pottery,677.74,7.5,1.22,1,3,8,0.676,0.945,1,नीली मिट्टी का फूलदान,1777.5,3787.07
+SIH-CRAFT-1015,Kutch Bandhani & Ajrakh,Bandhani,936.35,12.6,0.54,1,4,7,0.719,0.822,1,अजरख ब्लॉक प्रिंट,2851.8,5586.5
+SIH-CRAFT-1016,Bastar Dhokra Bell Metal,Dhokra Art,697.79,10.2,1.28,1,5,5,0.689,0.799,1,मोम की ढलाई कला,2625.0,4958.27
+SIH-CRAFT-1017,Bastar Dhokra Bell Metal,Dhokra Art,464.0,1.5,2.21,0,2,0,0.167,0.06,0,ढोकरा आदिवासी मूर्ति,96.3,1020.8
+SIH-CRAFT-1018,Kolhapuri Chappal & Leather,Leather Craft,441.41,14.5,0.49,1,2,4,0.758,0.764,1,हाथ की सिलाई,2728.0,4751.2
+SIH-CRAFT-1019,Mithila Madhubani Painting,Madhubani,514.87,34.7,0.34,1,5,21,0.804,0.935,1,पेड़ और मोर,8469.5,12601.4
+SIH-CRAFT-1020,Kolhapuri Chappal & Leather,Leather Craft,361.36,1.2,0.56,0,2,3,0.136,0.328,0,हाथ की सिलाई,66.24,794.99
+SIH-CRAFT-1021,Moradabad Brassware,Brass Craft,847.0,22.4,3.45,1,5,30,0.847,0.779,1,ब्रास पूजा थाली,5602.0,9178.65
+SIH-CRAFT-1022,Zari Zardozi Embroidery,Zari Embroidery,852.2,15.0,0.55,0,2,31,0.705,0.71,1,मखमली सूट पीस,3300.0,5605.47
+SIH-CRAFT-1023,Moradabad Brassware,Brass Craft,952.17,24.5,4.4,1,4,28,0.66,0.752,1,ब्रास पूजा थाली,5761.0,9535.28
+SIH-CRAFT-1024,Kutch Bandhani & Ajrakh,Bandhani,586.2,7.2,0.66,1,3,12,0.907,0.735,1,अजरख ब्लॉक प्रिंट,1663.2,3509.19
+SIH-CRAFT-1025,Gorakhpur Terracotta,Terracotta,214.13,9.2,1.46,1,2,38,0.672,0.782,1,टेराकोटा सुराही,2262.8,3816.36
+SIH-CRAFT-1026,Kolhapuri Chappal & Leather,Leather Craft,686.58,12.9,1.16,1,1,39,0.945,0.822,1,प्राकृतिक चमड़ा,2803.8,5184.51
+SIH-CRAFT-1027,Saharanpur Wood Carving,Wood Carving,598.15,7.2,2.63,1,2,20,0.789,0.736,1,शीशम की लकड़ी की जाली,1660.8,3522.08
+SIH-CRAFT-1028,Zari Zardozi Embroidery,Zari Embroidery,852.0,24.4,0.5,0,2,32,0.744,0.944,1,सच्ची जरी कढ़ाई,5091.6,8023.86
+SIH-CRAFT-1029,Gorakhpur Terracotta,Terracotta,170.16,0.5,2.43,0,1,3,0.133,0.331,0,हाथ से बनी मटकी,25.8,374.35
+SIH-CRAFT-1030,Moradabad Brassware,Brass Craft,1014.99,9.6,4.99,1,5,6,0.78,0.902,1,ब्रास पूजा थाली,2298.0,4945.04
+SIH-CRAFT-1031,Bastar Dhokra Bell Metal,Dhokra Art,1563.87,12.7,1.81,1,5,9,0.66,0.714,1,ढोकरा आदिवासी मूर्ति,3310.0,7052.22
+SIH-CRAFT-1032,Mithila Madhubani Painting,Madhubani,427.57,27.3,0.4,1,3,8,0.713,0.962,1,प्राकृतिक रंग चित्र,5880.3,8988.12
+SIH-CRAFT-1033,Kolhapuri Chappal & Leather,Leather Craft,364.19,2.2,0.61,0,1,0,0.117,0.157,0,प्राकृतिक चमड़ा,113.52,801.22
+SIH-CRAFT-1034,Saharanpur Wood Carving,Wood Carving,1191.63,15.1,3.39,1,3,40,0.802,0.737,1,शीशम की लकड़ी की जाली,3635.1,6988.59
+SIH-CRAFT-1035,Zari Zardozi Embroidery,Zari Embroidery,585.65,3.0,0.61,0,1,4,0.285,0.252,0,मखमली सूट पीस,159.3,1288.43
+SIH-CRAFT-1036,Bastar Dhokra Bell Metal,Dhokra Art,341.64,3.9,1.41,0,2,2,0.349,0.174,0,ढोकरा आदिवासी मूर्ति,250.38,751.61
+SIH-CRAFT-1037,Varanasi Silk Handloom,Handloom Silk,1072.83,37.8,0.57,1,5,16,0.804,0.812,1,जरी पल्लू,10068.0,15512.62
+SIH-CRAFT-1038,Jaipur Blue Pottery,Blue Pottery,797.7,16.7,1.73,1,4,22,0.884,0.89,1,हस्तशिल्प जार,4221.1,7247.88
+SIH-CRAFT-1039,Jaipur Blue Pottery,Blue Pottery,188.13,1.7,2.75,0,1,3,0.166,0.147,0,नीली मिट्टी का फूलदान,100.47,413.89
+SIH-CRAFT-1040,Moradabad Brassware,Brass Craft,517.08,1.5,3.57,0,1,5,0.139,0.056,0,ब्रास पूजा थाली,81.9,1137.58
+SIH-CRAFT-1041,Mithila Madhubani Painting,Madhubani,511.93,22.9,0.35,1,3,38,0.678,0.825,1,गोबर लीपा कैनवास,5401.9,8456.17
+SIH-CRAFT-1042,Kutch Bandhani & Ajrakh,Bandhani,706.34,6.9,0.39,1,2,6,0.864,0.912,1,अजरख ब्लॉक प्रिंट,1428.6,3354.67
+SIH-CRAFT-1043,Varanasi Silk Handloom,Handloom Silk,1826.19,42.1,0.82,1,4,36,0.793,0.898,1,शुद्ध रेशमी साड़ी,10980.8,17761.94
+SIH-CRAFT-1044,Jaipur Blue Pottery,Blue Pottery,379.23,6.5,1.19,1,2,37,0.683,0.766,1,हस्तशिल्प जार,1913.5,3567.69
+SIH-CRAFT-1045,Kutch Bandhani & Ajrakh,Bandhani,381.04,17.7,0.82,1,3,34,0.718,0.928,1,अजरख ब्लॉक प्रिंट,4156.2,6597.77
+SIH-CRAFT-1046,Moradabad Brassware,Brass Craft,945.57,8.1,2.33,1,5,22,0.931,0.9,1,पीतल का नक्काशीदार दीया,2193.0,4709.57
+SIH-CRAFT-1047,Saharanpur Wood Carving,Wood Carving,566.65,14.0,2.48,1,2,33,0.791,0.706,1,हाथ से तराशा बॉक्स,3141.0,5477.83
+SIH-CRAFT-1048,Jaipur Blue Pottery,Blue Pottery,768.14,6.1,1.37,1,5,40,0.65,0.953,1,क्वार्ट्ज प्लेट,2094.5,4337.06
+SIH-CRAFT-1049,Jaipur Blue Pottery,Blue Pottery,359.56,15.5,1.24,1,3,36,0.816,0.919,1,नीली मिट्टी का फूलदान,3965.5,6311.33
+SIH-CRAFT-1050,Jaipur Blue Pottery,Blue Pottery,754.9,12.3,2.22,1,4,34,0.734,0.833,1,क्वार्ट्ज प्लेट,3375.9,6049.08
+SIH-CRAFT-1051,Moradabad Brassware,Brass Craft,1669.65,23.5,5.36,1,5,10,0.739,0.851,1,हाथ की ढलाई,5555.0,10225.78
+SIH-CRAFT-1052,Gorakhpur Terracotta,Terracotta,273.1,5.4,3.48,1,3,34,0.66,0.867,1,धूपदानी,1568.4,2958.53
+SIH-CRAFT-1053,Saharanpur Wood Carving,Wood Carving,489.27,28.1,2.2,1,2,20,0.939,0.897,1,हाथ से तराशा बॉक्स,5610.9,8707.73
+SIH-CRAFT-1054,Kolhapuri Chappal & Leather,Leather Craft,896.2,8.8,0.66,1,4,20,0.752,0.712,1,हाथ की सिलाई,2130.4,4558.41
+SIH-CRAFT-1055,Saharanpur Wood Carving,Wood Carving,522.96,25.1,2.9,1,4,21,0.686,0.702,1,लकड़ी का झरोखा,5661.3,8821.25
+SIH-CRAFT-1056,Mithila Madhubani Painting,Madhubani,332.63,35.1,0.54,1,5,13,0.75,0.784,1,प्राकृतिक रंग चित्र,8443.5,12320.28
+SIH-CRAFT-1057,Gorakhpur Terracotta,Terracotta,215.2,12.1,0.87,1,4,22,0.652,0.802,1,माटी का घड़ा,2846.8,4606.2
+SIH-CRAFT-1058,Gorakhpur Terracotta,Terracotta,255.07,6.1,3.08,1,2,8,0.885,0.741,1,टेराकोटा सुराही,1242.4,2494.08
+SIH-CRAFT-1059,Kutch Bandhani & Ajrakh,Bandhani,364.57,9.5,0.53,1,3,18,0.918,0.885,1,अजरख ब्लॉक प्रिंट,2227.0,3971.12
+SIH-CRAFT-1060,Kutch Bandhani & Ajrakh,Bandhani,151.4,1.5,0.41,0,2,1,0.297,0.288,0,अजरख ब्लॉक प्रिंट,87.3,333.08
+SIH-CRAFT-1061,Zari Zardozi Embroidery,Zari Embroidery,1256.04,16.3,0.59,0,3,22,0.751,0.786,1,मखमली सूट पीस,3606.3,6564.16
+SIH-CRAFT-1062,Bastar Dhokra Bell Metal,Dhokra Art,913.56,29.3,1.98,1,3,36,0.796,0.791,1,बेल मेटल बैल,7161.8,11374.24
+SIH-CRAFT-1063,Saharanpur Wood Carving,Wood Carving,827.67,16.1,2.32,1,2,38,0.659,0.922,1,शीशम की लकड़ी की जाली,3612.9,6467.27
+SIH-CRAFT-1064,Mithila Madhubani Painting,Madhubani,416.31,14.8,0.46,1,3,37,0.947,0.955,1,मिथिला पेंटिंग,3677.8,5999.55
+SIH-CRAFT-1065,Kutch Bandhani & Ajrakh,Bandhani,836.06,13.4,0.73,1,4,32,0.927,0.725,1,अजरख ब्लॉक प्रिंट,3401.2,6192.8
+SIH-CRAFT-1066,Jaipur Blue Pottery,Blue Pottery,403.57,10.1,1.66,1,4,6,0.69,0.87,1,हस्तशिल्प जार,2443.3,4315.77
+SIH-CRAFT-1067,Gorakhpur Terracotta,Terracotta,304.88,9.2,3.4,1,2,17,0.945,0.886,1,टेराकोटा सुराही,1947.8,3513.62
+SIH-CRAFT-1068,Moradabad Brassware,Brass Craft,1462.97,26.7,5.13,1,3,10,0.672,0.744,1,पीतल का नक्काशीदार दीया,5650.2,10075.28
+SIH-CRAFT-1069,Kolhapuri Chappal & Leather,Leather Craft,472.58,10.2,1.07,1,4,28,0.668,0.735,1,प्राकृतिक चमड़ा,2541.6,4541.64
+SIH-CRAFT-1070,Bastar Dhokra Bell Metal,Dhokra Art,560.92,4.3,2.28,0,2,5,0.316,0.201,0,बेल मेटल बैल,276.06,1234.02
+SIH-CRAFT-1071,Gorakhpur Terracotta,Terracotta,395.57,10.2,1.01,1,2,33,0.809,0.784,1,माटी का घड़ा,2371.8,4208.45
+SIH-CRAFT-1072,Zari Zardozi Embroidery,Zari Embroidery,1151.08,19.8,0.79,0,2,32,0.788,0.823,1,जरदोज़ी का काम,4222.2,7253.93
+SIH-CRAFT-1073,Moradabad Brassware,Brass Craft,1277.05,8.2,2.86,1,5,5,0.95,0.803,1,पीतल का नक्काशीदार दीया,1961.0,4843.87
+SIH-CRAFT-1074,Bastar Dhokra Bell Metal,Dhokra Art,401.67,1.5,1.23,0,1,2,0.416,0.234,0,बेल मेटल बैल,90.9,883.67
+SIH-CRAFT-1075,Jaipur Blue Pottery,Blue Pottery,433.27,15.2,1.84,1,5,11,0.742,0.921,1,क्वार्ट्ज प्लेट,3889.0,6307.56
+SIH-CRAFT-1076,Kutch Bandhani & Ajrakh,Bandhani,971.46,13.7,0.87,1,4,14,0.84,0.969,1,प्राकृतिक नील रंग,3196.6,6099.38
+SIH-CRAFT-1077,Kolhapuri Chappal & Leather,Leather Craft,768.66,11.5,0.86,1,4,7,0.665,0.947,1,कोल्हापुरी हाथ की चप्पल,2497.0,4881.14
+SIH-CRAFT-1078,Varanasi Silk Handloom,Handloom Silk,1144.31,57.1,0.78,1,3,18,0.685,0.955,1,जरी पल्लू,13745.6,20573.88
+SIH-CRAFT-1079,Kutch Bandhani & Ajrakh,Bandhani,139.82,1.5,0.23,0,1,3,0.367,0.262,0,कच्छी बंधेज दुपट्टा,81.9,307.6
+SIH-CRAFT-1080,Mithila Madhubani Painting,Madhubani,634.3,18.6,0.79,1,5,38,0.716,0.773,1,पेड़ और मोर,4941.0,7999.16
+SIH-CRAFT-1081,Moradabad Brassware,Brass Craft,1490.58,16.7,3.88,1,3,8,0.842,0.882,1,हाथ की ढलाई,3560.2,7291.05
+SIH-CRAFT-1082,Jaipur Blue Pottery,Blue Pottery,795.5,18.5,1.39,1,5,39,0.83,0.721,1,नीली मिट्टी का फूलदान,5117.5,8455.05
+SIH-CRAFT-1083,Kolhapuri Chappal & Leather,Leather Craft,849.44,11.3,0.78,1,3,25,0.854,0.862,1,कोल्हापुरी हाथ की चप्पल,2589.8,5115.47
+SIH-CRAFT-1084,Jaipur Blue Pottery,Blue Pottery,694.01,18.2,1.85,1,3,36,0.748,0.734,1,नीली मिट्टी का फूलदान,4562.2,7568.38
+SIH-CRAFT-1085,Gorakhpur Terracotta,Terracotta,249.28,5.5,3.32,1,3,27,0.882,0.72,1,टेराकोटा सुराही,1483.0,2811.08
+SIH-CRAFT-1086,Moradabad Brassware,Brass Craft,1290.43,25.1,5.69,1,4,28,0.854,0.858,1,पीतल का नक्काशीदार दीया,5891.8,10168.51
+SIH-CRAFT-1087,Zari Zardozi Embroidery,Zari Embroidery,1413.26,16.6,0.32,0,4,29,0.736,0.797,1,जरदोज़ी का काम,3970.8,7268.48
+SIH-CRAFT-1088,Mithila Madhubani Painting,Madhubani,699.22,17.2,0.63,1,3,18,0.813,0.934,1,मिथिला पेंटिंग,3899.2,6680.37
+SIH-CRAFT-1089,Saharanpur Wood Carving,Wood Carving,539.96,3.1,3.07,0,1,4,0.268,0.095,0,लकड़ी का झरोखा,164.61,1187.91
+SIH-CRAFT-1090,Gorakhpur Terracotta,Terracotta,298.98,5.5,1.55,1,4,22,0.908,0.954,1,टेराकोटा सुराही,1474.0,2866.02
+SIH-CRAFT-1091,Gorakhpur Terracotta,Terracotta,63.16,1.7,1.09,0,2,5,0.339,0.056,0,धूपदानी,93.84,138.95
+SIH-CRAFT-1092,Gorakhpur Terracotta,Terracotta,263.17,4.4,2.6,1,2,10,0.795,0.96,1,हाथ से बनी मटकी,959.6,2123.24
+SIH-CRAFT-1093,Saharanpur Wood Carving,Wood Carving,836.52,7.4,1.66,1,2,17,0.786,0.918,1,लकड़ी का झरोखा,1653.6,3834.16
+SIH-CRAFT-1094,Zari Zardozi Embroidery,Zari Embroidery,1291.86,31.8,0.47,0,2,7,0.669,0.827,1,सच्ची जरी कढ़ाई,6115.2,9999.53
+SIH-CRAFT-1095,Gorakhpur Terracotta,Terracotta,330.72,12.8,3.49,1,2,28,0.808,0.735,1,माटी का घड़ा,2775.2,4665.49
+SIH-CRAFT-1096,Jaipur Blue Pottery,Blue Pottery,649.01,12.9,2.22,1,4,17,0.796,0.788,1,क्वार्ट्ज प्लेट,3260.7,5750.61
+SIH-CRAFT-1097,Kolhapuri Chappal & Leather,Leather Craft,742.19,10.8,0.61,1,1,6,0.764,0.819,1,हाथ की सिलाई,1947.6,4103.72
+SIH-CRAFT-1098,Bastar Dhokra Bell Metal,Dhokra Art,723.91,13.0,3.44,1,3,22,0.895,0.761,1,मोम की ढलाई कला,3268.0,5861.58
+SIH-CRAFT-1099,Mithila Madhubani Painting,Madhubani,379.31,20.3,0.63,1,3,4,0.815,0.71,1,प्राकृतिक रंग चित्र,4343.3,6848.02
+SIH-CRAFT-1100,Zari Zardozi Embroidery,Zari Embroidery,1318.54,12.1,0.5,0,5,34,0.656,0.811,1,सच्ची जरी कढ़ाई,3232.5,6143.9
+SIH-CRAFT-1101,Gorakhpur Terracotta,Terracotta,263.8,10.3,2.1,1,3,5,0.829,0.801,1,माटी का घड़ा,2093.8,3655.26
+SIH-CRAFT-1102,Zari Zardozi Embroidery,Zari Embroidery,803.03,30.7,0.48,0,3,4,0.763,0.94,1,सच्ची जरी कढ़ाई,6230.7,9495.54
+SIH-CRAFT-1103,Kutch Bandhani & Ajrakh,Bandhani,1042.85,18.0,0.77,1,4,27,0.964,0.97,1,अजरख ब्लॉक प्रिंट,4329.0,7724.5
+SIH-CRAFT-1104,Kolhapuri Chappal & Leather,Leather Craft,693.56,11.3,0.82,1,2,27,0.804,0.988,1,कोल्हापुरी हाथ की चप्पल,2484.2,4762.48
+SIH-CRAFT-1105,Mithila Madhubani Painting,Madhubani,161.75,4.1,0.29,0,1,4,0.204,0.25,0,मिथिला पेंटिंग,230.01,355.85
+SIH-CRAFT-1106,Zari Zardozi Embroidery,Zari Embroidery,732.18,16.3,0.76,0,2,10,0.751,0.892,1,सच्ची जरी कढ़ाई,3230.7,5349.89
+SIH-CRAFT-1107,Mithila Madhubani Painting,Madhubani,259.5,8.2,0.13,1,4,33,0.86,0.861,1,पेड़ और मोर,2323.6,3959.68
+SIH-CRAFT-1108,Gorakhpur Terracotta,Terracotta,173.86,12.9,2.15,1,1,31,0.709,0.922,1,हाथ से बनी मटकी,2683.8,4330.34
+SIH-CRAFT-1109,Moradabad Brassware,Brass Craft,301.07,3.1,2.16,0,1,1,0.14,0.063,0,हाथ की ढलाई,169.26,662.35
+SIH-CRAFT-1110,Kolhapuri Chappal & Leather,Leather Craft,279.17,0.8,0.97,0,1,5,0.447,0.391,0,कोल्हापुरी हाथ की चप्पल,41.28,614.17
+SIH-CRAFT-1111,Saharanpur Wood Carving,Wood Carving,444.73,11.6,1.2,1,5,10,0.819,0.769,1,हाथ से तराशा बॉक्स,2760.0,4798.89
+SIH-CRAFT-1112,Zari Zardozi Embroidery,Zari Embroidery,1313.83,20.4,0.75,0,4,12,0.658,0.876,1,सच्ची जरी कढ़ाई,4525.2,7882.69
+SIH-CRAFT-1113,Saharanpur Wood Carving,Wood Carving,518.96,2.2,4.29,0,2,4,0.111,0.179,0,हाथ से तराशा बॉक्स,124.74,1141.71
+SIH-CRAFT-1114,Mithila Madhubani Painting,Madhubani,105.62,3.8,0.67,0,2,1,0.233,0.254,0,गोबर लीपा कैनवास,226.86,232.36
+SIH-CRAFT-1115,Kutch Bandhani & Ajrakh,Bandhani,819.37,21.3,0.87,1,2,39,0.816,0.867,1,प्राकृतिक नील रंग,4717.2,7946.87
+SIH-CRAFT-1116,Kutch Bandhani & Ajrakh,Bandhani,396.99,20.1,0.76,1,4,33,0.868,0.851,1,अजरख ब्लॉक प्रिंट,4876.8,7592.12
+SIH-CRAFT-1117,Moradabad Brassware,Brass Craft,1290.29,26.2,2.98,1,4,17,0.8,0.917,1,पीतल का नक्काशीदार दीया,5966.6,10269.3
+SIH-CRAFT-1118,Varanasi Silk Handloom,Handloom Silk,3102.5,34.0,0.46,1,5,35,0.675,0.805,1,जरी पल्लू,9365.0,17303.62
+SIH-CRAFT-1119,Zari Zardozi Embroidery,Zari Embroidery,1275.62,15.7,0.88,0,3,37,0.731,0.964,1,मखमली सूट पीस,3710.7,6731.53
+SIH-CRAFT-1120,Zari Zardozi Embroidery,Zari Embroidery,1085.82,29.9,0.54,0,2,8,0.785,0.846,1,जरदोज़ी का काम,5771.1,9256.84
+SIH-CRAFT-1121,Zari Zardozi Embroidery,Zari Embroidery,1375.51,15.0,0.43,0,5,3,0.705,0.821,1,मखमली सूट पीस,3420.0,6473.94
+SIH-CRAFT-1122,Bastar Dhokra Bell Metal,Dhokra Art,639.04,10.7,1.96,1,5,13,0.977,0.738,1,बेल मेटल बैल,2870.0,5209.7
+SIH-CRAFT-1123,Kutch Bandhani & Ajrakh,Bandhani,233.4,1.9,0.59,0,2,0,0.218,0.339,0,अजरख ब्लॉक प्रिंट,110.58,513.48
+SIH-CRAFT-1124,Zari Zardozi Embroidery,Zari Embroidery,563.16,28.1,0.35,0,4,31,0.951,0.883,1,मखमली सूट पीस,6450.3,9468.17
+SIH-CRAFT-1125,Kutch Bandhani & Ajrakh,Bandhani,681.68,8.2,0.33,1,4,35,0.678,0.96,1,प्राकृतिक नील रंग,2312.6,4514.78
+SIH-CRAFT-1126,Zari Zardozi Embroidery,Zari Embroidery,1131.87,19.5,0.61,0,4,9,0.727,0.843,1,जरदोज़ी का काम,4288.5,7317.5
+SIH-CRAFT-1127,Zari Zardozi Embroidery,Zari Embroidery,1001.45,22.7,0.95,0,4,23,0.777,0.92,1,जरदोज़ी का काम,5180.1,8345.09
+SIH-CRAFT-1128,Gorakhpur Terracotta,Terracotta,370.39,13.9,1.13,1,3,39,0.94,0.791,1,हाथ से बनी मटकी,3309.4,5440.22
+SIH-CRAFT-1129,Moradabad Brassware,Brass Craft,945.41,17.7,2.51,1,3,21,0.96,0.775,1,हाथ की ढलाई,3961.2,7096.42
+SIH-CRAFT-1130,Jaipur Blue Pottery,Blue Pottery,286.62,1.2,1.06,0,1,0,0.309,0.064,0,हस्तशिल्प जार,70.92,630.56
+SIH-CRAFT-1131,Kolhapuri Chappal & Leather,Leather Craft,354.0,14.2,0.42,1,2,21,0.961,0.866,1,हाथ की सिलाई,2927.8,4902.93
+SIH-CRAFT-1132,Bastar Dhokra Bell Metal,Dhokra Art,1414.14,16.5,1.1,1,5,10,0.797,0.825,1,मोम की ढलाई कला,4275.0,8152.84
+SIH-CRAFT-1133,Jaipur Blue Pottery,Blue Pottery,358.48,2.4,0.86,0,2,0,0.36,0.128,0,नीली मिट्टी का फूलदान,150.48,788.66
+SIH-CRAFT-1134,Saharanpur Wood Carving,Wood Carving,735.34,16.9,3.52,1,2,23,0.944,0.711,1,शीशम की लकड़ी की जाली,3539.1,6242.99
+SIH-CRAFT-1135,Kolhapuri Chappal & Leather,Leather Craft,854.86,12.3,1.1,1,1,3,0.731,0.87,1,कोल्हापुरी हाथ की चप्पल,2160.6,4543.37
+SIH-CRAFT-1136,Varanasi Silk Handloom,Handloom Silk,1248.3,51.8,0.99,1,4,11,0.716,0.954,1,शुद्ध रेशमी साड़ी,13011.4,19723.09
+SIH-CRAFT-1137,Gorakhpur Terracotta,Terracotta,297.21,9.7,2.63,1,1,29,0.877,0.878,1,टेराकोटा सुराही,2103.4,3713.32
+SIH-CRAFT-1138,Saharanpur Wood Carving,Wood Carving,1056.94,10.3,1.91,1,3,21,0.87,0.842,1,लकड़ी का झरोखा,2385.3,5119.52
+SIH-CRAFT-1139,Kutch Bandhani & Ajrakh,Bandhani,734.73,10.7,0.35,1,3,29,0.97,0.794,1,प्राकृतिक नील रंग,2639.2,5027.31
+SIH-CRAFT-1140,Kutch Bandhani & Ajrakh,Bandhani,671.79,11.1,0.28,1,4,28,0.883,0.924,1,अजरख ब्लॉक प्रिंट,2839.8,5213.15
+SIH-CRAFT-1141,Bastar Dhokra Bell Metal,Dhokra Art,1255.94,10.6,1.52,1,3,29,0.67,0.924,1,मोम की ढलाई कला,2830.6,5989.33
+SIH-CRAFT-1142,Saharanpur Wood Carving,Wood Carving,1209.03,16.2,1.76,1,2,20,0.81,0.763,1,लकड़ी का झरोखा,3361.8,6643.12
+SIH-CRAFT-1143,Gorakhpur Terracotta,Terracotta,272.94,9.3,1.0,1,2,10,0.963,0.878,1,हाथ से बनी मटकी,1861.2,3353.59
+SIH-CRAFT-1144,Mithila Madhubani Painting,Madhubani,260.96,28.2,0.66,1,3,24,0.951,0.922,1,मिथिला पेंटिंग,6310.2,9343.57
+SIH-CRAFT-1145,Gorakhpur Terracotta,Terracotta,258.63,5.2,0.97,1,4,17,0.746,0.747,1,हाथ से बनी मटकी,1336.6,2626.06
+SIH-CRAFT-1146,Saharanpur Wood Carving,Wood Carving,952.95,12.0,0.85,1,2,36,0.684,0.815,1,हाथ से तराशा बॉक्स,2808.0,5549.78
+SIH-CRAFT-1147,Gorakhpur Terracotta,Terracotta,240.44,5.5,2.82,1,2,5,0.74,0.736,1,धूपदानी,1087.0,2264.54
+SIH-CRAFT-1148,Kutch Bandhani & Ajrakh,Bandhani,892.42,10.3,0.26,1,2,35,0.888,0.921,1,अजरख ब्लॉक प्रिंट,2523.2,5083.59
+SIH-CRAFT-1149,Gorakhpur Terracotta,Terracotta,399.08,9.7,0.96,1,4,15,0.924,0.949,1,हाथ से बनी मटकी,2242.6,4038.77
+SIH-CRAFT-1150,Kutch Bandhani & Ajrakh,Bandhani,318.75,10.4,0.34,1,3,39,0.806,0.784,1,कच्छी बंधेज दुपट्टा,2727.4,4584.8
+SIH-CRAFT-1151,Varanasi Silk Handloom,Handloom Silk,876.12,5.6,1.13,0,1,3,0.106,0.224,0,जरी पल्लू,356.16,1927.46
+SIH-CRAFT-1152,Saharanpur Wood Carving,Wood Carving,1114.58,16.9,2.94,1,2,28,0.904,0.83,1,हाथ से तराशा बॉक्स,3614.1,6856.22
+SIH-CRAFT-1153,Zari Zardozi Embroidery,Zari Embroidery,776.14,13.6,0.74,0,2,9,0.835,0.76,1,सच्ची जरी कढ़ाई,2705.4,4700.08
+SIH-CRAFT-1154,Zari Zardozi Embroidery,Zari Embroidery,598.4,25.4,0.63,0,3,6,0.903,0.773,1,सच्ची जरी कढ़ाई,5195.4,7821.63
+SIH-CRAFT-1155,Saharanpur Wood Carving,Wood Carving,436.51,22.5,3.02,1,2,20,0.878,0.919,1,हाथ से तराशा बॉक्स,4552.5,7207.66
+SIH-CRAFT-1156,Kolhapuri Chappal & Leather,Leather Craft,925.69,7.6,0.77,1,4,35,0.833,0.915,1,हाथ की सिलाई,2105.8,4565.01
+SIH-CRAFT-1157,Jaipur Blue Pottery,Blue Pottery,233.65,1.1,0.88,0,1,1,0.282,0.093,0,नीली मिट्टी का फूलदान,65.01,514.03
+SIH-CRAFT-1158,Bastar Dhokra Bell Metal,Dhokra Art,250.01,4.4,2.14,0,2,1,0.362,0.241,0,मोम की ढलाई कला,282.48,550.02
+SIH-CRAFT-1159,Gorakhpur Terracotta,Terracotta,280.64,6.2,3.27,1,3,36,0.756,0.958,1,टेराकोटा सुराही,1755.2,3220.88
+SIH-CRAFT-1160,Mithila Madhubani Painting,Madhubani,626.76,30.5,0.77,1,4,36,0.849,0.837,1,गोबर लीपा कैनवास,7341.5,11229.65
+SIH-CRAFT-1161,Saharanpur Wood Carving,Wood Carving,448.05,4.0,1.3,0,2,0,0.211,0.113,0,हाथ से तराशा बॉक्स,226.8,985.71
+SIH-CRAFT-1162,Jaipur Blue Pottery,Blue Pottery,141.23,2.4,1.04,0,1,4,0.261,0.083,0,हस्तशिल्प जार,141.84,310.71
+SIH-CRAFT-1163,Bastar Dhokra Bell Metal,Dhokra Art,573.45,24.0,3.19,1,4,3,0.956,0.78,1,मोम की ढलाई कला,5757.0,9018.61
+SIH-CRAFT-1164,Zari Zardozi Embroidery,Zari Embroidery,835.64,29.2,0.95,0,3,7,0.846,0.73,1,जरदोज़ी का काम,5974.2,9193.28
+SIH-CRAFT-1165,Moradabad Brassware,Brass Craft,1276.39,10.5,3.85,1,5,24,0.84,0.947,1,हाथ की ढलाई,2775.0,5941.88
+SIH-CRAFT-1166,Moradabad Brassware,Brass Craft,593.89,3.0,5.59,0,1,1,0.101,0.131,0,पीतल का नक्काशीदार दीया,163.8,1306.56
+SIH-CRAFT-1167,Jaipur Blue Pottery,Blue Pottery,275.28,1.2,1.65,0,1,2,0.127,0.389,0,नीली मिट्टी का फूलदान,70.92,605.62
+SIH-CRAFT-1168,Kolhapuri Chappal & Leather,Leather Craft,605.24,10.2,0.64,1,1,18,0.835,0.809,1,प्राकृतिक चमड़ा,2024.4,4022.51
+SIH-CRAFT-1169,Bastar Dhokra Bell Metal,Dhokra Art,1422.51,17.0,1.01,1,5,16,0.965,0.974,1,मोम की ढलाई कला,4490.0,8454.39
+SIH-CRAFT-1170,Mithila Madhubani Painting,Madhubani,558.27,21.7,0.65,1,5,10,0.834,0.826,1,प्राकृतिक रंग चित्र,5249.5,8312.99
+SIH-CRAFT-1171,Mithila Madhubani Painting,Madhubani,451.13,21.1,0.57,1,5,30,0.721,0.862,1,गोबर लीपा कैनवास,5408.5,8383.0
+SIH-CRAFT-1172,Kutch Bandhani & Ajrakh,Bandhani,1046.55,21.9,0.34,1,3,36,0.714,0.87,1,अजरख ब्लॉक प्रिंट,5051.4,8704.73
+SIH-CRAFT-1173,Jaipur Blue Pottery,Blue Pottery,341.48,2.0,0.63,0,2,0,0.327,0.275,0,क्वार्ट्ज प्लेट,125.4,751.26
+SIH-CRAFT-1174,Gorakhpur Terracotta,Terracotta,144.51,0.9,0.67,0,1,5,0.425,0.399,0,धूपदानी,46.44,317.92
+SIH-CRAFT-1175,Bastar Dhokra Bell Metal,Dhokra Art,1324.93,24.2,2.27,1,3,5,0.772,0.878,1,बेल मेटल बैल,5544.2,9745.83
+SIH-CRAFT-1176,Mithila Madhubani Painting,Madhubani,347.3,31.8,0.16,1,3,6,0.796,0.906,1,प्राकृतिक रंग चित्र,6799.8,10121.09
+SIH-CRAFT-1177,Jaipur Blue Pottery,Blue Pottery,201.05,2.7,2.04,0,1,2,0.393,0.347,0,क्वार्ट्ज प्लेट,159.57,442.31
+SIH-CRAFT-1178,Mithila Madhubani Painting,Madhubani,229.11,5.2,0.46,0,2,3,0.393,0.284,0,मिथिला पेंटिंग,310.44,504.04
+SIH-CRAFT-1179,Varanasi Silk Handloom,Handloom Silk,2053.51,48.1,0.47,1,4,5,0.741,0.758,1,जरी पल्लू,12003.8,19449.87
+SIH-CRAFT-1180,Mithila Madhubani Painting,Madhubani,713.17,34.4,0.32,1,5,25,0.689,0.835,1,मिथिला पेंटिंग,8459.0,12854.93
+SIH-CRAFT-1181,Zari Zardozi Embroidery,Zari Embroidery,217.03,4.9,0.43,0,1,1,0.211,0.269,0,जरदोज़ी का काम,260.19,477.47
+SIH-CRAFT-1182,Mithila Madhubani Painting,Madhubani,369.64,18.5,0.16,1,5,18,0.752,0.897,1,गोबर लीपा कैनवास,4617.5,7205.14
+SIH-CRAFT-1183,Mithila Madhubani Painting,Madhubani,458.62,16.0,0.3,1,5,23,0.787,0.942,1,प्राकृतिक रंग चित्र,4105.0,6633.39
+SIH-CRAFT-1184,Varanasi Silk Handloom,Handloom Silk,1578.34,46.7,0.61,1,4,25,0.841,0.801,1,जरी पल्लू,11956.6,18744.67
+SIH-CRAFT-1185,Mithila Madhubani Painting,Madhubani,709.1,18.8,0.48,1,3,30,0.764,0.935,1,प्राकृतिक रंग चित्र,4416.8,7392.47
+SIH-CRAFT-1186,Varanasi Silk Handloom,Handloom Silk,3127.53,40.3,0.99,1,4,8,0.819,0.761,1,शुद्ध रेशमी साड़ी,10114.4,18349.11
+SIH-CRAFT-1187,Bastar Dhokra Bell Metal,Dhokra Art,1514.11,21.4,2.5,1,4,11,0.804,0.794,1,बेल मेटल बैल,5258.2,9615.12
+SIH-CRAFT-1188,Kutch Bandhani & Ajrakh,Bandhani,1021.02,11.2,0.27,1,3,3,0.702,0.838,1,अजरख ब्लॉक प्रिंट,2352.2,5026.35
+SIH-CRAFT-1189,Jaipur Blue Pottery,Blue Pottery,546.9,8.3,1.8,1,2,31,0.917,0.832,1,हस्तशिल्प जार,2199.7,4180.41
+SIH-CRAFT-1190,Kutch Bandhani & Ajrakh,Bandhani,678.86,9.9,0.71,1,4,24,0.809,0.816,1,कच्छी बंधेज दुपट्टा,2518.2,4788.53
+SIH-CRAFT-1191,Varanasi Silk Handloom,Handloom Silk,2971.99,38.3,0.74,1,4,39,0.782,0.708,1,शुद्ध रेशमी साड़ी,10083.4,18097.28
+SIH-CRAFT-1192,Moradabad Brassware,Brass Craft,703.31,4.0,2.39,0,1,1,0.332,0.326,0,पीतल का नक्काशीदार दीया,218.4,1547.28
+SIH-CRAFT-1193,Jaipur Blue Pottery,Blue Pottery,771.2,17.2,1.61,1,3,32,0.65,0.743,1,नीली मिट्टी का फूलदान,4281.2,7293.24
+SIH-CRAFT-1194,Moradabad Brassware,Brass Craft,821.51,25.2,3.46,1,3,12,0.876,0.945,1,ब्रास पूजा थाली,5371.2,8832.66
+SIH-CRAFT-1195,Gorakhpur Terracotta,Terracotta,253.41,8.2,2.56,1,2,33,0.871,0.941,1,टेराकोटा सुराही,2003.8,3519.73
+SIH-CRAFT-1196,Jaipur Blue Pottery,Blue Pottery,525.1,19.1,1.48,1,4,21,0.921,0.912,1,क्वार्ट्ज प्लेट,4765.3,7614.54
+SIH-CRAFT-1197,Zari Zardozi Embroidery,Zari Embroidery,525.24,22.2,0.82,0,2,17,0.942,0.752,1,जरदोज़ी का काम,4450.8,6717.65
+SIH-CRAFT-1198,Saharanpur Wood Carving,Wood Carving,901.46,6.0,3.02,1,5,7,0.863,0.74,1,शीशम की लकड़ी की जाली,1455.0,3653.72
+SIH-CRAFT-1199,Gorakhpur Terracotta,Terracotta,280.62,6.7,2.46,1,4,12,0.744,0.812,1,धूपदानी,1573.6,2975.7
+SIH-CRAFT-1200,Gorakhpur Terracotta,Terracotta,436.51,5.0,1.69,1,1,32,0.916,0.8,1,माटी का घड़ा,1340.0,2870.79
