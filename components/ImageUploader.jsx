@@ -103,98 +103,57 @@ export default function ImageUploader({ onImageSelected, currentImage }) {
       const srcW = Math.max(50, ((xmax - xmin) / 1000) * imgW);
 
       // ----------------------------------------------------------------------
-      // Step A: Draw Studio Backdrop
-      // ----------------------------------------------------------------------
-      if (backdrop === "marble") {
-        // Warm Cream & Marble Pedestal Studio
-        const marbleGrad = ctx.createLinearGradient(0, 0, 0, h);
-        marbleGrad.addColorStop(0, "#faf6f0");
-        marbleGrad.addColorStop(0.65, "#f0e6da");
-        marbleGrad.addColorStop(1, "#dfcfbe");
-        ctx.fillStyle = marbleGrad;
-        ctx.fillRect(0, 0, w, h);
-
-        // Marble Pedestal Horizon Line
-        ctx.fillStyle = "rgba(180, 150, 120, 0.15)";
-        ctx.fillRect(0, h * 0.72, w, h * 0.28);
-      } else if (backdrop === "wood") {
-        // Warm Teakwood Table Studio Backdrop
-        const woodGrad = ctx.createLinearGradient(0, 0, 0, h);
-        woodGrad.addColorStop(0, "#f8f3eb");
-        woodGrad.addColorStop(0.65, "#ecdac5");
-        woodGrad.addColorStop(1, "#c9aa88");
-        ctx.fillStyle = woodGrad;
-        ctx.fillRect(0, 0, w, h);
-
-        // Table surface
-        ctx.fillStyle = "rgba(110, 75, 45, 0.18)";
-        ctx.fillRect(0, h * 0.70, w, h * 0.30);
-      } else {
-        // Studio White High-Key (ONDC Standard / Amazon Style)
-        ctx.fillStyle = "#ffffff";
-        ctx.fillRect(0, 0, w, h);
-      }
-
-      // ----------------------------------------------------------------------
-      // Step B: Realistic Ground Contact Soft Shadow
+      // Step A: Draw Blurred Original Background (Object-Fit Cover)
       // ----------------------------------------------------------------------
       ctx.save();
-      ctx.beginPath();
-      ctx.ellipse(w * 0.5, h * 0.82, w * 0.32, h * 0.05, 0, 0, Math.PI * 2);
-      ctx.fillStyle = "rgba(15, 23, 42, 0.22)";
-      ctx.filter = "blur(16px)";
-      ctx.fill();
+      ctx.filter = "blur(16px) brightness(90%)";
+      const coverScale = Math.max(w / imgW, h / imgH);
+      const bgW = imgW * coverScale;
+      const bgH = imgH * coverScale;
+      const bgX = (w - bgW) / 2;
+      const bgY = (h - bgH) / 2;
+      ctx.drawImage(img, bgX, bgY, bgW, bgH);
       ctx.restore();
 
-      // ----------------------------------------------------------------------
-      // Step C: Crop & Position Subject with Soft Edge Saliency Feathering
-      // ----------------------------------------------------------------------
-      const targetMaxDim = 600;
-      const scale = Math.min(targetMaxDim / srcW, targetMaxDim / srcH);
-      const destW = srcW * scale;
-      const destH = srcH * scale;
-      const destX = (w - destW) / 2;
-      const destY = (h - destH) / 2 - 20;
-
-      // Extract subject onto temporary canvas
-      const subCanvas = document.createElement("canvas");
-      subCanvas.width = destW;
-      subCanvas.height = destH;
-      const subCtx = subCanvas.getContext("2d");
-
-      if (subCtx) {
-        // Draw cropped subject
-        const contrast = analysis?.lighting_enhancement?.contrast_boost || 1.14;
-        const brightness = analysis?.lighting_enhancement?.brightness_boost || 1.06;
-        const saturation = analysis?.lighting_enhancement?.saturation_boost || 1.18;
-
-        subCtx.save();
-        subCtx.filter = `contrast(${contrast * 100}%) saturate(${saturation * 100}%) brightness(${brightness * 100}%)`;
-        subCtx.drawImage(img, srcX, srcY, srcH > 0 ? srcW : imgW, srcH > 0 ? srcH : imgH, 0, 0, destW, destH);
-        
-        // Highlight the extracted object with a bounding box
-        subCtx.strokeStyle = "rgba(245, 158, 11, 0.8)"; // amber-500
-        subCtx.lineWidth = 4;
-        subCtx.setLineDash([8, 8]);
-        subCtx.strokeRect(2, 2, destW - 4, destH - 4);
-        
-        subCtx.restore();
-
-        // Composite onto main studio canvas
-        ctx.drawImage(subCanvas, destX, destY);
+      // Apply light tint based on studio selection to keep UI functional
+      if (backdrop === "marble") {
+        ctx.fillStyle = "rgba(223, 207, 190, 0.35)"; // Warm marble tint
+        ctx.fillRect(0, 0, w, h);
+      } else if (backdrop === "wood") {
+        ctx.fillStyle = "rgba(110, 75, 45, 0.35)"; // Wood tint
+        ctx.fillRect(0, 0, w, h);
       } else {
-        ctx.drawImage(img, srcX, srcY, srcW, srcH, destX, destY, destW, destH);
+        ctx.fillStyle = "rgba(255, 255, 255, 0.35)"; // White bright tint
+        ctx.fillRect(0, 0, w, h);
       }
 
       // ----------------------------------------------------------------------
-      // Step D: Soft Studio Diffuse Overhead Lighting
+      // Step B: Draw & Enhance Extracted Subject in Exact Original Position
       // ----------------------------------------------------------------------
-      const lightOverlay = ctx.createLinearGradient(0, 0, 0, h);
-      lightOverlay.addColorStop(0, "rgba(255, 255, 255, 0.12)");
-      lightOverlay.addColorStop(0.5, "rgba(255, 255, 255, 0)");
-      lightOverlay.addColorStop(1, "rgba(15, 23, 42, 0.05)");
-      ctx.fillStyle = lightOverlay;
-      ctx.fillRect(0, 0, w, h);
+      const subX = srcX * coverScale + bgX;
+      const subY = srcY * coverScale + bgY;
+      const subW = srcW * coverScale;
+      const subH = srcH * coverScale;
+
+      const contrast = analysis?.lighting_enhancement?.contrast_boost || 1.14;
+      const brightness = analysis?.lighting_enhancement?.brightness_boost || 1.06;
+      const saturation = analysis?.lighting_enhancement?.saturation_boost || 1.18;
+
+      ctx.save();
+      // Apply enhancement and a drop-shadow so it pops off the blurred background
+      ctx.filter = `contrast(${contrast * 100}%) saturate(${saturation * 100}%) brightness(${brightness * 100}%) drop-shadow(0px 12px 24px rgba(0,0,0,0.35))`;
+      
+      // Draw just the bounding box of the original image
+      ctx.drawImage(img, srcX, srcY, srcW, srcH, subX, subY, subW, subH);
+      ctx.restore();
+
+      // Highlight the object with a border
+      ctx.save();
+      ctx.strokeStyle = "rgba(245, 158, 11, 0.95)"; // amber-500
+      ctx.lineWidth = 4;
+      ctx.setLineDash([10, 10]);
+      ctx.strokeRect(subX - 2, subY - 2, subW + 4, subH + 4);
+      ctx.restore();
 
       const finalUrl = canvas.toDataURL("image/jpeg", 0.94);
       finishProcessing(finalUrl);
