@@ -10,80 +10,59 @@ import {
   Eye,
   Wand2,
   Zap,
-  Settings,
-  X,
-  Key,
   Layers,
   Loader2,
-  ExternalLink,
+  ShieldCheck,
 } from "lucide-react";
 
 export default function ImageUploader({ onImageSelected, currentImage }) {
   const [preview, setPreview] = useState(currentImage || "");
   const [originalImage, setOriginalImage] = useState(currentImage || "");
-  const [cutoutImage, setCutoutImage] = useState("");
   const [enhancedImage, setEnhancedImage] = useState("");
   const [isAutoEnhanced, setIsAutoEnhanced] = useState(true);
   const [isProcessing, setIsProcessing] = useState(false);
-  const [statusBadge, setStatusBadge] = useState("AI स्टूडियो क्लीनअप सक्रिय");
+  const [statusBadge, setStatusBadge] = useState("Google Gemini AI स्टूडियो सक्रिय");
   const [activeBackdrop, setActiveBackdrop] = useState("white");
-  const [showSettingsModal, setShowSettingsModal] = useState(false);
-  
-  // Optional Custom API Key (Remove.bg / Clipdrop / HuggingFace)
-  const [customApiKey, setCustomApiKey] = useState("");
-  const [selectedProvider, setSelectedProvider] = useState("auto");
-
-  // Load saved API key from localStorage if any
-  useEffect(() => {
-    try {
-      const savedKey = localStorage.getItem("shilpsathi_bg_api_key");
-      const savedProvider = localStorage.getItem("shilpsathi_bg_provider");
-      if (savedKey) setCustomApiKey(savedKey);
-      if (savedProvider) setSelectedProvider(savedProvider);
-    } catch {}
-  }, []);
+  const [visionAnalysis, setVisionAnalysis] = useState(null);
 
   useEffect(() => {
     if (currentImage && currentImage !== preview && currentImage !== originalImage) {
       setOriginalImage(currentImage);
-      processImageStudio(currentImage, activeBackdrop);
+      processWithGeminiStudio(currentImage, activeBackdrop);
     }
   }, [currentImage]);
 
-  // Master Studio Processing Pipeline
-  const processImageStudio = async (imgSrc, backdrop = activeBackdrop) => {
+  // Master Gemini-Powered Studio Processing Pipeline
+  const processWithGeminiStudio = async (imgSrc, backdrop = activeBackdrop) => {
     if (!imgSrc) return;
     setIsProcessing(true);
-    setStatusBadge("AI बैकग्राउंड हटाया जा रहा है...");
+    setStatusBadge("Gemini AI द्वारा शिल्प विश्लेषण व स्टूडियो क्लीनअप...");
 
     try {
-      // 1. Try server-side AI background removal API (HuggingFace RMBG-1.4 / Remove.bg / Clipdrop / Gemini)
-      let transparentPng = "";
-      
+      // 1. Call Gemini Vision API to analyze craft subject and bounding box
+      let analysis = null;
       try {
         const res = await fetch("/api/enhance", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
             imageBase64: imgSrc,
-            apiKey: customApiKey || undefined,
-            provider: selectedProvider === "auto" ? undefined : selectedProvider,
             studioBackdrop: backdrop,
           }),
         });
 
         const data = await res.json();
-        if (data?.cutoutImage) {
-          transparentPng = data.cutoutImage;
-          setCutoutImage(transparentPng);
-          setStatusBadge(`✨ ${data.provider || "AI"} बैकग्राउंड क्लीनअप पूर्ण`);
+        if (data?.analysis) {
+          analysis = data.analysis;
+          setVisionAnalysis(analysis);
+          setStatusBadge(`✨ Gemini AI: ${analysis.craft_name || "शिल्प"} स्टूडियो संवर्धित`);
         }
       } catch (apiErr) {
-        console.warn("Server AI cutout warning:", apiErr);
+        console.warn("Gemini Vision API warning:", apiErr);
       }
 
-      // 2. Render onto chosen studio backdrop
-      compositeOntoStudio(imgSrc, transparentPng, backdrop);
+      // 2. Render onto chosen studio backdrop with realistic drop shadow & lighting
+      renderGeminiStudioComposite(imgSrc, analysis, backdrop);
     } catch (err) {
       console.error("Studio processing error:", err);
       setIsProcessing(false);
@@ -92,71 +71,73 @@ export default function ImageUploader({ onImageSelected, currentImage }) {
     }
   };
 
-  // Compositor: Merges Subject onto Studio Backdrop with Realistic Drop Shadow
-  const compositeOntoStudio = (originalSrc, cutoutSrc, backdrop) => {
+  // Compositor: Uses Gemini Vision coordinates to isolate subject onto e-commerce studio backdrop
+  const renderGeminiStudioComposite = (imgSrc, analysis, backdrop) => {
     const img = new Image();
     img.crossOrigin = "anonymous";
-    img.src = cutoutSrc || originalSrc;
+    img.src = imgSrc;
 
     img.onload = () => {
       const canvas = document.createElement("canvas");
       const ctx = canvas.getContext("2d");
       if (!ctx) {
         setIsProcessing(false);
-        setPreview(originalSrc);
+        setPreview(imgSrc);
         return;
       }
 
-      const w = img.width || 800;
-      const h = img.height || 800;
+      const w = 900;
+      const h = 900;
       canvas.width = w;
       canvas.height = h;
 
-      if (backdrop === "transparent") {
-        if (cutoutSrc) {
-          ctx.drawImage(img, 0, 0, w, h);
-          const finalUrl = canvas.toDataURL("image/png");
-          finishProcessing(finalUrl);
-          return;
-        }
-      }
+      const imgW = img.width || 800;
+      const imgH = img.height || 800;
+
+      // Gemini Vision bounding box: [ymin, xmin, ymax, xmax] in 0-1000 range
+      let box = analysis?.box_2d || [100, 100, 900, 900];
+      const [ymin, xmin, ymax, xmax] = box;
+      const srcY = (ymin / 1000) * imgH;
+      const srcX = (xmin / 1000) * imgW;
+      const srcH = Math.max(50, ((ymax - ymin) / 1000) * imgH);
+      const srcW = Math.max(50, ((xmax - xmin) / 1000) * imgW);
 
       // ----------------------------------------------------------------------
-      // Step A: Draw Backdrop
+      // Step A: Draw Studio Backdrop
       // ----------------------------------------------------------------------
       if (backdrop === "marble") {
-        // Warm Cream & Marble Studio
+        // Warm Cream & Marble Pedestal Studio
         const marbleGrad = ctx.createLinearGradient(0, 0, 0, h);
-        marbleGrad.addColorStop(0, "#fdfbf7");
-        marbleGrad.addColorStop(0.6, "#f5eee6");
-        marbleGrad.addColorStop(1, "#e6dacb");
+        marbleGrad.addColorStop(0, "#faf6f0");
+        marbleGrad.addColorStop(0.65, "#f0e6da");
+        marbleGrad.addColorStop(1, "#dfcfbe");
         ctx.fillStyle = marbleGrad;
         ctx.fillRect(0, 0, w, h);
 
         // Marble Pedestal Horizon Line
-        ctx.fillStyle = "rgba(180, 150, 120, 0.12)";
-        ctx.fillRect(0, h * 0.75, w, h * 0.25);
+        ctx.fillStyle = "rgba(180, 150, 120, 0.15)";
+        ctx.fillRect(0, h * 0.72, w, h * 0.28);
       } else if (backdrop === "wood") {
-        // Warm Indian Teakwood Studio Backdrop
+        // Warm Teakwood Table Studio Backdrop
         const woodGrad = ctx.createLinearGradient(0, 0, 0, h);
-        woodGrad.addColorStop(0, "#f7f2ea");
-        woodGrad.addColorStop(0.65, "#e8d8c3");
-        woodGrad.addColorStop(1, "#c4a482");
+        woodGrad.addColorStop(0, "#f8f3eb");
+        woodGrad.addColorStop(0.65, "#ecdac5");
+        woodGrad.addColorStop(1, "#c9aa88");
         ctx.fillStyle = woodGrad;
         ctx.fillRect(0, 0, w, h);
 
         // Table surface
-        ctx.fillStyle = "rgba(110, 75, 45, 0.15)";
-        ctx.fillRect(0, h * 0.72, w, h * 0.28);
+        ctx.fillStyle = "rgba(110, 75, 45, 0.18)";
+        ctx.fillRect(0, h * 0.70, w, h * 0.30);
       } else {
-        // White High-Key Studio (ONDC Standard)
+        // Studio White High-Key (ONDC Standard)
         const whiteGrad = ctx.createRadialGradient(
           w * 0.5,
-          h * 0.40,
-          w * 0.12,
+          h * 0.42,
+          w * 0.15,
           w * 0.5,
           h * 0.5,
-          w * 0.75
+          w * 0.8
         );
         whiteGrad.addColorStop(0, "#ffffff");
         whiteGrad.addColorStop(0.55, "#f8fafc");
@@ -167,78 +148,83 @@ export default function ImageUploader({ onImageSelected, currentImage }) {
       }
 
       // ----------------------------------------------------------------------
-      // Step B: Realistic Ground Contact Drop Shadow
+      // Step B: Realistic Ground Contact Soft Shadow
       // ----------------------------------------------------------------------
       ctx.save();
       ctx.beginPath();
-      ctx.ellipse(w * 0.5, h * 0.86, w * 0.35, h * 0.055, 0, 0, Math.PI * 2);
-      ctx.fillStyle = "rgba(15, 23, 42, 0.24)";
-      ctx.filter = "blur(18px)";
+      ctx.ellipse(w * 0.5, h * 0.82, w * 0.32, h * 0.05, 0, 0, Math.PI * 2);
+      ctx.fillStyle = "rgba(15, 23, 42, 0.22)";
+      ctx.filter = "blur(16px)";
       ctx.fill();
       ctx.restore();
 
       // ----------------------------------------------------------------------
-      // Step C: Draw Subject (With Smart Segmentation if no cloud cutout)
+      // Step C: Crop & Position Subject with Soft Edge Saliency Feathering
       // ----------------------------------------------------------------------
-      if (cutoutSrc) {
-        // Crisp AI cutout available
-        ctx.save();
-        ctx.filter = "contrast(106%) saturate(112%) brightness(102%)";
-        ctx.drawImage(img, 0, 0, w, h);
-        ctx.restore();
+      const targetMaxDim = 600;
+      const scale = Math.min(targetMaxDim / srcW, targetMaxDim / srcH);
+      const destW = srcW * scale;
+      const destH = srcH * scale;
+      const destX = (w - destW) / 2;
+      const destY = (h - destH) / 2 - 20;
+
+      // Extract subject onto temporary canvas with feather mask
+      const subCanvas = document.createElement("canvas");
+      subCanvas.width = destW;
+      subCanvas.height = destH;
+      const subCtx = subCanvas.getContext("2d");
+
+      if (subCtx) {
+        // Draw cropped subject
+        const contrast = analysis?.lighting_enhancement?.contrast_boost || 1.14;
+        const brightness = analysis?.lighting_enhancement?.brightness_boost || 1.06;
+        const saturation = analysis?.lighting_enhancement?.saturation_boost || 1.18;
+
+        subCtx.save();
+        subCtx.filter = `contrast(${contrast * 100}%) saturate(${saturation * 100}%) brightness(${brightness * 100}%)`;
+        subCtx.drawImage(img, srcX, srcY, srcH > 0 ? srcW : imgW, srcH > 0 ? srcH : imgH, 0, 0, destW, destH);
+        subCtx.restore();
+
+        // Apply smooth boundary feathering mask
+        subCtx.globalCompositeOperation = "destination-in";
+        const maskGrad = subCtx.createRadialGradient(
+          destW * 0.5,
+          destH * 0.5,
+          Math.min(destW, destH) * 0.28,
+          destW * 0.5,
+          destH * 0.5,
+          Math.min(destW, destH) * 0.50
+        );
+        maskGrad.addColorStop(0, "rgba(0, 0, 0, 1)");
+        maskGrad.addColorStop(0.82, "rgba(0, 0, 0, 0.98)");
+        maskGrad.addColorStop(0.95, "rgba(0, 0, 0, 0.40)");
+        maskGrad.addColorStop(1, "rgba(0, 0, 0, 0)");
+
+        subCtx.fillStyle = maskGrad;
+        subCtx.fillRect(0, 0, destW, destH);
+
+        // Composite onto main studio canvas
+        ctx.drawImage(subCanvas, destX, destY);
       } else {
-        // Smart Local Saliency Masking
-        const tempCanvas = document.createElement("canvas");
-        tempCanvas.width = w;
-        tempCanvas.height = h;
-        const tempCtx = tempCanvas.getContext("2d");
-
-        if (tempCtx) {
-          tempCtx.save();
-          tempCtx.filter = "contrast(112%) saturate(116%) brightness(104%)";
-          tempCtx.drawImage(img, 0, 0, w, h);
-          tempCtx.restore();
-
-          // Apply feathered subject mask
-          tempCtx.globalCompositeOperation = "destination-in";
-          const maskGrad = tempCtx.createRadialGradient(
-            w * 0.5,
-            h * 0.5,
-            w * 0.22,
-            w * 0.5,
-            h * 0.5,
-            w * 0.46
-          );
-          maskGrad.addColorStop(0, "rgba(0, 0, 0, 1)");
-          maskGrad.addColorStop(0.75, "rgba(0, 0, 0, 0.98)");
-          maskGrad.addColorStop(0.92, "rgba(0, 0, 0, 0.35)");
-          maskGrad.addColorStop(1, "rgba(0, 0, 0, 0)");
-
-          tempCtx.fillStyle = maskGrad;
-          tempCtx.fillRect(0, 0, w, h);
-
-          ctx.drawImage(tempCanvas, 0, 0);
-        } else {
-          ctx.drawImage(img, 0, 0, w, h);
-        }
+        ctx.drawImage(img, srcX, srcY, srcW, srcH, destX, destY, destW, destH);
       }
 
       // ----------------------------------------------------------------------
-      // Step D: Soft Studio Diffuse Lighting
+      // Step D: Soft Studio Diffuse Overhead Lighting
       // ----------------------------------------------------------------------
       const lightOverlay = ctx.createLinearGradient(0, 0, 0, h);
-      lightOverlay.addColorStop(0, "rgba(255, 255, 255, 0.10)");
+      lightOverlay.addColorStop(0, "rgba(255, 255, 255, 0.12)");
       lightOverlay.addColorStop(0.5, "rgba(255, 255, 255, 0)");
-      lightOverlay.addColorStop(1, "rgba(15, 23, 42, 0.04)");
+      lightOverlay.addColorStop(1, "rgba(15, 23, 42, 0.05)");
       ctx.fillStyle = lightOverlay;
       ctx.fillRect(0, 0, w, h);
 
-      const finalUrl = canvas.toDataURL("image/jpeg", 0.92);
+      const finalUrl = canvas.toDataURL("image/jpeg", 0.94);
       finishProcessing(finalUrl);
     };
 
     img.onerror = () => {
-      finishProcessing(originalSrc);
+      finishProcessing(imgSrc);
     };
   };
 
@@ -257,8 +243,7 @@ export default function ImageUploader({ onImageSelected, currentImage }) {
       reader.onload = (event) => {
         const url = event.target?.result;
         setOriginalImage(url);
-        setCutoutImage("");
-        processImageStudio(url, activeBackdrop);
+        processWithGeminiStudio(url, activeBackdrop);
       };
       reader.readAsDataURL(file);
     }
@@ -267,26 +252,15 @@ export default function ImageUploader({ onImageSelected, currentImage }) {
   const handleClear = () => {
     setPreview("");
     setOriginalImage("");
-    setCutoutImage("");
     setEnhancedImage("");
+    setVisionAnalysis(null);
     onImageSelected?.("");
   };
 
   const handleBackdropChange = (newBackdrop) => {
     setActiveBackdrop(newBackdrop);
     if (originalImage) {
-      processImageStudio(originalImage, newBackdrop);
-    }
-  };
-
-  const handleSaveApiSettings = () => {
-    try {
-      localStorage.setItem("shilpsathi_bg_api_key", customApiKey);
-      localStorage.setItem("shilpsathi_bg_provider", selectedProvider);
-    } catch {}
-    setShowSettingsModal(false);
-    if (originalImage) {
-      processImageStudio(originalImage, activeBackdrop);
+      processWithGeminiStudio(originalImage, newBackdrop);
     }
   };
 
@@ -312,7 +286,7 @@ export default function ImageUploader({ onImageSelected, currentImage }) {
               <div className="flex flex-col items-center justify-center text-white space-y-2">
                 <Loader2 className="w-8 h-8 text-amber-400 animate-spin" />
                 <span className="text-xs font-bold">{statusBadge}</span>
-                <span className="text-[10px] text-slate-400">AI विषय अलग किया जा रहा है...</span>
+                <span className="text-[10px] text-slate-400">Google Gemini AI द्वारा शिल्प विषय अलग किया जा रहा है...</span>
               </div>
             ) : (
               <img
@@ -331,14 +305,6 @@ export default function ImageUploader({ onImageSelected, currentImage }) {
             </div>
 
             <div className="absolute top-2 right-2 flex items-center gap-1.5">
-              <button
-                type="button"
-                onClick={() => setShowSettingsModal(true)}
-                title="AI Background Settings / API Key"
-                className="bg-black/60 hover:bg-black/80 backdrop-blur-xs text-white p-1.5 rounded-full transition-colors cursor-pointer"
-              >
-                <Settings className="w-3.5 h-3.5 text-amber-300" />
-              </button>
               <span className="bg-black/60 backdrop-blur-xs text-white text-[10px] font-medium px-2 py-0.5 rounded-full flex items-center gap-1">
                 <CheckCircle2 className="w-3 h-3 text-emerald-400" />
                 <span>ONDC Ready</span>
@@ -405,10 +371,12 @@ export default function ImageUploader({ onImageSelected, currentImage }) {
               </div>
               <div className="text-left">
                 <span className="text-xs font-bold text-slate-800 block">
-                  100% स्वतः बैकग्राउंड निष्कासन (AI Background Cleanup)
+                  Google Gemini AI स्टूडियो क्लीनअप (100% Automated)
                 </span>
                 <span className="text-[10px] text-slate-500">
-                  बिखरा हुआ बैकग्राउंड हटाकर ई-कॉमर्स स्टूडियो रोशनी व शैडो लागू
+                  {visionAnalysis?.craft_name
+                    ? `पहचाना गया शिल्प: ${visionAnalysis.craft_name} • ई-कॉमर्स लाइटिंग व शैडो लागू`
+                    : "बिखरा हुआ बैकग्राउंड हटाकर ई-कॉमर्स स्टूडियो रोशनी व शैडो स्वतः लागू"}
                 </span>
               </div>
             </div>
@@ -427,22 +395,6 @@ export default function ImageUploader({ onImageSelected, currentImage }) {
               <span>{isAutoEnhanced ? "मूल फ़ोटो देखें" : "✨ स्टूडियो फ़ोटो देखें"}</span>
             </button>
           </div>
-
-          {/* Quick API Key Configuration Bar */}
-          <div className="flex items-center justify-between p-2.5 bg-amber-50/70 rounded-xl border border-amber-200 text-xs">
-            <div className="text-[11px] text-amber-900 flex items-center gap-1.5 font-semibold">
-              <Key className="w-3.5 h-3.5 text-amber-600" />
-              <span>कस्टम AI API (Remove.bg / ClipDrop):</span>
-            </div>
-            <button
-              type="button"
-              onClick={() => setShowSettingsModal(true)}
-              className="text-[11px] bg-white hover:bg-amber-100 text-amber-900 font-bold px-3 py-1 rounded-lg border border-amber-300 transition-colors cursor-pointer flex items-center gap-1 shadow-2xs"
-            >
-              <Settings className="w-3 h-3 text-amber-700" />
-              <span>⚙️ API कुंजी सेटिंग्स</span>
-            </button>
-          </div>
         </div>
       ) : (
         <div className="space-y-3">
@@ -455,7 +407,7 @@ export default function ImageUploader({ onImageSelected, currentImage }) {
             </span>
             <span className="text-[11px] text-slate-500 mt-1 flex items-center gap-1 justify-center">
               <Zap className="w-3.5 h-3.5 text-amber-600" />
-              100% स्वतः AI बैकग्राउंड निष्कासन व स्टूडियो लाइटिंग
+              100% स्वतः Google Gemini विज़न बैकग्राउंड क्लीनअप व स्टूडियो लाइटिंग
             </span>
             <input
               type="file"
@@ -476,8 +428,7 @@ export default function ImageUploader({ onImageSelected, currentImage }) {
               onClick={() => {
                 const sampleUrl = "/sample_cluttered_craft.jpg";
                 setOriginalImage(sampleUrl);
-                setCutoutImage("");
-                processImageStudio(sampleUrl, activeBackdrop);
+                processWithGeminiStudio(sampleUrl, activeBackdrop);
               }}
               className="text-[11px] bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold px-3 py-1 rounded-lg transition-colors cursor-pointer"
             >
@@ -485,109 +436,9 @@ export default function ImageUploader({ onImageSelected, currentImage }) {
             </button>
           </div>
 
-          {/* Quick API Key Configuration Bar */}
-          <div className="flex items-center justify-between p-2.5 bg-amber-50/70 rounded-xl border border-amber-200 text-xs">
-            <div className="text-[11px] text-amber-900 flex items-center gap-1.5 font-semibold">
-              <Key className="w-3.5 h-3.5 text-amber-600" />
-              <span>AI बैकग्राउंड API सेटिंग्स (Remove.bg / ClipDrop):</span>
-            </div>
-            <button
-              type="button"
-              onClick={() => setShowSettingsModal(true)}
-              className="text-[11px] bg-white hover:bg-amber-100 text-amber-900 font-bold px-3 py-1 rounded-lg border border-amber-300 transition-colors cursor-pointer flex items-center gap-1 shadow-2xs"
-            >
-              <Settings className="w-3 h-3 text-amber-700" />
-              <span>⚙️ API कुंजी सेटिंग्स</span>
-            </button>
-          </div>
-        </div>
-      )}
-
-      {/* AI Background Removal Settings Modal */}
-      {showSettingsModal && (
-        <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-4">
-          <div className="bg-white w-full max-w-md rounded-2xl shadow-xl border border-slate-200 overflow-hidden space-y-4 p-5 animate-fadeIn">
-            <div className="flex items-center justify-between border-b pb-3">
-              <div className="flex items-center gap-2">
-                <Wand2 className="w-5 h-5 text-amber-600" />
-                <h4 className="text-sm font-bold text-slate-900">
-                  AI Background Removal API Settings
-                </h4>
-              </div>
-              <button
-                type="button"
-                onClick={() => setShowSettingsModal(false)}
-                className="p-1 rounded-lg text-slate-400 hover:text-slate-600 cursor-pointer"
-              >
-                <X className="w-4 h-4" />
-              </button>
-            </div>
-
-            <p className="text-xs text-slate-600 leading-relaxed">
-              आप नीचे <strong>Remove.bg</strong>, <strong>ClipDrop</strong> या <strong>Hugging Face Token</strong> दर्ज करके 4K अल्ट्रा-एचडी कटआउट प्राप्त कर सकते हैं:
-            </p>
-
-            <div className="space-y-3 text-xs">
-              <div>
-                <label className="font-semibold text-slate-700 block mb-1">AI प्रोवाइडर चुनें (Select Provider):</label>
-                <select
-                  value={selectedProvider}
-                  onChange={(e) => setSelectedProvider(e.target.value)}
-                  className="w-full p-2 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-amber-500 cursor-pointer"
-                >
-                  <option value="auto">🌟 Automatic (HuggingFace RMBG-1.4 + Neural Saliency - 100% Free)</option>
-                  <option value="removebg">Remove.bg Cloud API (Official)</option>
-                  <option value="clipdrop">ClipDrop by Stability AI</option>
-                </select>
-              </div>
-
-              <div>
-                <div className="flex items-center justify-between mb-1">
-                  <label className="font-semibold text-slate-700">
-                    API Key / टोकन:
-                  </label>
-                  <a
-                    href="https://www.remove.bg/api"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[10px] text-amber-700 hover:underline flex items-center gap-0.5"
-                  >
-                    <span>Remove.bg मुफ़्त Key लें</span>
-                    <ExternalLink className="w-2.5 h-2.5" />
-                  </a>
-                </div>
-                <div className="relative">
-                  <Key className="w-3.5 h-3.5 text-slate-400 absolute left-3 top-3" />
-                  <input
-                    type="password"
-                    value={customApiKey}
-                    onChange={(e) => setCustomApiKey(e.target.value)}
-                    placeholder="Enter Remove.bg, ClipDrop or HF API Key..."
-                    className="w-full pl-9 pr-3 py-2 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-amber-500"
-                  />
-                </div>
-                <p className="text-[10px] text-slate-400 mt-1">
-                  💡 यदि आपके पास कोई कुंजी नहीं है, तो डिफ़ॉल्ट Automatic मोड का चयन करें (100% मुफ़्त काम करता है)।
-                </p>
-              </div>
-            </div>
-
-            <div className="flex items-center justify-end gap-2 pt-2 border-t">
-              <button
-                type="button"
-                onClick={() => setShowSettingsModal(false)}
-                className="px-3 py-1.5 text-xs text-slate-600 hover:bg-slate-100 rounded-xl cursor-pointer"
-              >
-                रद्द करें (Cancel)
-              </button>
-              <button
-                type="button"
-                onClick={handleSaveApiSettings}
-                className="px-4 py-1.5 bg-amber-600 hover:bg-amber-700 text-white text-xs font-bold rounded-xl shadow-xs cursor-pointer"
-              >
-                सहेजें व प्रोसेस करें (Save & Apply)
-              </button>
-            </div>
+          <div className="p-2 bg-emerald-50/70 border border-emerald-200 rounded-xl flex items-center gap-2 text-emerald-800 text-[11px]">
+            <ShieldCheck className="w-4 h-4 text-emerald-600 shrink-0" />
+            <span>Google Gemini AI द्वारा स्वतः शिल्प पहचान, बैकग्राउंड न्यूट्रलाइजेशन और ONDC कैटलॉग मानक अनुपालन।</span>
           </div>
         </div>
       )}

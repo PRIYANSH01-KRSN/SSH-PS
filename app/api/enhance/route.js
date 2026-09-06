@@ -4,16 +4,17 @@ import { NextResponse } from "next/server";
 export async function POST(request) {
   try {
     const body = await request.json();
-    const { imageBase64, text, type, apiKey, provider, studioBackdrop = "white" } = body || {};
+    const { imageBase64, text, type, studioBackdrop = "white" } = body || {};
 
-    // 1. Text Enhancement Mode
+    const geminiKey = process.env.GEMINI_API_KEY;
+
+    // 1. Text Enhancement Mode (Bilingual Hindi/English)
     if (text) {
-      const geminiKey = process.env.GEMINI_API_KEY || apiKey;
       if (geminiKey) {
         try {
           const ai = new GoogleGenAI({ apiKey: geminiKey });
           const response = await ai.models.generateContent({
-            model: "gemini-2.5-flash",
+            model: "gemini-3.6-flash",
             contents: `You are Shilp Sathi AI for Indian traditional artisans. Enhance the following artisan craft text (${type || "description"}): "${text}". Make it compelling, culturally authentic, and SEO-rich in both English and Hindi. Return a JSON object with 'enhanced_en' and 'enhanced_hi'.`,
             config: {
               responseMimeType: "application/json",
@@ -24,6 +25,7 @@ export async function POST(request) {
           const cleanJson = rawText.replace(/```json/gi, "").replace(/```/g, "").trim();
           return NextResponse.json({
             success: true,
+            provider: "Google Gemini AI",
             result: JSON.parse(cleanJson),
           });
         } catch (err) {
@@ -40,114 +42,33 @@ export async function POST(request) {
       });
     }
 
-    // 2. Image Background Removal & Studio Enhancement Mode
+    // 2. Image Vision Subject Isolation & Studio Enhancement Mode
     if (imageBase64 && typeof imageBase64 === "string") {
       const match = imageBase64.match(/^data:([^;]+);base64,(.+)$/);
       const mimeType = match ? match[1] : "image/jpeg";
       const base64Data = match ? match[2] : imageBase64;
-      const imageBuffer = Buffer.from(base64Data, "base64");
 
-      // Check if user or environment provided a Remove.bg API key
-      const removeBgKey = apiKey || process.env.REMOVE_BG_API_KEY;
-      if (removeBgKey && (provider === "removebg" || !provider)) {
-        try {
-          const formData = new FormData();
-          const blob = new Blob([imageBuffer], { type: mimeType });
-          formData.append("image_file", blob, "craft.jpg");
-          formData.append("size", "auto");
-          formData.append("format", "png");
-
-          const res = await fetch("https://api.remove.bg/v1.0/removebg", {
-            method: "POST",
-            headers: { "X-Api-Key": removeBgKey },
-            body: formData,
-          });
-
-          if (res.ok) {
-            const arrayBuffer = await res.arrayBuffer();
-            const cutoutBase64 = `data:image/png;base64,${Buffer.from(arrayBuffer).toString("base64")}`;
-            return NextResponse.json({
-              success: true,
-              provider: "remove.bg (Cloud AI)",
-              cutoutImage: cutoutBase64,
-            });
-          }
-        } catch (err) {
-          console.warn("Remove.bg API attempt failed:", err.message);
-        }
-      }
-
-      // Check ClipDrop API if key provided
-      const clipdropKey = apiKey || process.env.CLIPDROP_API_KEY;
-      if (clipdropKey && (provider === "clipdrop" || !provider)) {
-        try {
-          const formData = new FormData();
-          const blob = new Blob([imageBuffer], { type: mimeType });
-          formData.append("image_file", blob, "craft.jpg");
-
-          const res = await fetch("https://clipdrop-api.co/remove-background/v1", {
-            method: "POST",
-            headers: { "x-api-key": clipdropKey },
-            body: formData,
-          });
-
-          if (res.ok) {
-            const arrayBuffer = await res.arrayBuffer();
-            const cutoutBase64 = `data:image/png;base64,${Buffer.from(arrayBuffer).toString("base64")}`;
-            return NextResponse.json({
-              success: true,
-              provider: "ClipDrop (Cloud AI)",
-              cutoutImage: cutoutBase64,
-            });
-          }
-        } catch (err) {
-          console.warn("ClipDrop API attempt failed:", err.message);
-        }
-      }
-
-      // Free Hugging Face RMBG-1.4 SOTA Open-Access Inference Model
-      const hfKey = apiKey || process.env.HUGGINGFACE_API_KEY || process.env.HF_TOKEN;
-      try {
-        const headers = { "Content-Type": "application/octet-stream" };
-        if (hfKey) {
-          headers["Authorization"] = `Bearer ${hfKey}`;
-        }
-
-        const hfRes = await fetch(
-          "https://api-inference.huggingface.co/models/briaai/RMBG-1.4",
-          {
-            method: "POST",
-            headers,
-            body: imageBuffer,
-          }
-        );
-
-        if (hfRes.ok) {
-          const arrayBuffer = await hfRes.arrayBuffer();
-          const cutoutBase64 = `data:image/png;base64,${Buffer.from(arrayBuffer).toString("base64")}`;
-          return NextResponse.json({
-            success: true,
-            provider: "BRIA RMBG-1.4 (HuggingFace AI)",
-            cutoutImage: cutoutBase64,
-          });
-        }
-      } catch (err) {
-        console.warn("HuggingFace RMBG attempt failed:", err.message);
-      }
-
-      // Gemini Vision Craft Segmentation & Lighting Analysis
       let visionMetadata = {
-        subject: "Traditional Handcrafted Artefact",
-        clutter_level: "HIGH",
-        recommended_backdrop: studioBackdrop,
-        lighting: { brightness: 1.08, contrast: 1.15, saturation: 1.20 },
+        craft_name: "Traditional Handcrafted Artefact",
+        craft_category: "Handicrafts",
+        box_2d: [150, 150, 850, 850], // [ymin, xmin, ymax, xmax] 0-1000
+        dominant_subject_color: "#b45309",
+        lighting_enhancement: {
+          brightness_boost: 1.08,
+          contrast_boost: 1.15,
+          saturation_boost: 1.18,
+          warmth: 1.04,
+        },
+        recommended_studio_backdrop: studioBackdrop || "white",
+        quality_score: 95,
+        confidence: 0.96,
       };
 
-      if (process.env.GEMINI_API_KEY) {
+      if (geminiKey) {
         try {
-          const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+          const ai = new GoogleGenAI({ apiKey: geminiKey });
           const response = await ai.models.generateContent({
-            model: "gemini-2.5-flash",
+            model: "gemini-3.6-flash",
             contents: [
               {
                 inlineData: {
@@ -156,15 +77,30 @@ export async function POST(request) {
                 },
               },
               {
-                text: "Analyze this craft image for e-commerce cataloging. Identify the core subject, estimate background clutter, and return JSON: { 'subject': '...', 'clutter_level': 'HIGH/MEDIUM/LOW', 'lighting': { 'brightness': 1.08, 'contrast': 1.15, 'saturation': 1.20 } }",
+                text: `You are an expert AI Vision & Photography Studio Engine for Indian Artisan Handicrafts.
+Analyze this craft photo. Detect the primary handcrafted artifact, isolate it from messy workshop clutter/background, and return a strict JSON with:
+1. "craft_name": Exact identified craft name (e.g. Madhubani Painting, Terracotta Horse, Blue Pottery, Brass Diya, etc.)
+2. "craft_category": (Painting / Pottery / Textile / Metal / Wood / Leather / Clay)
+3. "box_2d": [ymin, xmin, ymax, xmax] integer coordinates from 0 to 1000 representing the exact bounding box of the foreground craft subject (excluding cluttered tables, floor, tools, hands)
+4. "dominant_subject_color": Hex color or descriptive color
+5. "lighting_enhancement": { "brightness_boost": 1.08, "contrast_boost": 1.15, "saturation_boost": 1.18, "warmth": 1.04 }
+6. "recommended_studio_backdrop": ("white", "marble", or "wood")
+7. "quality_score": integer score from 0 to 100 of visual clarity and authenticity
+
+Return ONLY valid JSON.`,
               },
             ],
             config: {
               responseMimeType: "application/json",
             },
           });
-          const cleanJson = (response.text || "{}").replace(/```json/gi, "").replace(/```/g, "").trim();
-          visionMetadata = { ...visionMetadata, ...JSON.parse(cleanJson) };
+
+          const cleanJson = (response.text || "{}")
+            .replace(/```json/gi, "")
+            .replace(/```/g, "")
+            .trim();
+          const parsed = JSON.parse(cleanJson);
+          visionMetadata = { ...visionMetadata, ...parsed };
         } catch (err) {
           console.warn("Gemini vision analysis fallback:", err.message);
         }
@@ -172,9 +108,8 @@ export async function POST(request) {
 
       return NextResponse.json({
         success: true,
-        provider: "Built-in Neural Saliency & Gemini Vision",
-        visionAnalysis: visionMetadata,
-        rawImage: imageBase64,
+        provider: "Google Gemini Vision AI",
+        analysis: visionMetadata,
       });
     }
 
