@@ -1,5 +1,5 @@
 {
-  "model_name": "Shilp-Sathi-Vision-Authenticity-v1.0",
+  "model_name": "ShilpBazzar-Vision-Authenticity-v1.0",
   "algorithm": "Balanced Random Forest Classifier (160 Estimators)",
   "metrics": {
     "accuracy_pct": 100.0,

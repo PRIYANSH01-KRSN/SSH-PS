@@ -53,7 +53,7 @@ export default function PricingAndExport({ product, image, onPublishToStore, onV
     message: {
       catalog: {
         "bpp/descriptor": {
-          name: "Shilp Sathi Artisan Direct Guild",
+          name: "ShilpBazzar Artisan Direct Guild",
           short_desc: "Direct-to-consumer rural artisan handicrafts backed by MoSJE",
         },
         "bpp/providers": [

@@ -195,7 +195,7 @@ export default function Marketplace({ products = [], onSelectForStudio }: Market
   };
 
   const generateWhatsAppLink = (product: ProductItem) => {
-    const msg = `नमस्ते! मैं कारीगर सारथी पोर्टल पर आपका उत्पाद खरीदना चाहता हूँ:\n\n*${product.title_en}*\nमूल्य: ₹${product.price}\nश्रेणी: ${product.category}\nकारीगर का वक्तव्य: "${product.spoken_transcript || ''}"\n\nकृपया डिलीवरी और ऑर्डर विवरण बताएं।`;
+    const msg = `नमस्ते! मैं शिल्प बाज़ार पोर्टल पर आपका उत्पाद खरीदना चाहता हूँ:\n\n*${product.title_en}*\nमूल्य: ₹${product.price}\nश्रेणी: ${product.category}\nकारीगर का वक्तव्य: "${product.spoken_transcript || ''}"\n\nकृपया डिलीवरी और ऑर्डर विवरण बताएं।`;
     return `https://wa.me/?text=${encodeURIComponent(msg)}`;
   };
 

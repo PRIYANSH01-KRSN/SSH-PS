@@ -15,7 +15,7 @@ export async function POST(request) {
           const ai = new GoogleGenAI({ apiKey: geminiKey });
           const response = await ai.models.generateContent({
             model: "gemini-3.6-flash",
-            contents: `You are Shilp Sathi AI for Indian traditional artisans. Enhance the following artisan craft text (${type || "description"}): "${text}". Make it compelling, culturally authentic, and SEO-rich in both English and Hindi. Return a JSON object with 'enhanced_en' and 'enhanced_hi'.`,
+            contents: `You are ShilpBazzar AI for Indian traditional artisans. Enhance the following artisan craft text (${type || "description"}): "${text}". Make it compelling, culturally authentic, and SEO-rich in both English and Hindi. Return a JSON object with 'enhanced_en' and 'enhanced_hi'.`,
             config: {
               responseMimeType: "application/json",
             },

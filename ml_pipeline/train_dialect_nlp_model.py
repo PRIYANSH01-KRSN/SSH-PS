@@ -1,6 +1,6 @@
 """
 ===================================================================
-कारीगर सारथी (Shilp Sathi) - SIH26090
+शिल्प बाज़ार (ShilpBazzar) - SIH26090
 Model 3: Indic Dialect NLP & ONDC Taxonomy Normalizer
 ===================================================================
 Trains a natural language classification and phonetic mapping model
@@ -204,7 +204,7 @@ def train_dialect_nlp_model():
     }
 
     nlp_payload = {
-        "model_name": "Shilp-Sathi-Dialect-NLP-v1.0",
+        "model_name": "ShilpBazzar-Dialect-NLP-v1.0",
         "algorithm": "TF-IDF N-Gram (1-3) + Multinomial Logistic Regression",
         "metrics": {
             "classification_accuracy_pct": round(float(acc * 100), 2),

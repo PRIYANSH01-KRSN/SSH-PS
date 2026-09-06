@@ -1,6 +1,6 @@
 """
 ===================================================================
-कारीगर सारथी (Shilp Sathi) - SIH26090
+शिल्प बाज़ार (ShilpBazzar) - SIH26090
 Model 1: Artisan Fair Pricing & Wage Protection ML Engine
 ===================================================================
 Trains Gradient Boosting and Random Forest Regressors to predict
@@ -126,7 +126,7 @@ def train_pricing_models():
         }
 
     weights_payload = {
-        "model_name": "Shilp-Sathi-Pricing-GBR-v1.0",
+        "model_name": "ShilpBazzar-Pricing-GBR-v1.0",
         "algorithm": "Gradient Boosting Regressor (180 trees, depth 4)",
         "metrics": {
             "r2_score": round(float(price_r2), 4),

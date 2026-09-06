@@ -1,5 +1,5 @@
 -- ==========================================================
--- कारीगर सारथी (Shilp Sathi) - Supabase Database Schema
+-- शिल्प बाज़ार (ShilpBazzar) - Supabase Database Schema
 -- SIH26090: AI Virtual Business Manager for Artisans
 -- ==========================================================
 

@@ -1,5 +1,5 @@
 {
-  "model_name": "Shilp-Sathi-Dialect-NLP-v2.0",
+  "model_name": "ShilpBazzar-Dialect-NLP-v2.0",
   "algorithm": "TF-IDF Multi-Gram + Indic Dialect Taxonomy Normalizer",
   "metrics": {
     "classification_accuracy_pct": 98.45,

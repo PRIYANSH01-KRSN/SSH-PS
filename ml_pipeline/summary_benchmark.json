@@ -8,7 +8,7 @@
     "file": "indian_craft_dataset.csv"
   },
   "model_1_pricing_engine": {
-    "name": "Shilp-Sathi-Pricing-GBR-v1.0",
+    "name": "ShilpBazzar-Pricing-GBR-v1.0",
     "algorithm": "Gradient Boosting Regressor (180 trees, depth 4)",
     "r2_accuracy_score": "99.50%",
     "mean_absolute_error_inr": "₹187.81",
@@ -16,7 +16,7 @@
     "mosje_statutory_wage": "₹150.00 / hour guaranteed base"
   },
   "model_2_authenticity_vision": {
-    "name": "Shilp-Sathi-Vision-Authenticity-v1.0",
+    "name": "ShilpBazzar-Vision-Authenticity-v1.0",
     "algorithm": "Balanced Random Forest Classifier (160 Estimators)",
     "classification_accuracy": "100.00%",
     "precision": "100.00%",
@@ -24,7 +24,7 @@
     "roc_auc": "100.00%"
   },
   "model_3_dialect_nlp": {
-    "name": "Shilp-Sathi-Dialect-NLP-v1.0",
+    "name": "ShilpBazzar-Dialect-NLP-v1.0",
     "algorithm": "TF-IDF N-Gram (1-3) + Multinomial Logistic Regression",
     "accuracy": "98.15%",
     "supported_taxonomies": 10

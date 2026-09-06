@@ -61,7 +61,7 @@ export default function InventoryManager({
   };
 
   const generateWhatsAppShare = (product: ProductItem) => {
-    const text = `🛍️ *कारीगर सारथी - शिल्प उत्पाद*\n\n*${product.title_en}*\n(हिंदी: ${product.title_hi})\n\n💰 मूल्य: ₹${product.price}\n📦 श्रेणी: ${product.category}\n\n✨ 100% प्रामाणिक हस्तशिल्प (MoSJE Fair Wage Certified)\nसीधे ऑर्डर करने के लिए संपर्क करें!`;
+    const text = `🛍️ *शिल्प बाज़ार - शिल्प उत्पाद*\n\n*${product.title_en}*\n(हिंदी: ${product.title_hi})\n\n💰 मूल्य: ₹${product.price}\n📦 श्रेणी: ${product.category}\n\n✨ 100% प्रामाणिक हस्तशिल्प (MoSJE Fair Wage Certified)\nसीधे ऑर्डर करने के लिए संपर्क करें!`;
     return `https://wa.me/?text=${encodeURIComponent(text)}`;
   };
 

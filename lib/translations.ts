@@ -1,5 +1,5 @@
 // ============================================================================
-// कारीगर सारथी (Shilp Sathi) - Multilingual UI Translation Dictionary
+// शिल्प बाज़ार (ShilpBazzar) - Multilingual UI Translation Dictionary
 // 14 Major Indian Regional Languages Supported
 // ============================================================================
 
@@ -47,7 +47,7 @@ export const LANGUAGE_OPTIONS: LanguageOption[] = [
 export const TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> = {
   hi: {
     govt_badge: "सामाजिक न्याय और अधिकारिता मंत्रालय (MoSJE)",
-    app_title: "कारीगर सारथी",
+    app_title: "शिल्प बाज़ार",
     app_tagline: "पारंपरिक कारीगरों के लिए AI वर्चुअल बिजनेस मैनेजर व ONDC ई-कॉमर्स तंत्र",
     tab_studio: "AI स्टूडियो",
     tab_marketplace: "शिल्प बाज़ार",
@@ -67,7 +67,7 @@ export const TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> = {
   },
   en: {
     govt_badge: "Ministry of Social Justice & Empowerment (MoSJE)",
-    app_title: "Shilp Sathi",
+    app_title: "ShilpBazzar",
     app_tagline: "Voice-First AI Studio & Automated ONDC E-Commerce for Traditional Artisans",
     tab_studio: "AI Studio",
     tab_marketplace: "Craft Marketplace",
@@ -107,7 +107,7 @@ export const TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> = {
   },
   mr: {
     govt_badge: "सामाजिक न्याय आणि सक्षमीकरण मंत्रालय (MoSJE)",
-    app_title: "कारीगर सारथी",
+    app_title: "शिल्प बाज़ार",
     app_tagline: "पारंपारिक कारागिरांसाठी AI व्यवसाय व्यवस्थापक आणि ONDC बाजारपेठ",
     tab_studio: "AI स्टुडिओ",
     tab_marketplace: "शिल्प बाझार",

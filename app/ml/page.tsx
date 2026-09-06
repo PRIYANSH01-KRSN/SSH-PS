@@ -37,7 +37,7 @@ export default function MLPage() {
               <div className="flex items-center gap-2 mb-1">
                 <Brain className="w-6 h-6 text-amber-400" />
                 <h1 className="text-xl sm:text-2xl font-black text-white tracking-tight">
-                  कारीगर सारथी - ML Intelligence & Regression Suite
+                  शिल्प बाज़ार - ML Intelligence & Regression Suite
                 </h1>
               </div>
               <p className="text-xs sm:text-sm text-slate-300">

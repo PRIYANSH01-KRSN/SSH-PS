@@ -1,6 +1,6 @@
 """
 ===================================================================
-कारीगर सारथी (Shilp Sathi) - SIH26090
+शिल्प बाज़ार (ShilpBazzar) - SIH26090
 Model 2: Computer Vision Craft Authenticity & Anti-Counterfeit Model
 ===================================================================
 Classifies whether a craft product is Genuine Handmade (GI certified)
@@ -90,7 +90,7 @@ def train_authenticity_model():
 
     # Export Portable JSON Metadata for Next.js App
     weights_payload = {
-        "model_name": "Shilp-Sathi-Vision-Authenticity-v1.0",
+        "model_name": "ShilpBazzar-Vision-Authenticity-v1.0",
         "algorithm": "Balanced Random Forest Classifier (160 Estimators)",
         "metrics": {
             "accuracy_pct": round(float(acc * 100), 2),

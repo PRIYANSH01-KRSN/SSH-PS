@@ -1,6 +1,6 @@
 """
 ===================================================================
-कारीगर सारथी (Shilp Sathi) - SIH26090
+शिल्प बाज़ार (ShilpBazzar) - SIH26090
 Master Pipeline: Train & Benchmark All 3 ML Models
 ===================================================================
 Executes training for:
@@ -19,7 +19,7 @@ if hasattr(sys.stdout, 'reconfigure'):
 
 def run_master_training():
     print("\n" + "="*70)
-    print("🚀 STARTING SHILP SATHI (कारीगर सारथी) END-TO-END ML TRAINING PIPELINE")
+    print("🚀 STARTING SHILP SATHI (शिल्प बाज़ार) END-TO-END ML TRAINING PIPELINE")
     print("   Smart India Hackathon (SIH26090) - Virtual Business Manager")
     print("="*70)
 

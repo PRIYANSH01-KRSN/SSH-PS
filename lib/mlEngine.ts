@@ -1,5 +1,5 @@
 // ============================================================================
-// कारीगर सारथी (Shilp Sathi) - High Performance Edge & Server ML Engine
+// शिल्प बाज़ार (ShilpBazzar) - High Performance Edge & Server ML Engine
 // SIH26090: AI Virtual Business Manager for Artisans
 // ============================================================================
 

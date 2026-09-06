@@ -1,5 +1,5 @@
 {
-  "model_name": "Shilp-Sathi-Pricing-GBR-v1.0",
+  "model_name": "ShilpBazzar-Pricing-GBR-v1.0",
   "algorithm": "Gradient Boosting Regressor (180 trees, depth 4)",
   "metrics": {
     "r2_score": 0.995,

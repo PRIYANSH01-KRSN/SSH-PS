@@ -107,7 +107,7 @@ export default function MLPlayground() {
               <span>3 Custom ML Models Trained & Active</span>
             </div>
             <h1 className="text-2xl font-bold tracking-tight text-white flex items-center gap-2">
-              <span>कारीगर सारथी</span>
+              <span>शिल्प बाज़ार</span>
               <span className="text-indigo-400 font-mono text-xl">ML Intelligence Hub</span>
             </h1>
             <p className="text-xs text-slate-300 max-w-2xl">

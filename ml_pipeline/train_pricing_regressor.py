@@ -1,6 +1,6 @@
 """
 ===================================================================
-कारीगर सारथी (Shilp Sathi) - SIH26090
+शिल्प बाज़ार (ShilpBazzar) - SIH26090
 Custom ML Pipeline: Artisan Fair Pricing & Wage Regression Model
 ===================================================================
 This script trains a specialized Gradient Boosted Machine (GBM) model
