@@ -242,6 +242,17 @@ export default function Home() {
     setCatalogData(preset.catalog);
   };
 
+  // Automatically update demo data if the user changes language while viewing a demo preset
+  useEffect(() => {
+    if (!catalogData) return;
+    const isDemo = Object.values(REGIONAL_DEMO_PRESETS).some(
+      (p) => p.catalog.title_en === catalogData.title_en
+    );
+    if (isDemo) {
+      loadDemoData();
+    }
+  }, [appLanguage]);
+
   const handlePublishToStore = async (productItem: ProductItem) => {
     const updated = [productItem, ...customProducts];
     handleSaveProducts(updated);

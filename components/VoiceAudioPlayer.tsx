@@ -56,32 +56,42 @@ export default function VoiceAudioPlayer({
     utterance.pitch = 1.0;
 
     // Try finding an authentic Indian voice
-    const voices = window.speechSynthesis.getVoices();
-    const targetVoice = voices.find(
-      (v) =>
-        (lang === "hi" && (v.lang.includes("hi") || v.name.includes("Hindi") || v.name.includes("India"))) ||
-        (lang === "en" && (v.lang === "en-IN" || v.name.includes("India")))
-    );
-    if (targetVoice) {
-      utterance.voice = targetVoice;
-    }
+    const trySpeak = (retries = 0) => {
+      let voices = window.speechSynthesis.getVoices();
+      if (voices.length === 0 && retries < 10) {
+        setTimeout(() => trySpeak(retries + 1), 100);
+        return;
+      }
 
-    utterance.onstart = () => {
-      setIsPlaying(true);
-      setActiveLang(lang);
+      const targetVoice = voices.find(
+        (v) =>
+          (lang === "hi" && (v.lang.includes("hi") || v.name.includes("Hindi") || v.name.includes("India"))) ||
+          (lang === "en" && (v.lang === "en-IN" || v.name.includes("India")))
+      );
+      if (targetVoice) {
+        utterance.voice = targetVoice;
+      }
+
+      utterance.onstart = () => {
+        setIsPlaying(true);
+        setActiveLang(lang);
+      };
+
+      utterance.onend = () => {
+        setIsPlaying(false);
+        setActiveLang(null);
+      };
+
+      utterance.onerror = (e) => {
+        console.warn("Speech Synthesis Error:", e);
+        setIsPlaying(false);
+        setActiveLang(null);
+      };
+
+      window.speechSynthesis.speak(utterance);
     };
 
-    utterance.onend = () => {
-      setIsPlaying(false);
-      setActiveLang(null);
-    };
-
-    utterance.onerror = () => {
-      setIsPlaying(false);
-      setActiveLang(null);
-    };
-
-    window.speechSynthesis.speak(utterance);
+    trySpeak();
   };
 
   const stop = () => {

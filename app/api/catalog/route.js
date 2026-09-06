@@ -95,7 +95,7 @@ Return STRICTLY a valid JSON object matching this schema:
         let response;
         try {
           response = await ai.models.generateContent({
-            model: "gemini-3.6-flash",
+            model: "gemini-1.5-flash",
             contents,
             config: {
               systemInstruction,
