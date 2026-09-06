@@ -15,6 +15,7 @@ import {
   Key,
   Layers,
   Loader2,
+  ExternalLink,
 } from "lucide-react";
 
 export default function ImageUploader({ onImageSelected, currentImage }) {
@@ -426,6 +427,22 @@ export default function ImageUploader({ onImageSelected, currentImage }) {
               <span>{isAutoEnhanced ? "मूल फ़ोटो देखें" : "✨ स्टूडियो फ़ोटो देखें"}</span>
             </button>
           </div>
+
+          {/* Quick API Key Configuration Bar */}
+          <div className="flex items-center justify-between p-2.5 bg-amber-50/70 rounded-xl border border-amber-200 text-xs">
+            <div className="text-[11px] text-amber-900 flex items-center gap-1.5 font-semibold">
+              <Key className="w-3.5 h-3.5 text-amber-600" />
+              <span>कस्टम AI API (Remove.bg / ClipDrop):</span>
+            </div>
+            <button
+              type="button"
+              onClick={() => setShowSettingsModal(true)}
+              className="text-[11px] bg-white hover:bg-amber-100 text-amber-900 font-bold px-3 py-1 rounded-lg border border-amber-300 transition-colors cursor-pointer flex items-center gap-1 shadow-2xs"
+            >
+              <Settings className="w-3 h-3 text-amber-700" />
+              <span>⚙️ API कुंजी सेटिंग्स</span>
+            </button>
+          </div>
         </div>
       ) : (
         <div className="space-y-3">
@@ -467,63 +484,90 @@ export default function ImageUploader({ onImageSelected, currentImage }) {
               ⚡ टेस्ट फ़ोटो लोड करें
             </button>
           </div>
+
+          {/* Quick API Key Configuration Bar */}
+          <div className="flex items-center justify-between p-2.5 bg-amber-50/70 rounded-xl border border-amber-200 text-xs">
+            <div className="text-[11px] text-amber-900 flex items-center gap-1.5 font-semibold">
+              <Key className="w-3.5 h-3.5 text-amber-600" />
+              <span>AI बैकग्राउंड API सेटिंग्स (Remove.bg / ClipDrop):</span>
+            </div>
+            <button
+              type="button"
+              onClick={() => setShowSettingsModal(true)}
+              className="text-[11px] bg-white hover:bg-amber-100 text-amber-900 font-bold px-3 py-1 rounded-lg border border-amber-300 transition-colors cursor-pointer flex items-center gap-1 shadow-2xs"
+            >
+              <Settings className="w-3 h-3 text-amber-700" />
+              <span>⚙️ API कुंजी सेटिंग्स</span>
+            </button>
+          </div>
         </div>
       )}
 
       {/* AI Background Removal Settings Modal */}
       {showSettingsModal && (
         <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-4">
-          <div className="bg-white w-full max-w-md rounded-2xl shadow-xl border border-slate-200 overflow-hidden space-y-4 p-5">
+          <div className="bg-white w-full max-w-md rounded-2xl shadow-xl border border-slate-200 overflow-hidden space-y-4 p-5 animate-fadeIn">
             <div className="flex items-center justify-between border-b pb-3">
               <div className="flex items-center gap-2">
                 <Wand2 className="w-5 h-5 text-amber-600" />
                 <h4 className="text-sm font-bold text-slate-900">
-                  AI Background Removal Engine
+                  AI Background Removal API Settings
                 </h4>
               </div>
               <button
                 type="button"
                 onClick={() => setShowSettingsModal(false)}
-                className="p-1 rounded-lg text-slate-400 hover:text-slate-600"
+                className="p-1 rounded-lg text-slate-400 hover:text-slate-600 cursor-pointer"
               >
                 <X className="w-4 h-4" />
               </button>
             </div>
 
             <p className="text-xs text-slate-600 leading-relaxed">
-              कारीगर सारथी <strong>Hugging Face BRIA RMBG-1.4</strong> और <strong>Gemini Vision</strong> का उपयोग करके स्वचालित रूप से बैकग्राउंड साफ करता है। यदि आप <strong>Remove.bg</strong> या <strong>Clipdrop</strong> की कस्टम API कुंजी का उपयोग करना चाहते हैं, तो नीचे दर्ज करें:
+              आप नीचे <strong>Remove.bg</strong>, <strong>ClipDrop</strong> या <strong>Hugging Face Token</strong> दर्ज करके 4K अल्ट्रा-एचडी कटआउट प्राप्त कर सकते हैं:
             </p>
 
             <div className="space-y-3 text-xs">
               <div>
-                <label className="font-semibold text-slate-700 block mb-1">AI प्रोवाइडर चुनें:</label>
+                <label className="font-semibold text-slate-700 block mb-1">AI प्रोवाइडर चुनें (Select Provider):</label>
                 <select
                   value={selectedProvider}
                   onChange={(e) => setSelectedProvider(e.target.value)}
-                  className="w-full p-2 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-amber-500"
+                  className="w-full p-2 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-amber-500 cursor-pointer"
                 >
                   <option value="auto">🌟 Automatic (HuggingFace RMBG-1.4 + Neural Saliency - 100% Free)</option>
-                  <option value="removebg">Remove.bg Cloud API</option>
+                  <option value="removebg">Remove.bg Cloud API (Official)</option>
                   <option value="clipdrop">ClipDrop by Stability AI</option>
                 </select>
               </div>
 
               <div>
-                <label className="font-semibold text-slate-700 block mb-1">
-                  API Key (Optional / वैकल्पिक):
-                </label>
+                <div className="flex items-center justify-between mb-1">
+                  <label className="font-semibold text-slate-700">
+                    API Key / टोकन:
+                  </label>
+                  <a
+                    href="https://www.remove.bg/api"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[10px] text-amber-700 hover:underline flex items-center gap-0.5"
+                  >
+                    <span>Remove.bg मुफ़्त Key लें</span>
+                    <ExternalLink className="w-2.5 h-2.5" />
+                  </a>
+                </div>
                 <div className="relative">
                   <Key className="w-3.5 h-3.5 text-slate-400 absolute left-3 top-3" />
                   <input
                     type="password"
                     value={customApiKey}
                     onChange={(e) => setCustomApiKey(e.target.value)}
-                    placeholder="Enter Remove.bg or HF API Key..."
+                    placeholder="Enter Remove.bg, ClipDrop or HF API Key..."
                     className="w-full pl-9 pr-3 py-2 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-amber-500"
                   />
                 </div>
                 <p className="text-[10px] text-slate-400 mt-1">
-                  💡 किसी कुंजी की आवश्यकता नहीं है; मुफ़्त RMBG AI मॉडल डिफ़ॉल्ट रूप से काम करता है।
+                  💡 यदि आपके पास कोई कुंजी नहीं है, तो डिफ़ॉल्ट Automatic मोड का चयन करें (100% मुफ़्त काम करता है)।
                 </p>
               </div>
             </div>
@@ -532,16 +576,16 @@ export default function ImageUploader({ onImageSelected, currentImage }) {
               <button
                 type="button"
                 onClick={() => setShowSettingsModal(false)}
-                className="px-3 py-1.5 text-xs text-slate-600 hover:bg-slate-100 rounded-xl"
+                className="px-3 py-1.5 text-xs text-slate-600 hover:bg-slate-100 rounded-xl cursor-pointer"
               >
                 रद्द करें (Cancel)
               </button>
               <button
                 type="button"
                 onClick={handleSaveApiSettings}
-                className="px-4 py-1.5 bg-amber-600 hover:bg-amber-700 text-white text-xs font-bold rounded-xl shadow-xs"
+                className="px-4 py-1.5 bg-amber-600 hover:bg-amber-700 text-white text-xs font-bold rounded-xl shadow-xs cursor-pointer"
               >
-                सहेजें व पुनः प्रोसेस करें (Save & Re-Enhance)
+                सहेजें व प्रोसेस करें (Save & Apply)
               </button>
             </div>
           </div>
