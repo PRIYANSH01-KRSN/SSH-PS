@@ -21,7 +21,7 @@ export default function ImageUploader({ onImageSelected, currentImage }) {
   const [enhancedImage, setEnhancedImage] = useState("");
   const [isAutoEnhanced, setIsAutoEnhanced] = useState(true);
   const [isProcessing, setIsProcessing] = useState(false);
-  const [statusBadge, setStatusBadge] = useState("Google Gemini AI स्टूडियो सक्रिय");
+  const [statusBadge, setStatusBadge] = useState("AI स्टूडियो सक्रिय");
   const [activeBackdrop, setActiveBackdrop] = useState("white");
   const [visionAnalysis, setVisionAnalysis] = useState(null);
 
@@ -36,7 +36,7 @@ export default function ImageUploader({ onImageSelected, currentImage }) {
   const processWithGeminiStudio = async (imgSrc, backdrop = activeBackdrop) => {
     if (!imgSrc) return;
     setIsProcessing(true);
-    setStatusBadge("Gemini AI द्वारा शिल्प विश्लेषण व स्टूडियो क्लीनअप...");
+    setStatusBadge("AI द्वारा शिल्प विश्लेषण व स्टूडियो क्लीनअप...");
 
     try {
       // 1. Call Gemini Vision API to analyze craft subject and bounding box
@@ -55,7 +55,7 @@ export default function ImageUploader({ onImageSelected, currentImage }) {
         if (data?.analysis) {
           analysis = data.analysis;
           setVisionAnalysis(analysis);
-          setStatusBadge(`✨ Gemini AI: ${analysis.craft_name || "शिल्प"} स्टूडियो संवर्धित`);
+          setStatusBadge(`✨ AI: ${analysis.craft_name || "शिल्प"} स्टूडियो संवर्धित`);
         }
       } catch (apiErr) {
         console.warn("Gemini Vision API warning:", apiErr);
@@ -128,12 +128,14 @@ export default function ImageUploader({ onImageSelected, currentImage }) {
       }
 
       // ----------------------------------------------------------------------
-      // Step B: Draw & Enhance Extracted Subject in Exact Original Position
+      // Step B: Draw & Enhance Extracted Subject in Center
       // ----------------------------------------------------------------------
-      const subX = srcX * coverScale + bgX;
-      const subY = srcY * coverScale + bgY;
-      const subW = srcW * coverScale;
-      const subH = srcH * coverScale;
+      const targetMaxDim = 600; // Target max size for subject in the 900x900 canvas
+      const objScale = Math.min(targetMaxDim / srcW, targetMaxDim / srcH);
+      const subW = srcW * objScale;
+      const subH = srcH * objScale;
+      const subX = (w - subW) / 2;
+      const subY = (h - subH) / 2;
 
       const contrast = analysis?.lighting_enhancement?.contrast_boost || 1.14;
       const brightness = analysis?.lighting_enhancement?.brightness_boost || 1.06;
@@ -141,18 +143,10 @@ export default function ImageUploader({ onImageSelected, currentImage }) {
 
       ctx.save();
       // Apply enhancement and a drop-shadow so it pops off the blurred background
-      ctx.filter = `contrast(${contrast * 100}%) saturate(${saturation * 100}%) brightness(${brightness * 100}%) drop-shadow(0px 12px 24px rgba(0,0,0,0.35))`;
+      ctx.filter = `contrast(${contrast * 100}%) saturate(${saturation * 100}%) brightness(${brightness * 100}%) drop-shadow(0px 15px 30px rgba(0,0,0,0.5))`;
       
-      // Draw just the bounding box of the original image
+      // Draw just the bounding box of the original image, perfectly centered!
       ctx.drawImage(img, srcX, srcY, srcW, srcH, subX, subY, subW, subH);
-      ctx.restore();
-
-      // Highlight the object with a border
-      ctx.save();
-      ctx.strokeStyle = "rgba(245, 158, 11, 0.95)"; // amber-500
-      ctx.lineWidth = 4;
-      ctx.setLineDash([10, 10]);
-      ctx.strokeRect(subX - 2, subY - 2, subW + 4, subH + 4);
       ctx.restore();
 
       const finalUrl = canvas.toDataURL("image/jpeg", 0.94);
@@ -222,7 +216,7 @@ export default function ImageUploader({ onImageSelected, currentImage }) {
               <div className="flex flex-col items-center justify-center text-white space-y-2">
                 <Loader2 className="w-8 h-8 text-amber-400 animate-spin" />
                 <span className="text-xs font-bold">{statusBadge}</span>
-                <span className="text-[10px] text-slate-400">Google Gemini AI द्वारा शिल्प विषय अलग किया जा रहा है...</span>
+                <span className="text-[10px] text-slate-400">AI द्वारा शिल्प विषय अलग किया जा रहा है...</span>
               </div>
             ) : (
               <img
@@ -307,7 +301,7 @@ export default function ImageUploader({ onImageSelected, currentImage }) {
               </div>
               <div className="text-left">
                 <span className="text-xs font-bold text-slate-800 block">
-                  Google Gemini AI स्टूडियो क्लीनअप (100% Automated)
+                  AI स्टूडियो क्लीनअप (100% Automated)
                 </span>
                 <span className="text-[10px] text-slate-500">
                   {visionAnalysis?.craft_name
@@ -343,7 +337,7 @@ export default function ImageUploader({ onImageSelected, currentImage }) {
             </span>
             <span className="text-[11px] text-slate-500 mt-1 flex items-center gap-1 justify-center">
               <Zap className="w-3.5 h-3.5 text-amber-600" />
-              100% स्वतः Google Gemini विज़न बैकग्राउंड क्लीनअप व स्टूडियो लाइटिंग
+              100% स्वतः AI विज़न बैकग्राउंड क्लीनअप व स्टूडियो लाइटिंग
             </span>
             <input
               type="file"
@@ -374,7 +368,7 @@ export default function ImageUploader({ onImageSelected, currentImage }) {
 
           <div className="p-2 bg-emerald-50/70 border border-emerald-200 rounded-xl flex items-center gap-2 text-emerald-800 text-[11px]">
             <ShieldCheck className="w-4 h-4 text-emerald-600 shrink-0" />
-            <span>Google Gemini AI द्वारा स्वतः शिल्प पहचान, बैकग्राउंड न्यूट्रलाइजेशन और ONDC कैटलॉग मानक अनुपालन।</span>
+            <span>AI द्वारा स्वतः शिल्प पहचान, बैकग्राउंड न्यूट्रलाइजेशन और ONDC कैटलॉग मानक अनुपालन।</span>
           </div>
         </div>
       )}
